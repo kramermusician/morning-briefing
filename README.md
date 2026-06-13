@@ -50,6 +50,33 @@ Then open `index.html` in any browser. No build step, no server, works offline.
 - **r** — restart from the top
 - Auto-advances on its own; denser slides linger a little longer.
 
+## Live on your phone (GitHub Pages)
+
+Published at **https://kramermusician.github.io/morning-briefing/** from the
+public repo `kramermusician/morning-briefing`. Mobile-friendly; tap or swipe to advance.
+
+Pipeline:
+- `deploy.sh` — rebuild + commit + push. Pages auto-redeploys (~30 s).
+- `nightly.sh` — the unattended job: best-effort feed refresh (calendar + headlines
+  via a headless `claude -p`), then rebuild, then push.
+- `com.kramos.morning-briefing.plist` — launchd agent at `~/Library/LaunchAgents/`,
+  fires daily at **00:05**. Manage with:
+  ```bash
+  launchctl unload ~/Library/LaunchAgents/com.kramos.morning-briefing.plist
+  launchctl load   ~/Library/LaunchAgents/com.kramos.morning-briefing.plist
+  launchctl start  com.kramos.morning-briefing   # run it now
+  ```
+- The Mac must be awake at midnight. Scheduled wake (run once, needs sudo):
+  ```bash
+  sudo pmset repeat wakeorpoweron MTWRFSU 00:03:00
+  ```
+
+### iOS Shortcut (open at 7 am)
+1. Shortcuts app → new shortcut → **Open URLs** → `https://kramermusician.github.io/morning-briefing/`
+   (add **Open App → Safari** before it if you want it to surface).
+2. Automation tab → **Create Personal Automation** → **Time of Day → 7:00 AM, Daily**
+   → add the shortcut → turn **Run Immediately** on (off = a tap to confirm).
+
 ## Keeping the feed fresh
 
 Two ways to refresh `briefing-feed.json` each morning:
