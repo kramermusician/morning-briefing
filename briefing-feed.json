@@ -1,6 +1,6 @@
 {
   "_note": "Live external bits Cadence (calendar) + Pax (headlines) refresh each morning. The rest of the briefing auto-derives from priorities.md / project-timeline.json / serendipity.json. Daily language-habit calendar blocks are intentionally filtered out of 'today' and 'twoWeeks' so only real appointments show.",
-  "_updated": "2026-06-12",
+  "_updated": "2026-06-13",
   "today": [
     { "time": "7:00 am", "title": "Korean morning — vocab + S Pen handwriting (15 min)" },
     { "time": "Open day", "title": "No fixed appointments — a Friday to build on" }
@@ -18,6 +18,14 @@
     { "title": "World Cup 2026 kicks off across North America", "blurb": "The tournament opened this week — 48 teams, matches spread across the US, Mexico, and Canada for the first time. Group stage is underway." },
     { "title": "AI tools move deeper into the classroom", "blurb": "Districts and universities keep piloting AI for lesson design and feedback — squarely the territory of your KRAMOS and Language Brain work." },
     { "title": "Summer arrives in Boston", "blurb": "Long daylight, open-mic season in full swing, and yard-sale weekends — good conditions for both the looping setlist and the Tracking the Sun log." }
+  ],
+  "feedNews": [
+    { "source": "One Useful Thing", "title": "What it feels like to work with Mythos", "blurb": "Ethan Mollick's hands-on account of working alongside a frontier model — direct fuel for your AI-in-teaching thinking.", "link": "https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos" },
+    { "source": "Simon Willison", "title": "US government directive to suspend access to Fable 5 and Mythos 5", "blurb": "Willison's statement on a federal move against two frontier models — the AI-policy story everyone in the field is reading today.", "link": "https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/" },
+    { "source": "Simon Willison", "title": "Anthropic walks back policy that could have sabotaged AI researchers", "blurb": "A reversal on terms that worried researchers using Claude — relevant to how you build on these tools.", "link": "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/" },
+    { "source": "Berklee Online", "title": "Tuba visionary Bill Muter on music diplomacy and playing with Jon Batiste", "blurb": "A Berklee Online conversation on cultural diplomacy through music and studying remotely — your institution, your themes.", "link": "https://online.berklee.edu/takenote/tuba-visionary-bill-muter-on-music-diplomacy-playing-with-jon-batiste-and-studying-with-berklee-online/" },
+    { "source": "Andrew Huang", "title": "4 producers flip the same sample", "blurb": "A new sample-flip collab video — straight into your SP-404 sampling and looping world.", "link": "https://www.youtube.com/watch?v=6zeuQP72rZM" },
+    { "source": "Second Breakfast", "title": "Public Offering, Public Sacrifice", "blurb": "Audrey Watters' latest ed-tech criticism — the skeptical counterweight worth keeping in view.", "link": "https://2ndbreakfast.audreywatters.com/public-offering-public-sacrifice/" }
   ],
   "closeLine": "Open something. The drop is data.",
   "closeSub": "Tap through anytime — this briefing rebuilds itself each morning."

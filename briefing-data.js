@@ -155,6 +155,44 @@ window.BRIEFING = {
       "blurb": "Long daylight, open-mic season in full swing, and yard-sale weekends — good conditions for both the looping setlist and the Tracking the Sun log."
     }
   ],
+  "feedNews": [
+    {
+      "source": "One Useful Thing",
+      "title": "What it feels like to work with Mythos",
+      "blurb": "Ethan Mollick's hands-on account of working alongside a frontier model — direct fuel for your AI-in-teaching thinking.",
+      "link": "https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos"
+    },
+    {
+      "source": "Simon Willison",
+      "title": "US government directive to suspend access to Fable 5 and Mythos 5",
+      "blurb": "Willison's statement on a federal move against two frontier models — the AI-policy story everyone in the field is reading today.",
+      "link": "https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/"
+    },
+    {
+      "source": "Simon Willison",
+      "title": "Anthropic walks back policy that could have sabotaged AI researchers",
+      "blurb": "A reversal on terms that worried researchers using Claude — relevant to how you build on these tools.",
+      "link": "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/"
+    },
+    {
+      "source": "Berklee Online",
+      "title": "Tuba visionary Bill Muter on music diplomacy and playing with Jon Batiste",
+      "blurb": "A Berklee Online conversation on cultural diplomacy through music and studying remotely — your institution, your themes.",
+      "link": "https://online.berklee.edu/takenote/tuba-visionary-bill-muter-on-music-diplomacy-playing-with-jon-batiste-and-studying-with-berklee-online/"
+    },
+    {
+      "source": "Andrew Huang",
+      "title": "4 producers flip the same sample",
+      "blurb": "A new sample-flip collab video — straight into your SP-404 sampling and looping world.",
+      "link": "https://www.youtube.com/watch?v=6zeuQP72rZM"
+    },
+    {
+      "source": "Second Breakfast",
+      "title": "Public Offering, Public Sacrifice",
+      "blurb": "Audrey Watters' latest ed-tech criticism — the skeptical counterweight worth keeping in view.",
+      "link": "https://2ndbreakfast.audreywatters.com/public-offering-public-sacrifice/"
+    }
+  ],
   "closeLine": "Open something. The drop is data.",
   "closeSub": "Tap through anytime — this briefing rebuilds itself each morning."
 };
