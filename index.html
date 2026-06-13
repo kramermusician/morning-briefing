@@ -113,6 +113,21 @@
   .nrow a{color:inherit;text-decoration:none;border-bottom:1px solid rgba(82,100,111,.25);}
   .nrow a:hover{border-bottom-color:var(--ocean);}
 
+  /* word cloud — the mood of the feeds */
+  .cloud{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;
+    gap:.26em .6em;max-width:1020px;margin:1.8rem auto 0;line-height:1.0;}
+  .cw{display:inline-block;font-family:Georgia,serif;opacity:0;transform:scale(.5);
+    will-change:transform,opacity;}
+  .slide.live .cw{animation:cwin .8s cubic-bezier(.2,.85,.25,1) forwards;}
+  @keyframes cwin{to{opacity:var(--op,1);transform:scale(1);}}
+  .cw .bob{display:inline-block;}
+  .slide.live .cw .bob{animation:cwbob var(--fd,7s) ease-in-out infinite;animation-delay:var(--bd,0s);}
+  @keyframes cwbob{0%,100%{transform:translateY(0) rotate(var(--r,0deg));}
+    50%{transform:translateY(var(--fy,-7px)) rotate(0deg);}}
+  @media (prefers-reduced-motion: reduce){
+    .slide.live .cw .bob{animation:none;}
+  }
+
   /* close slide */
   .close-line{font-family:Georgia,serif;font-style:italic;font-size:clamp(28px,4.4vw,58px);color:var(--ink);line-height:1.15;}
 
@@ -311,6 +326,26 @@
     `);
   }
 
+  // 8c. word cloud — animated phrases pulled from the feeds
+  if (B.wordCloud && B.wordCloud.length){
+    const cols = ['var(--slate)','var(--slate)','var(--rust)','var(--ocean)','var(--ink)'];
+    const rnd = (a,b)=>a+Math.random()*(b-a);
+    const words = B.wordCloud.slice(0,26).map((w,i)=>{
+      const wt = Math.max(1, Math.min(5, w.weight||1));
+      const size = `clamp(${14+wt*5}px, ${(2+wt*0.9).toFixed(1)}vw, ${18+wt*11}px)`;
+      const op = (0.5 + wt*0.1).toFixed(2);
+      const fd = rnd(5,10).toFixed(2), bd = rnd(0,3).toFixed(2);
+      const fy = (-rnd(4,12)).toFixed(1), r = rnd(-2,2).toFixed(1);
+      const ad = (0.1 + i*0.05).toFixed(2);
+      return `<span class="cw" style="font-size:${size};color:${cols[wt-1]};--op:${op};animation-delay:${ad}s">`
+           + `<span class="bob" style="--fd:${fd}s;--bd:${bd}s;--fy:${fy}px;--r:${r}deg">${esc(w.text)}</span></span>`;
+    }).join('');
+    add(`
+      <div class="kicker"><span class="dot"></span>What the feeds are buzzing about</div>
+      <div class="cloud">${words}</div>
+    `);
+  }
+
   // 9. close
   add(`
     <div class="kicker"><span class="dot"></span>That's the brief</div>
@@ -357,14 +392,17 @@
     else if (e.key==='r'||e.key==='R'){ restart(); }
   });
 
-  // tap right two-thirds = next, left third = back (mobile-friendly)
+  // tap right two-thirds = next, left third = back (mobile-friendly).
+  // Ignore taps on links/buttons so they open instead of advancing.
+  const isInteractive = t => t && t.closest && t.closest('a,button,input,textarea,select');
   addEventListener('pointerdown', e=>{
+    if (isInteractive(e.target)) return;
     if (e.clientX < innerWidth*0.33) prev(); else next();
   });
 
   // horizontal swipe on touch
   let sx = null;
-  addEventListener('touchstart', e=>{ sx = e.touches[0].clientX; }, {passive:true});
+  addEventListener('touchstart', e=>{ sx = isInteractive(e.target) ? null : e.touches[0].clientX; }, {passive:true});
   addEventListener('touchend', e=>{
     if (sx === null) return;
     const dx = e.changedTouches[0].clientX - sx;

@@ -3,7 +3,7 @@ window.BRIEFING = {
   "builtAt": "2026-06-13",
   "dayName": "Saturday",
   "dateLong": "June 13, 2026",
-  "coverLine": "98 things shipped this week. 7 projects in motion. Keep an eye on LHUM400 Summer 2026.",
+  "coverLine": "100 things shipped this week. 7 projects in motion. Keep an eye on LHUM400 Summer 2026.",
   "yesterdayLabel": "Friday",
   "yesterday": [
     {
@@ -31,8 +31,14 @@ window.BRIEFING = {
       "team": "Larry, Pax, Dr. Paige, Dex, Sage"
     }
   ],
-  "weekWinCount": 98,
+  "weekWinCount": 100,
   "weekHighlights": [
+    {
+      "text": "Drafted reconnect email to Andrew Moore (old high-school friend, now near Providence) offering 10 weekday meetup slots…"
+    },
+    {
+      "text": "Added recurring \"Softball\" event to the calendar, next 6 Tuesdays 5-8pm (Jun 16 through Jul 21)"
+    },
     {
       "text": "Built and shipped \"Catch the 64,\" a Pebble Time 2 watchface: big time + a backpack bus-cat whose panic tier = minutes u…"
     },
@@ -44,12 +50,6 @@ window.BRIEFING = {
     },
     {
       "text": "Blood Sugar Cat watchface v1.1: added a live \"time since last reading\" line (just now / 7m ago / 1h12m ago, gray→red pa…"
-    },
-    {
-      "text": "Created `Team/quartz-journal.md`, the first dedicated per-specialist dev journal"
-    },
-    {
-      "text": "Built and shipped Blood Sugar Cat, a Pebble Time 2 watchface: big bold time + a cat whose mood is your live Dexcom gluc…"
     }
   ],
   "projects": [
@@ -191,6 +191,104 @@ window.BRIEFING = {
       "title": "Public Offering, Public Sacrifice",
       "blurb": "Audrey Watters' latest ed-tech criticism — the skeptical counterweight worth keeping in view.",
       "link": "https://2ndbreakfast.audreywatters.com/public-offering-public-sacrifice/"
+    }
+  ],
+  "wordCloud": [
+    {
+      "text": "Reggie Watts",
+      "weight": 5
+    },
+    {
+      "text": "People",
+      "weight": 4
+    },
+    {
+      "text": "Course",
+      "weight": 4
+    },
+    {
+      "text": "AI Literacy",
+      "weight": 3
+    },
+    {
+      "text": "Dragoncatcher",
+      "weight": 3
+    },
+    {
+      "text": "Released",
+      "weight": 3
+    },
+    {
+      "text": "Directors",
+      "weight": 3
+    },
+    {
+      "text": "Claude Fable",
+      "weight": 2
+    },
+    {
+      "text": "Tour",
+      "weight": 2
+    },
+    {
+      "text": "Years",
+      "weight": 2
+    },
+    {
+      "text": "Elon",
+      "weight": 2
+    },
+    {
+      "text": "Series",
+      "weight": 2
+    },
+    {
+      "text": "Math",
+      "weight": 2
+    },
+    {
+      "text": "Session",
+      "weight": 2
+    },
+    {
+      "text": "Try",
+      "weight": 2
+    },
+    {
+      "text": "Guide",
+      "weight": 2
+    },
+    {
+      "text": "Writing",
+      "weight": 2
+    },
+    {
+      "text": "Tools",
+      "weight": 2
+    },
+    {
+      "text": "Talks",
+      "weight": 2
+    },
+    {
+      "text": "Conference",
+      "weight": 2
+    },
+    {
+      "text": "Lust",
+      "weight": 2
+    },
+    {
+      "text": "AI Education",
+      "weight": 1
+    },
+    {
+      "text": "Iatefl Brighton",
+      "weight": 1
+    },
+    {
+      "text": "Rebble Foundation",
+      "weight": 1
     }
   ],
   "closeLine": "Open something. The drop is data.",

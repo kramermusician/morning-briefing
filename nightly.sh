@@ -19,6 +19,15 @@ LOG="nightly.log"
     fi
   fi
 
+  # 1b. Best-effort: refresh the feed word cloud (mechanical, no model needed).
+  #     Needs network; if it fails, the last word cloud persists.
+  if python3 "$HOME/Desktop/Kramer-Projects-2026/scripts/utilities/briefing_wordcloud.py" \
+       --all --max 24 2>&1; then
+    echo "wordcloud: ok"
+  else
+    echo "wordcloud: skipped/failed (keeping last cloud)"
+  fi
+
   # 2. Rebuild data from local files (priorities.md, project-timeline.json, serendipity.json).
   python3 build_briefing.py
 

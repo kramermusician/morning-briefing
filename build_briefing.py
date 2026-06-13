@@ -175,6 +175,7 @@ def build(today):
         "workOn": workon,
         "headlines": feed.get("headlines", []),
         "feedNews": feed.get("feedNews", []),
+        "wordCloud": feed.get("wordCloud", []),
         "closeLine": feed.get("closeLine", "Open something. The drop is data."),
         "closeSub": feed.get("closeSub",
                              "Tap through anytime — the briefing rebuilds itself each morning."),
@@ -200,4 +201,5 @@ if __name__ == "__main__":
     print(f"  work-on picks  : {len(d['workOn'])}")
     print(f"  headlines      : {len(d['headlines'])}")
     print(f"  feed news      : {len(d['feedNews'])}")
+    print(f"  word cloud     : {len(d['wordCloud'])}")
     print(f"  -> {OUT}")
