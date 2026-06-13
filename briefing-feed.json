@@ -1,0 +1,24 @@
+{
+  "_note": "Live external bits Cadence (calendar) + Pax (headlines) refresh each morning. The rest of the briefing auto-derives from priorities.md / project-timeline.json / serendipity.json. Daily language-habit calendar blocks are intentionally filtered out of 'today' and 'twoWeeks' so only real appointments show.",
+  "_updated": "2026-06-12",
+  "today": [
+    { "time": "7:00 am", "title": "Korean morning — vocab + S Pen handwriting (15 min)" },
+    { "time": "Open day", "title": "No fixed appointments — a Friday to build on" }
+  ],
+  "twoWeeks": [
+    { "date": "Sat Jun 13", "title": "Watertown yard sale &middot; Aht Show, 1–3 pm" },
+    { "date": "Mon Jun 15", "title": "Cantab open mic, 6:30 pm" },
+    { "date": "Tue Jun 16", "title": "ESL1 (Yuria), 9–10:50 am" },
+    { "date": "Wed Jun 17", "title": "Brighton farm stand 1:30 &middot; French/Spanish/Sax 5:30 pm" },
+    { "date": "Thu Jun 18", "title": "ESL1 10 am &middot; LHUM400 11 am" },
+    { "date": "Wed Jun 24", "title": "Brighton farm stand, 1:30 pm" },
+    { "date": "Thu Jun 25", "title": "ESL1 &middot; LHUM400 &middot; Deby's art show at the Armory, 7:30 pm" }
+  ],
+  "headlines": [
+    { "title": "World Cup 2026 kicks off across North America", "blurb": "The tournament opened this week — 48 teams, matches spread across the US, Mexico, and Canada for the first time. Group stage is underway." },
+    { "title": "AI tools move deeper into the classroom", "blurb": "Districts and universities keep piloting AI for lesson design and feedback — squarely the territory of your KRAMOS and Language Brain work." },
+    { "title": "Summer arrives in Boston", "blurb": "Long daylight, open-mic season in full swing, and yard-sale weekends — good conditions for both the looping setlist and the Tracking the Sun log." }
+  ],
+  "closeLine": "Open something. The drop is data.",
+  "closeSub": "Tap through anytime — this briefing rebuilds itself each morning."
+}
