@@ -1,38 +1,47 @@
 window.BRIEFING = {
-  "date": "2026-06-12",
-  "builtAt": "2026-06-12",
-  "dayName": "Friday",
-  "dateLong": "June 12, 2026",
-  "coverLine": "124 things shipped this week. 7 projects in motion. Keep an eye on LHUM400 Summer 2026.",
-  "yesterdayLabel": "Thursday",
+  "date": "2026-06-13",
+  "builtAt": "2026-06-13",
+  "dayName": "Saturday",
+  "dateLong": "June 13, 2026",
+  "coverLine": "98 things shipped this week. 7 projects in motion. Keep an eye on LHUM400 Summer 2026.",
+  "yesterdayLabel": "Friday",
   "yesterday": [
     {
-      "text": "Momentum full batch complete: 10 LHUM400 student publications researched, written, built, and sent to print (bcmxeroxpapercut) in one session",
-      "team": ""
+      "text": "Blood Sugar Cat watchface v1.1: added a live \"time since last reading\" line (just now / 7m ago / 1h12m ago, gray→red past 12 min) so old data can't m…",
+      "team": "Quartz"
     },
     {
-      "text": "Momentum article content written via 10-agent parallel workflow: Eric Ahn, Yufei Yang, Joshua Han, Danny Hong, Jonas Oliver, Hannah Jackson, Suhita G…",
-      "team": ""
+      "text": "Created `Team/quartz-journal.md`, the first dedicated per-specialist dev journal",
+      "team": "Quartz, Larry"
     },
     {
-      "text": "momentum_data_fullbuild.py + 10 JSON research files saved to scripts/pdf-builders/momentum-data/",
-      "team": ""
+      "text": "Built and shipped Blood Sugar Cat, a Pebble Time 2 watchface: big bold time + a cat whose mood is your live Dexcom glucose (sleeping/content/angry/pa…",
+      "team": "Quartz, Iris, Mira"
     },
     {
-      "text": "Momentum error rebuilds fixed: Loria Luo, Yocelyn Gea, Anthony Rizvanov all rebuilt to 4 pages with glitch rocket covers and paragraph word-cap rende…",
-      "team": ""
+      "text": "Solved two Pebble gotchas live (single-key AppMessage payload to stop field scrambling; send ints as strings) and captured the full Build Playbook in…",
+      "team": "Quartz"
     },
     {
-      "text": "Momentum PDF system hardened: paragraph word-cap approach (120-140w/para) solves content overflow without rewriting article data",
-      "team": ""
+      "text": "Created the /pebble-watchface skill that interviews for design input, scaffolds, builds clean, and pushes a new watchface to the watch",
+      "team": "Quartz, Larry"
     },
     {
-      "text": "Benjamin Leroy Momentum packet rebuilt with glitch cover (04-block-scramble) and correct 4-page layout",
-      "team": ""
+      "text": "Built Momentum v3 for all 20 LHUM400 students: 4-page curated career packets with verified verbatim quotes, Link Triple (clickable/printed/QR) on eve…",
+      "team": "Larry, Pax, Dr. Paige, Dex, Sage"
     }
   ],
-  "weekWinCount": 124,
+  "weekWinCount": 98,
   "weekHighlights": [
+    {
+      "text": "Built and shipped \"Catch the 64,\" a Pebble Time 2 watchface: big time + a backpack bus-cat whose panic tier = minutes u…"
+    },
+    {
+      "text": "First watchface built off the new `/pebble-watchface` skill; reused the Bus 64 dashboard's MBTA predictions endpoint (R…"
+    },
+    {
+      "text": "Typed action badges for the voice pipeline: every routed memo now gets one outcome badge (built / filed / scheduled / t…"
+    },
     {
       "text": "Blood Sugar Cat watchface v1.1: added a live \"time since last reading\" line (just now / 7m ago / 1h12m ago, gray→red pa…"
     },
@@ -41,15 +50,6 @@ window.BRIEFING = {
     },
     {
       "text": "Built and shipped Blood Sugar Cat, a Pebble Time 2 watchface: big bold time + a cat whose mood is your live Dexcom gluc…"
-    },
-    {
-      "text": "Solved two Pebble gotchas live (single-key AppMessage payload to stop field scrambling; send ints as strings) and captu…"
-    },
-    {
-      "text": "Created the /pebble-watchface skill that interviews for design input, scaffolds, builds clean, and pushes a new watchfa…"
-    },
-    {
-      "text": "Built Momentum v3 for all 20 LHUM400 students: 4-page curated career packets with verified verbatim quotes, Link Triple…"
     }
   ],
   "projects": [

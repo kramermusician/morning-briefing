@@ -1,0 +1,11 @@
+You are refreshing the data feed for Kramer's morning briefing. Do exactly this and nothing else:
+
+1. Using the Google Calendar tool, list events on Kramer's primary calendar from today through 14 days out (America/New_York).
+2. Rewrite briefing-feed.json in the current directory, keeping its exact JSON shape:
+   - "today": array of {time, title} for TODAY's real appointments. SKIP the recurring language-habit blocks (Korean Morning, Korean Listening, French Maintenance, Spanish Maintenance, "easy diabetes monday") unless nothing else exists. If the day is otherwise empty, include one {time:"Open day", title:"No fixed appointments"} row.
+   - "twoWeeks": array of {date, title} for notable appointments in the next 14 days, same skip rule. Group multiple same-day items into one row with " & ". Use short dates like "Sat Jun 14". Cap at ~8 rows.
+3. Using web search, find 3 current global headlines tuned to Kramer's interests (arts, music, technology/AI in education, world politics, World Cup 2026). Fill "headlines" as {title, blurb} (blurb = one short sentence).
+4. Leave "closeLine" and "closeSub" as they are.
+5. Update "_updated" to today's date (YYYY-MM-DD).
+
+Write the file and stop. Do not run the builder, do not commit, do not explain.
