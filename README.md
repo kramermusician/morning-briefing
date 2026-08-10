@@ -56,20 +56,8 @@ Published at **https://kramermusician.github.io/morning-briefing/** from the
 public repo `kramermusician/morning-briefing`. Mobile-friendly; tap or swipe to advance.
 
 Pipeline:
-- `deploy.sh` — rebuild + commit + push. Pages auto-redeploys (~30 s).
-- `nightly.sh` — the unattended job: best-effort feed refresh (calendar + headlines
-  via a headless `claude -p`), then rebuild, then push.
-- `com.kramos.morning-briefing.plist` — launchd agent at `~/Library/LaunchAgents/`,
-  fires daily at **00:05**. Manage with:
-  ```bash
-  launchctl unload ~/Library/LaunchAgents/com.kramos.morning-briefing.plist
-  launchctl load   ~/Library/LaunchAgents/com.kramos.morning-briefing.plist
-  launchctl start  com.kramos.morning-briefing   # run it now
-  ```
-- The Mac must be awake at midnight. Scheduled wake (run once, needs sudo):
-  ```bash
-  sudo pmset repeat wakeorpoweron MTWRFSU 00:03:00
-  ```
+- `deploy.sh` — rebuild + commit + push. Pages auto-redeploys (~30 s). Run after
+  `/briefing` (or `refresh my morning briefing`) when you want the update on your phone.
 
 ### iOS Shortcut (open at 7 am)
 1. Shortcuts app → new shortcut → **Open URLs** → `https://kramermusician.github.io/morning-briefing/`
@@ -79,9 +67,8 @@ Pipeline:
 
 ## Keeping the feed fresh
 
-Two ways to refresh `briefing-feed.json` each morning:
-
-1. **Ask Larry** — "refresh my morning briefing" pulls today's calendar (Cadence)
-   and three headlines (Pax), rewrites the feed, and reruns the builder.
-2. **Cron it** — a scheduled cloud agent each morning that does the same, so the
-   slideshow is current before you wake up. (Not wired by default — ask to set it up.)
+Run **`/briefing`** (or ask Larry to "refresh my morning briefing"). It pulls the
+curated feeds (Nellie), today's calendar (Cadence), and three headlines (Pax),
+rewrites `briefing-feed.json`, reruns the builder, and opens the page. This is the
+single, manual path — there is no unattended job. If you want it on your phone
+afterward, run `deploy.sh`.

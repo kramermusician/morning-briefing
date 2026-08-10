@@ -1,55 +1,30 @@
 window.BRIEFING = {
-  "date": "2026-06-13",
-  "builtAt": "2026-06-13",
-  "dayName": "Saturday",
-  "dateLong": "June 13, 2026",
-  "coverLine": "100 things shipped this week. 7 projects in motion. Keep an eye on LHUM400 Summer 2026.",
-  "yesterdayLabel": "Friday",
-  "yesterday": [
-    {
-      "text": "Blood Sugar Cat watchface v1.1: added a live \"time since last reading\" line (just now / 7m ago / 1h12m ago, gray→red past 12 min) so old data can't m…",
-      "team": "Quartz"
-    },
-    {
-      "text": "Created `Team/quartz-journal.md`, the first dedicated per-specialist dev journal",
-      "team": "Quartz, Larry"
-    },
-    {
-      "text": "Built and shipped Blood Sugar Cat, a Pebble Time 2 watchface: big bold time + a cat whose mood is your live Dexcom glucose (sleeping/content/angry/pa…",
-      "team": "Quartz, Iris, Mira"
-    },
-    {
-      "text": "Solved two Pebble gotchas live (single-key AppMessage payload to stop field scrambling; send ints as strings) and captured the full Build Playbook in…",
-      "team": "Quartz"
-    },
-    {
-      "text": "Created the /pebble-watchface skill that interviews for design input, scaffolds, builds clean, and pushes a new watchface to the watch",
-      "team": "Quartz, Larry"
-    },
-    {
-      "text": "Built Momentum v3 for all 20 LHUM400 students: 4-page curated career packets with verified verbatim quotes, Link Triple (clickable/printed/QR) on eve…",
-      "team": "Larry, Pax, Dr. Paige, Dex, Sage"
-    }
-  ],
-  "weekWinCount": 100,
+  "date": "2026-08-10",
+  "builtAt": "2026-08-10",
+  "dayName": "Monday",
+  "dateLong": "August 10, 2026",
+  "coverLine": "45 things shipped this week. 7 projects in motion. Keep an eye on LHUM400 Summer 2026.",
+  "yesterdayLabel": "Sunday",
+  "yesterday": [],
+  "weekWinCount": 45,
   "weekHighlights": [
     {
-      "text": "Drafted reconnect email to Andrew Moore (old high-school friend, now near Providence) offering 10 weekday meetup slots…"
+      "text": "Darts math and science lesson built: flight physics derived from scratch (0.42 s airborne, 87 cm of gravity drop, a ten…"
     },
     {
-      "text": "Added recurring \"Softball\" event to the calendar, next 6 Tuesdays 5-8pm (Jun 16 through Jul 21)"
+      "text": "Pinball history briefing built from a bar-side voice memo: Redgrave 1871 through the 1979 peak, the Pac-Man collapse, W…"
     },
     {
-      "text": "Built and shipped \"Catch the 64,\" a Pebble Time 2 watchface: big time + a backpack bus-cat whose panic tier = minutes u…"
+      "text": "LHUM400 Week 11 Presentation Day 1 taught: students presented website portfolios and narrated their exit plans, with le…"
     },
     {
-      "text": "First watchface built off the new `/pebble-watchface` skill; reused the Bus 64 dashboard's MBTA predictions endpoint (R…"
+      "text": "Class pushed toward the anonymous Canvas course survey, said out loud rather than assumed"
     },
     {
-      "text": "Typed action badges for the voice pipeline: every routed memo now gets one outcome badge (built / filed / scheduled / t…"
+      "text": "Journal entry logged for the class, tagged teaching + lhum400 and linked to the LHUM400 course node"
     },
     {
-      "text": "Blood Sugar Cat watchface v1.1: added a live \"time since last reading\" line (just now / 7m ago / 1h12m ago, gray→red pa…"
+      "text": "Keel research brief delivered: Buffett and Galloway primary sources plus the 2025-2026 evidence, filed to `Team/Keel/ke…"
     }
   ],
   "projects": [
@@ -91,203 +66,211 @@ window.BRIEFING = {
   ],
   "today": [
     {
-      "time": "7:00 am",
-      "title": "Korean morning — vocab + S Pen handwriting (15 min)"
+      "time": "6:30 PM",
+      "title": "Cantab open mic"
     },
     {
-      "time": "Open day",
-      "title": "No fixed appointments — a Friday to build on"
+      "time": "All day",
+      "title": "Cancel Economist before Aug 12"
+    },
+    {
+      "time": "All day",
+      "title": "Email Laukien family"
     }
   ],
   "twoWeeks": [
     {
-      "date": "Sat Jun 13",
-      "title": "Watertown yard sale &middot; Aht Show, 1–3 pm"
+      "date": "Tue Aug 11",
+      "title": "ESL 1 &middot; Gwen's Birthday"
     },
     {
-      "date": "Mon Jun 15",
-      "title": "Cantab open mic, 6:30 pm"
+      "date": "Wed Aug 12",
+      "title": "Brighton farm stand &middot; Brighton Bangers"
     },
     {
-      "date": "Tue Jun 16",
-      "title": "ESL1 (Yuria), 9–10:50 am"
+      "date": "Thu Aug 13",
+      "title": "ESL 1 &middot; LHUM400"
     },
     {
-      "date": "Wed Jun 17",
-      "title": "Brighton farm stand 1:30 &middot; French/Spanish/Sax 5:30 pm"
+      "date": "Sun Aug 16",
+      "title": "Barcelona vs Athletic Bilbao (La Liga)"
     },
     {
-      "date": "Thu Jun 18",
-      "title": "ESL1 10 am &middot; LHUM400 11 am"
+      "date": "Mon Aug 17",
+      "title": "Cantab open mic"
     },
     {
-      "date": "Wed Jun 24",
-      "title": "Brighton farm stand, 1:30 pm"
+      "date": "Tue Aug 18",
+      "title": "Pomplamoose (18+)"
     },
     {
-      "date": "Thu Jun 25",
-      "title": "ESL1 &middot; LHUM400 &middot; Deby's art show at the Armory, 7:30 pm"
+      "date": "Wed Aug 19",
+      "title": "Brighton farm stand &middot; Brighton Bangers"
+    },
+    {
+      "date": "Sat Aug 22",
+      "title": "Julie's 65th Birthday Party"
     }
   ],
   "workOn": [
     {
       "verb": "Reuse",
-      "title": "French Pronunciation Rhymes Deck",
-      "action": "Adapt rhyme-drill format for Yuria's ESL1 pronunciation work."
+      "title": "Dictado ESL overview",
+      "action": "Adapt the dictado method into a Lens listening mode."
     },
     {
-      "verb": "Reuse",
-      "title": "24 Rhythm Packet",
-      "action": "Pull comping exercises into the LENS-101 blues unit."
+      "verb": "Revisit",
+      "title": "Domain Detector Challenge 1",
+      "action": "Rebuild this vocab challenge as a Keystroke Derby deck."
     }
   ],
   "headlines": [
     {
-      "title": "World Cup 2026 kicks off across North America",
-      "blurb": "The tournament opened this week — 48 teams, matches spread across the US, Mexico, and Canada for the first time. Group stage is underway."
+      "title": "SUNY Adopts a Systemwide AI Policy Across All 64 Campuses",
+      "blurb": "AI literacy gets embedded into general education for incoming undergraduates starting this fall, with training requirements for staff."
     },
     {
-      "title": "AI tools move deeper into the classroom",
-      "blurb": "Districts and universities keep piloting AI for lesson design and feedback — squarely the territory of your KRAMOS and Language Brain work."
+      "title": "Sony and Universal Sue the Streaming App Musi in Canada",
+      "blurb": "The labels, backed by the IFPI, accuse Musi of circumventing YouTube protections to stream copyrighted music."
     },
     {
-      "title": "Summer arrives in Boston",
-      "blurb": "Long daylight, open-mic season in full swing, and yard-sale weekends — good conditions for both the looping setlist and the Tracking the Sun log."
+      "title": "TikTok Closes Its Nashville Office and Cuts 250 Jobs",
+      "blurb": "The shutdown reverses the expansion the company announced in the city, and lands on a music-industry hub."
     }
   ],
   "feedNews": [
     {
-      "source": "One Useful Thing",
-      "title": "What it feels like to work with Mythos",
-      "blurb": "Ethan Mollick's hands-on account of working alongside a frontier model — direct fuel for your AI-in-teaching thinking.",
-      "link": "https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos"
-    },
-    {
-      "source": "Simon Willison",
-      "title": "US government directive to suspend access to Fable 5 and Mythos 5",
-      "blurb": "Willison's statement on a federal move against two frontier models — the AI-policy story everyone in the field is reading today.",
-      "link": "https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/"
-    },
-    {
-      "source": "Simon Willison",
-      "title": "Anthropic walks back policy that could have sabotaged AI researchers",
-      "blurb": "A reversal on terms that worried researchers using Claude — relevant to how you build on these tools.",
-      "link": "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/"
+      "source": "Philippa Hardman",
+      "title": "How to Design Around Cognitive Offloading",
+      "blurb": "A design argument for structuring tasks so students still do the thinking when a model is on the desk, which is the exact question your LHUM400 unit keeps circling.",
+      "link": "https://drphilippahardman.substack.com/p/how-to-design-around-cognitive-offloading"
     },
     {
       "source": "Berklee Online",
-      "title": "Tuba visionary Bill Muter on music diplomacy and playing with Jon Batiste",
-      "blurb": "A Berklee Online conversation on cultural diplomacy through music and studying remotely — your institution, your themes.",
-      "link": "https://online.berklee.edu/takenote/tuba-visionary-bill-muter-on-music-diplomacy-playing-with-jon-batiste-and-studying-with-berklee-online/"
+      "title": "Jonathan Wyner on Mastering Bowie and Nirvana, and Music Education in the Age of AI",
+      "blurb": "A Berklee colleague talking about both the craft and how he thinks teaching changes with AI in the room, useful as a class opener and as internal ammunition.",
+      "link": "https://online.berklee.edu/takenote/jonathan-wyner-on-mastering-bowie-nirvana-and-more/"
+    },
+    {
+      "source": "Simon Willison",
+      "title": "Auto Mode Is Now the Default in Claude Code",
+      "blurb": "Pro, Max, and Team plans now route model choice automatically, which changes what you see when you open the tool KRAMOS runs on.",
+      "link": "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything"
+    },
+    {
+      "source": "Simon Willison",
+      "title": "The Tokenpocalypse: Companies Scrambling to Cut AI Spend",
+      "blurb": "A survey of how teams are trimming per-call cost, relevant while Lens v2 sits at roughly a penny a photo with a hard cap behind it.",
+      "link": "https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-everything"
+    },
+    {
+      "source": "Audrey Watters",
+      "title": "No End in Sight",
+      "blurb": "Her steady skepticism about ed-tech inevitability, the counterweight worth reading before you agree to any new classroom tool.",
+      "link": "https://2ndbreakfast.audreywatters.com/no-end-in-sight/"
     },
     {
       "source": "Andrew Huang",
-      "title": "4 producers flip the same sample",
-      "blurb": "A new sample-flip collab video — straight into your SP-404 sampling and looping world.",
-      "link": "https://www.youtube.com/watch?v=6zeuQP72rZM"
-    },
-    {
-      "source": "Second Breakfast",
-      "title": "Public Offering, Public Sacrifice",
-      "blurb": "Audrey Watters' latest ed-tech criticism — the skeptical counterweight worth keeping in view.",
-      "link": "https://2ndbreakfast.audreywatters.com/public-offering-public-sacrifice/"
+      "title": "4 Producers Remix the Same Song",
+      "blurb": "Son Lux, Swarvy, Kaitlyn Aurelia Smith, and Shigeto each take one source track, which is a ready-made listening comparison for a class opener.",
+      "link": "https://www.youtube.com/watch?v=mYcTWyQCcLQ"
     }
   ],
   "wordCloud": [
     {
-      "text": "Reggie Watts",
+      "text": "Cognitive Offloading",
       "weight": 5
     },
     {
-      "text": "People",
-      "weight": 4
+      "text": "Jonathan Wyner",
+      "weight": 5
     },
     {
-      "text": "Course",
-      "weight": 4
+      "text": "Mastering Bowie",
+      "weight": 5
     },
     {
-      "text": "AI Literacy",
-      "weight": 3
+      "text": "Auto Mode",
+      "weight": 5
     },
     {
-      "text": "Dragoncatcher",
-      "weight": 3
+      "text": "Claude Code",
+      "weight": 5
     },
     {
-      "text": "Released",
-      "weight": 3
+      "text": "Tokenpocalypse Companies",
+      "weight": 5
     },
     {
-      "text": "Directors",
-      "weight": 3
+      "text": "Cut AI",
+      "weight": 5
     },
     {
-      "text": "Claude Fable",
-      "weight": 2
+      "text": "Design",
+      "weight": 5
     },
     {
-      "text": "Tour",
-      "weight": 2
-    },
-    {
-      "text": "Years",
-      "weight": 2
-    },
-    {
-      "text": "Elon",
-      "weight": 2
-    },
-    {
-      "text": "Series",
-      "weight": 2
-    },
-    {
-      "text": "Math",
-      "weight": 2
-    },
-    {
-      "text": "Session",
-      "weight": 2
-    },
-    {
-      "text": "Try",
-      "weight": 2
-    },
-    {
-      "text": "Guide",
-      "weight": 2
-    },
-    {
-      "text": "Writing",
-      "weight": 2
-    },
-    {
-      "text": "Tools",
-      "weight": 2
-    },
-    {
-      "text": "Talks",
-      "weight": 2
-    },
-    {
-      "text": "Conference",
-      "weight": 2
-    },
-    {
-      "text": "Lust",
-      "weight": 2
-    },
-    {
-      "text": "AI Education",
+      "text": "Exact Question",
       "weight": 1
     },
     {
-      "text": "Iatefl Brighton",
+      "text": "Steady Skepticism",
       "weight": 1
     },
     {
-      "text": "Rebble Foundation",
+      "text": "Ed-tech Inevitability",
+      "weight": 1
+    },
+    {
+      "text": "Son Lux",
+      "weight": 1
+    },
+    {
+      "text": "Kaitlyn Aurelia",
+      "weight": 1
+    },
+    {
+      "text": "Model",
+      "weight": 1
+    },
+    {
+      "text": "Nirvana",
+      "weight": 1
+    },
+    {
+      "text": "Music",
+      "weight": 1
+    },
+    {
+      "text": "Education",
+      "weight": 1
+    },
+    {
+      "text": "Age",
+      "weight": 1
+    },
+    {
+      "text": "Changes",
+      "weight": 1
+    },
+    {
+      "text": "Opener",
+      "weight": 1
+    },
+    {
+      "text": "Default",
+      "weight": 1
+    },
+    {
+      "text": "Tool",
+      "weight": 1
+    },
+    {
+      "text": "Scrambling",
+      "weight": 1
+    },
+    {
+      "text": "Spend",
       "weight": 1
     }
   ],
