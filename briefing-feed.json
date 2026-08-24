@@ -1,21 +1,13 @@
 {
   "_note": "Live external bits Cadence (calendar) + Pax (headlines) refresh each morning. The rest of the briefing auto-derives from priorities.md / project-timeline.json / serendipity.json. Daily language-habit calendar blocks are intentionally filtered out of 'today' and 'twoWeeks' so only real appointments show.",
-  "_updated": "2026-08-21",
+  "_updated": "2026-08-24",
   "today": [
     {
-      "time": "5:00 PM",
-      "title": "Lift, 20 min"
+      "time": "6:30 PM",
+      "title": "Cantab open mic"
     }
   ],
   "twoWeeks": [
-    {
-      "date": "Sat Aug 22",
-      "title": "Julie's 65th Birthday Party"
-    },
-    {
-      "date": "Sun Aug 23",
-      "title": "Athletic Bilbao vs Sevilla (La Liga, home)"
-    },
     {
       "date": "Wed Aug 26",
       "title": "Bruno Mars, The Romantic Tour (NJ) &middot; Brighton farm stand &middot; Brighton Bangers"
@@ -39,157 +31,165 @@
     {
       "date": "Thu Sep 3",
       "title": "First day of fall classes: ESL1 9am &middot; ESL3 11am &middot; LENS 2pm"
+    },
+    {
+      "date": "Sat Sep 5",
+      "title": "Esperanza Spalding at City Winery"
+    },
+    {
+      "date": "Sun Sep 6",
+      "title": "Athletic Bilbao vs Atl&eacute;tico Madrid (La Liga, home) &middot; KKAS Monthly Assessment &middot; Seven-Language Quarterly Review"
     }
   ],
   "headlines": [
     {
-      "title": "Faculty Intent to Use AI Drops 9 Points in 2026 Global Survey",
-      "blurb": "The Digital Education Council's higher-ed survey shows US and Canadian faculty intent falling from 76% to 67%, a cooling worth naming in any AI-in-pedagogy pitch."
+      "title": "Back-to-School AI Tools Land From Google, Microsoft, OpenAI, and Anthropic",
+      "blurb": "A Forbes roundup of ten teacher-facing updates arriving right at semester start, from Gemini in Classroom to Copilot unit planners and a dedicated teen ChatGPT."
     },
     {
-      "title": "Universal Music Rolls Out a 72-Hour Premium Release Window in India",
-      "blurb": "New releases go behind a paid window before free streaming, a structural shift UMG is importing from its China playbook."
+      "title": "Europe's AI Transparency Rules Take Effect",
+      "blurb": "The first continent-wide rules requiring AI systems to identify themselves to the humans they talk to switched on this month."
     },
     {
-      "title": "Europe Logs Its Fifth Record-Breaking Heat Wave of the Summer",
-      "blurb": "Drought and wildfires continue across the continent, including the Basque coast and the Spain routes on your travel radar."
+      "title": "Ella Langley Makes Chart History With a 19th Week at No. 1",
+      "blurb": "Choosin' Texas extends a record-setting Hot 100 run, the longest by a country artist."
     }
   ],
   "feedNews": [
     {
-      "source": "Philippa Hardman",
-      "title": "I Built a Team of AI Bots That Write Feedback Better than Me",
-      "blurb": "Names the four conditions that decide whether students love or loathe AI feedback, directly useful for how your courses hand back writing.",
-      "link": "https://drphilippahardman.substack.com/p/i-built-a-team-of-ai-bots-that-write"
+      "source": "Nick Potkalitsky",
+      "title": "AI Agents for Teachers",
+      "blurb": "A summer's worth of hands-on findings about what agents can actually do for educators, the same terrain your own system covers and useful ammunition for any PD pitch.",
+      "link": "https://nickpotkalitsky.substack.com/p/ai-agents-for-teachers"
     },
     {
-      "source": "Nick Potkalitsky",
-      "title": "The Four Ages of Gen AI Ed-tech",
-      "blurb": "A map of how classroom AI tools have evolved in four distinct waves, handy framing for your fall syllabus talk and any PD pitch.",
-      "link": "https://nickpotkalitsky.substack.com/p/the-four-ages-of-gen-ai-ed-tech"
+      "source": "Audrey Watters",
+      "title": "A Technology of Unlearning",
+      "blurb": "Takes apart the learn-unlearn-relearn slogan that pads every ed-tech futurism deck, a sharp counterweight worth having in your back pocket for AI-in-pedagogy talks.",
+      "link": "https://2ndbreakfast.audreywatters.com/a-technology-of-unlearning/"
     },
     {
       "source": "EFL Magazine",
-      "title": "Can AI Help Lower-Level Students Prepare for IELTS?",
-      "blurb": "An IELTS teacher rethinks the rule that A2 students cannot start exam prep once AI scaffolding enters the picture, relevant to ESL1 placement thinking.",
-      "link": "https://eflmagazine.com/can-ai-help-lower-level-students-prepare-for-ielts/"
+      "title": "Interview with Duncan Foord from Oxford TEFL",
+      "blurb": "Nearly 40 years in TEFL distilled: learning to teach by doing, CELTA versus Trinity, and why connection still beats AI in the classroom, timely as your semester opens.",
+      "link": "https://eflmagazine.com/interview-with-duncan-foord-from-oxford-tefl/"
     },
     {
       "source": "Simon Willison",
-      "title": "Qwen 3.8 27B Is Excellent, but Defaults to Wildly Overthinking",
-      "blurb": "The new open-weights Qwen matches far larger frontier models on benchmarks and runs on a laptop, worth watching as an upgrade path for the on-device model behind your student-privacy pipeline.",
-      "link": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/"
+      "title": "More Than Just Code Review",
+      "blurb": "Argues the core coding-agent skill is confidently instructing changes and then confidently verifying them, a good frame for how you already work with your build pipeline.",
+      "link": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/"
     },
     {
-      "source": "Robin Sloan",
-      "title": "Dragoncatcher: Jarvising",
-      "blurb": "On working with an AI assistant the way Tony Stark works with Jarvis, with the reminder that you still have to actually make something.",
-      "link": "https://www.robinsloan.com/lab/jarvising/"
+      "source": "Latent Space",
+      "title": "The Evolution of the Agent Harness",
+      "blurb": "Traces how models keep absorbing the scaffolding around them into their weights, and what that means for anyone maintaining their own agent setup.",
+      "link": "https://www.latent.space/p/attention-interface"
     },
     {
-      "source": "Andrew Huang",
-      "title": "Guitar Pedals on Drums Sounds Ridiculous",
-      "blurb": "Runs live drums through a reamper into guitar pedals, a cheap trick worth stealing for SP-404 source material.",
-      "link": "https://www.youtube.com/watch?v=AxK73p-uv1U"
+      "source": "Marc Rebillet",
+      "title": "WHATEVER THE WEATHER",
+      "blurb": "A new full-length live stream of improvised loop building, fresh source material for the looping-performance side of your world.",
+      "link": "https://www.youtube.com/watch?v=dYtoV1h2RpA"
     }
   ],
   "closeLine": "Open something. The drop is data.",
   "closeSub": "Tap through anytime — this briefing rebuilds itself each morning.",
   "wordCloud": [
     {
-      "text": "AI Bots",
+      "text": "AI Agents",
       "weight": 5
     },
     {
-      "text": "Write Feedback",
+      "text": "Duncan Foord",
       "weight": 5
     },
     {
-      "text": "Four Ages",
+      "text": "Oxford Tefl",
       "weight": 5
     },
     {
-      "text": "Gen AI",
+      "text": "Code Review",
       "weight": 5
     },
     {
-      "text": "Lower-level Students",
+      "text": "Agent Harness",
       "weight": 5
     },
     {
-      "text": "Wildly Overthinking",
-      "weight": 5
-    },
-    {
-      "text": "Dragoncatcher Jarvising",
-      "weight": 5
-    },
-    {
-      "text": "Guitar Pedals",
-      "weight": 5
-    },
-    {
-      "text": "Drums Sounds",
-      "weight": 5
-    },
-    {
-      "text": "Ielts",
-      "weight": 5
-    },
-    {
-      "text": "Qwen",
-      "weight": 5
-    },
-    {
-      "text": "Start Exam",
+      "text": "Hands-on Findings",
       "weight": 3
     },
     {
-      "text": "Laptop Worth",
+      "text": "Takes Apart",
       "weight": 3
     },
     {
-      "text": "AI Assistant",
+      "text": "Learn-unlearn-relearn Slogan",
       "weight": 3
     },
     {
-      "text": "Built",
+      "text": "Confidently Instructing",
       "weight": 3
     },
     {
-      "text": "Team",
+      "text": "Anyone Maintaining",
       "weight": 3
     },
     {
-      "text": "Better",
+      "text": "Full-length Live",
       "weight": 3
     },
     {
-      "text": "Ed-tech",
+      "text": "Improvised Loop",
       "weight": 3
     },
     {
-      "text": "Prepare",
+      "text": "Teachers",
       "weight": 3
     },
     {
-      "text": "Excellent",
+      "text": "Worth",
       "weight": 3
     },
     {
-      "text": "Defaults",
+      "text": "Technology",
       "weight": 3
     },
     {
-      "text": "Runs",
+      "text": "Unlearning",
       "weight": 3
     },
     {
-      "text": "Ridiculous",
+      "text": "Interview",
       "weight": 3
     },
     {
-      "text": "Names",
+      "text": "Evolution",
+      "weight": 3
+    },
+    {
+      "text": "Whatever",
+      "weight": 3
+    },
+    {
+      "text": "Weather",
+      "weight": 3
+    },
+    {
+      "text": "Summer",
+      "weight": 1
+    },
+    {
+      "text": "Actually",
+      "weight": 1
+    },
+    {
+      "text": "Educators",
+      "weight": 1
+    },
+    {
+      "text": "Terrain",
       "weight": 1
     }
   ]
