@@ -1,8 +1,8 @@
 window.BRIEFING = {
-  "date": "2026-08-24",
-  "builtAt": "2026-08-24",
+  "date": "2026-09-14",
+  "builtAt": "2026-09-14",
   "dayName": "Monday",
-  "dateLong": "August 24, 2026",
+  "dateLong": "September 14, 2026",
   "coverLine": "7 projects in motion. Keep an eye on LHUM400 Summer 2026.",
   "yesterdayLabel": "Sunday",
   "yesterday": [],
@@ -47,159 +47,159 @@ window.BRIEFING = {
   ],
   "today": [
     {
+      "time": "1:00 PM",
+      "title": "LENS 9C"
+    },
+    {
+      "time": "3:00 PM",
+      "title": "LENS 9B"
+    },
+    {
       "time": "6:30 PM",
       "title": "Cantab open mic"
     }
   ],
   "twoWeeks": [
     {
-      "date": "Wed Aug 26",
-      "title": "Bruno Mars, The Romantic Tour (NJ) &middot; Brighton farm stand &middot; Brighton Bangers"
+      "date": "Wed Sep 16",
+      "title": "Athletic Bilbao vs Levante (La Liga, away) &middot; Brighton farm stand &middot; Brighton Bangers"
     },
     {
-      "date": "Fri Aug 28",
-      "title": "Berklee opening day 8am &middot; Email Yuria about the test"
+      "date": "Fri Sep 18",
+      "title": "Je Young Jung food &middot; Ezra Berklee bar gig"
     },
     {
-      "date": "Sat Aug 29",
-      "title": "Comedy show at the Lilypad with Kyle &middot; Ornithology Show"
+      "date": "Sat Sep 19",
+      "title": "Worksheet War"
     },
     {
-      "date": "Sun Aug 30",
-      "title": "Celta Vigo vs Athletic Bilbao (La Liga, away)"
+      "date": "Sun Sep 20",
+      "title": "Athletic Bilbao vs Alav&eacute;s (La Liga, home &mdash; Basque derby)"
     },
     {
-      "date": "Mon Aug 31",
-      "title": "Cantab open mic"
+      "date": "Wed Sep 23",
+      "title": "Mastodon / Deafheaven at House of Blues &middot; Brighton farm stand"
     },
     {
-      "date": "Thu Sep 3",
-      "title": "First day of fall classes: ESL1 9am &middot; ESL3 11am &middot; LENS 2pm"
-    },
-    {
-      "date": "Sat Sep 5",
-      "title": "Esperanza Spalding at City Winery"
-    },
-    {
-      "date": "Sun Sep 6",
-      "title": "Athletic Bilbao vs Atl&eacute;tico Madrid (La Liga, home) &middot; KKAS Monthly Assessment &middot; Seven-Language Quarterly Review"
+      "date": "Sat Sep 26",
+      "title": "Jean Paul Cantab"
     }
   ],
   "workOn": [
     {
-      "verb": "Reuse",
-      "title": "Persuasive grammar teacher's guide",
-      "action": "Mine it for ESL3 Fall week-one grammar targets."
+      "verb": "Revisit",
+      "title": "2024 LENS-101 9B Feedback",
+      "action": "Reread before 9B's Fall 2026 kickoff class."
     },
     {
-      "verb": "Revisit",
-      "title": "Takadimi rhythm worksheets",
-      "action": "Pull ten pages into the LENS-101 blues unit."
+      "verb": "Reuse",
+      "title": "My Favorite Things Jazz Worksheet",
+      "action": "Adapt this jazz-standard sheet for Fall ESL1."
     }
   ],
   "headlines": [
     {
-      "title": "Back-to-School AI Tools Land From Google, Microsoft, OpenAI, and Anthropic",
-      "blurb": "A Forbes roundup of ten teacher-facing updates arriving right at semester start, from Gemini in Classroom to Copilot unit planners and a dedicated teen ChatGPT."
+      "title": "K-12 AI Restrictions Keep Widening as the School Year Settles In",
+      "blurb": "Chicago is weighing a moratorium and joins NYC and LA in tightening student-facing AI rules, while districts like Katy ISD near Houston ban chat tools outright through sixth grade."
     },
     {
-      "title": "Europe's AI Transparency Rules Take Effect",
-      "blurb": "The first continent-wide rules requiring AI systems to identify themselves to the humans they talk to switched on this month."
+      "title": "Spain Wins the 2026 FIFA World Cup",
+      "blurb": "Spain beat Argentina 1-0 in extra time at New York New Jersey Stadium to take the title in the first 48-team, three-country World Cup."
     },
     {
-      "title": "Ella Langley Makes Chart History With a 19th Week at No. 1",
-      "blurb": "Choosin' Texas extends a record-setting Hot 100 run, the longest by a country artist."
+      "title": "AI Music Tools Are Maturing Past the Novelty Phase",
+      "blurb": "September coverage of the AI-music startup scene says founders can now generate full tracks fast, but still need human judgment and clean rights records before anything ships."
     }
   ],
   "feedNews": [
     {
-      "source": "Nick Potkalitsky",
-      "title": "AI Agents for Teachers",
-      "blurb": "A summer's worth of hands-on findings about what agents can actually do for educators, the same terrain your own system covers and useful ammunition for any PD pitch.",
-      "link": "https://nickpotkalitsky.substack.com/p/ai-agents-for-teachers"
-    },
-    {
       "source": "Audrey Watters",
-      "title": "A Technology of Unlearning",
-      "blurb": "Takes apart the learn-unlearn-relearn slogan that pads every ed-tech futurism deck, a sharp counterweight worth having in your back pocket for AI-in-pedagogy talks.",
-      "link": "https://2ndbreakfast.audreywatters.com/a-technology-of-unlearning/"
+      "title": "Caching Behavior",
+      "blurb": "Fresh this morning from Second Breakfast, worth a read before it scrolls past.",
+      "link": "https://2ndbreakfast.audreywatters.com/caching-behavior/"
     },
     {
-      "source": "EFL Magazine",
-      "title": "Interview with Duncan Foord from Oxford TEFL",
-      "blurb": "Nearly 40 years in TEFL distilled: learning to teach by doing, CELTA versus Trinity, and why connection still beats AI in the classroom, timely as your semester opens.",
-      "link": "https://eflmagazine.com/interview-with-duncan-foord-from-oxford-tefl/"
+      "source": "Nick Potkalitsky",
+      "title": "Beyond the Hype: Why Your School's AI Strategy Needs System Altitude",
+      "blurb": "Argues most school AI policies operate at the wrong altitude, tackling tool choice instead of the structural decisions underneath, relevant terrain for your own AI-in-pedagogy pitch work.",
+      "link": "https://nickpotkalitsky.substack.com/p/beyond-the-hype-why-your-schools-4fc"
+    },
+    {
+      "source": "Sandy Millin",
+      "title": "How Can Experienced Teachers Continue to Develop?",
+      "blurb": "A practical look at what keeps veteran ELT teachers growing once the early-career training track runs out, useful against your own long Berklee run.",
+      "link": "https://sandymillin.wordpress.com/2026/09/10/how-can-experienced-teachers-continue-to-develop/"
     },
     {
       "source": "Simon Willison",
-      "title": "More Than Just Code Review",
-      "blurb": "Argues the core coding-agent skill is confidently instructing changes and then confidently verifying them, a good frame for how you already work with your build pipeline.",
-      "link": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/"
+      "title": "OpenAI Agents Attacked RubyGems Back in May",
+      "blurb": "A concrete account of an AI coding agent getting weaponized against a package registry, worth knowing as you keep leaning on agent-heavy build pipelines of your own.",
+      "link": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/"
     },
     {
       "source": "Latent Space",
-      "title": "The Evolution of the Agent Harness",
-      "blurb": "Traces how models keep absorbing the scaffolding around them into their weights, and what that means for anyone maintaining their own agent setup.",
-      "link": "https://www.latent.space/p/attention-interface"
+      "title": "The Rise of the Forward Deployed Engineer, and How to Do the Job Right",
+      "blurb": "A field guide to the engineer-who-builds-the-custom-system-for-one-client role, close in spirit to the bespoke AI system you run for your own classroom.",
+      "link": "https://www.latent.space/p/forward-deployed-engineer-best-practices"
     },
     {
       "source": "Marc Rebillet",
-      "title": "WHATEVER THE WEATHER",
-      "blurb": "A new full-length live stream of improvised loop building, fresh source material for the looping-performance side of your world.",
-      "link": "https://www.youtube.com/watch?v=dYtoV1h2RpA"
+      "title": "MUSIC MUSIC MUSIC",
+      "blurb": "New improvised loop-building stream from last night, fresh source material for the looping-performance side of your world.",
+      "link": "https://www.youtube.com/watch?v=kXKxqnjOgXU"
     }
   ],
   "wordCloud": [
     {
-      "text": "AI Agents",
+      "text": "Caching Behavior",
       "weight": 5
     },
     {
-      "text": "Duncan Foord",
+      "text": "School AI",
       "weight": 5
     },
     {
-      "text": "Oxford Tefl",
+      "text": "Needs System",
       "weight": 5
     },
     {
-      "text": "Code Review",
+      "text": "Experienced Teachers",
       "weight": 5
     },
     {
-      "text": "Agent Harness",
+      "text": "Openai Agents",
       "weight": 5
     },
     {
-      "text": "Hands-on Findings",
+      "text": "Forward Deployed",
+      "weight": 5
+    },
+    {
+      "text": "Job Right",
+      "weight": 5
+    },
+    {
+      "text": "Music Music",
+      "weight": 5
+    },
+    {
+      "text": "Altitude",
+      "weight": 5
+    },
+    {
+      "text": "Second Breakfast",
       "weight": 3
     },
     {
-      "text": "Takes Apart",
+      "text": "Keeps Veteran",
       "weight": 3
     },
     {
-      "text": "Learn-unlearn-relearn Slogan",
+      "text": "AI Coding",
       "weight": 3
     },
     {
-      "text": "Confidently Instructing",
-      "weight": 3
-    },
-    {
-      "text": "Anyone Maintaining",
-      "weight": 3
-    },
-    {
-      "text": "Full-length Live",
-      "weight": 3
-    },
-    {
-      "text": "Improvised Loop",
-      "weight": 3
-    },
-    {
-      "text": "Teachers",
+      "text": "Night Fresh",
       "weight": 3
     },
     {
@@ -207,43 +207,43 @@ window.BRIEFING = {
       "weight": 3
     },
     {
-      "text": "Technology",
+      "text": "Beyond",
       "weight": 3
     },
     {
-      "text": "Unlearning",
+      "text": "Hype",
       "weight": 3
     },
     {
-      "text": "Interview",
+      "text": "Strategy",
       "weight": 3
     },
     {
-      "text": "Evolution",
+      "text": "Develop",
       "weight": 3
     },
     {
-      "text": "Whatever",
+      "text": "Run",
       "weight": 3
     },
     {
-      "text": "Weather",
+      "text": "Attacked",
       "weight": 3
     },
     {
-      "text": "Summer",
-      "weight": 1
+      "text": "Rubygems",
+      "weight": 3
     },
     {
-      "text": "Actually",
-      "weight": 1
+      "text": "Rise",
+      "weight": 3
     },
     {
-      "text": "Educators",
-      "weight": 1
+      "text": "Engineer",
+      "weight": 3
     },
     {
-      "text": "Terrain",
+      "text": "Morning",
       "weight": 1
     }
   ],
