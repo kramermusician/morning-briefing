@@ -3,17 +3,12 @@ window.BRIEFING = {
   "builtAt": "2026-09-25",
   "dayName": "Friday",
   "dateLong": "September 25, 2026",
-  "coverLine": "7 projects in motion. Keep an eye on LHUM400 Summer 2026.",
+  "coverLine": "4 projects in motion.",
   "yesterdayLabel": "Thursday",
   "yesterday": [],
   "weekWinCount": 0,
   "weekHighlights": [],
   "projects": [
-    {
-      "name": "LHUM400 Summer 2026",
-      "status": "at-risk",
-      "next": "Readiness audit backend"
-    },
     {
       "name": "Korean Learning System",
       "status": "on-track",
@@ -28,16 +23,6 @@ window.BRIEFING = {
       "name": "Priorities Dashboard",
       "status": "on-track",
       "next": "Projects tab redesign (portfolio view)"
-    },
-    {
-      "name": "ESL1 Summer 2026",
-      "status": "on-track",
-      "next": "Week 2-3 materials"
-    },
-    {
-      "name": "Set Up Pebble",
-      "status": "on-track",
-      "next": "Set up Rebble SDK / CloudPebble + Dropbox auth"
     },
     {
       "name": "Solo Looping / Live Performance",

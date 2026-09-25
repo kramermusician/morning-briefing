@@ -39,6 +39,29 @@ TIMELINE   = REPO / "project-timeline.json"
 SERENDIPITY= REPO / "serendipity.json"
 FEED       = HERE / "briefing-feed.json"
 OUT        = HERE / "briefing-data.js"
+SCHEDULES  = REPO / "knowledge" / "Berklee Courses" / "course-schedules"
+
+SEMESTER_RE = re.compile(r"\b(Spring|Summer|Fall|Winter)\s+(20\d{2})\b", re.IGNORECASE)
+
+
+def is_term_over(name, today):
+    """A project named after a semester (e.g. 'LHUM400 Summer 2026') is stale
+    once that semester's own course-schedules end date has passed. Same signal
+    the dashboard's 'term over, archive?' prompt uses, applied here so an
+    unattended nightly build doesn't need a human to click it."""
+    m = SEMESTER_RE.search(name)
+    if not m:
+        return False
+    season, year = m.group(1).lower(), m.group(2)
+    schedule_file = SCHEDULES / f"{season}-{year}.json"
+    if not schedule_file.exists():
+        return False
+    try:
+        data = json.loads(schedule_file.read_text(encoding="utf-8"))
+        end = data.get("endDate")
+        return bool(end) and date.fromisoformat(end) < today
+    except (ValueError, json.JSONDecodeError):
+        return False
 
 MONTHS = {m: i for i, m in enumerate(
     ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"], start=1)}
@@ -97,13 +120,17 @@ def load_wins(today):
     return y, wk
 
 
-def load_projects():
+def load_projects(today):
     if not TIMELINE.exists():
         return []
     data = json.loads(TIMELINE.read_text(encoding="utf-8"))
     out = []
     for p in data.get("projects", []):
         if p.get("status") == "done":
+            continue
+        if p.get("archived"):
+            continue
+        if is_term_over(p.get("name", ""), today):
             continue
         todo = [t for t in p.get("tasks", []) if not t.get("done")]
         nxt = todo[0]["label"] if todo else "Define the next step"
@@ -140,7 +167,7 @@ def shorten(text, n=150):
 
 def build(today):
     y_wins, wk_wins = load_wins(today)
-    projects = load_projects()
+    projects = load_projects(today)
     workon = load_workon()
     feed = load_feed()
 
