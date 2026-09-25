@@ -1,10 +1,10 @@
 window.BRIEFING = {
-  "date": "2026-09-14",
-  "builtAt": "2026-09-14",
-  "dayName": "Monday",
-  "dateLong": "September 14, 2026",
+  "date": "2026-09-25",
+  "builtAt": "2026-09-25",
+  "dayName": "Friday",
+  "dateLong": "September 25, 2026",
   "coverLine": "7 projects in motion. Keep an eye on LHUM400 Summer 2026.",
-  "yesterdayLabel": "Sunday",
+  "yesterdayLabel": "Thursday",
   "yesterday": [],
   "weekWinCount": 0,
   "weekHighlights": [],
@@ -47,203 +47,203 @@ window.BRIEFING = {
   ],
   "today": [
     {
-      "time": "1:00 PM",
-      "title": "LENS 9C"
+      "time": "11:00 AM",
+      "title": "Help John"
     },
     {
-      "time": "3:00 PM",
-      "title": "LENS 9B"
-    },
-    {
-      "time": "6:30 PM",
-      "title": "Cantab open mic"
+      "time": "5:00 PM",
+      "title": "Lift &mdash; 20 min"
     }
   ],
   "twoWeeks": [
     {
-      "date": "Wed Sep 16",
-      "title": "Athletic Bilbao vs Levante (La Liga, away) &middot; Brighton farm stand &middot; Brighton Bangers"
-    },
-    {
-      "date": "Fri Sep 18",
-      "title": "Je Young Jung food &middot; Ezra Berklee bar gig"
-    },
-    {
-      "date": "Sat Sep 19",
-      "title": "Worksheet War"
-    },
-    {
-      "date": "Sun Sep 20",
-      "title": "Athletic Bilbao vs Alav&eacute;s (La Liga, home &mdash; Basque derby)"
-    },
-    {
-      "date": "Wed Sep 23",
-      "title": "Mastodon / Deafheaven at House of Blues &middot; Brighton farm stand"
-    },
-    {
       "date": "Sat Sep 26",
       "title": "Jean Paul Cantab"
+    },
+    {
+      "date": "Mon Sep 28",
+      "title": "Nana Bubba end &middot; Cantab open mic &middot; Privacy Sweep session"
+    },
+    {
+      "date": "Tue Sep 29",
+      "title": "Nolan Agni"
+    },
+    {
+      "date": "Wed Sep 30",
+      "title": "Brighton Bangers"
+    },
+    {
+      "date": "Sun Oct 4",
+      "title": "Brighton Open Streets &middot; KKAS Monthly Assessment"
+    },
+    {
+      "date": "Mon Oct 5",
+      "title": "Cantab open mic"
+    },
+    {
+      "date": "Thu Oct 8",
+      "title": "Mass incarceration"
     }
   ],
   "workOn": [
     {
-      "verb": "Revisit",
-      "title": "2024 LENS-101 9B Feedback",
-      "action": "Reread before 9B's Fall 2026 kickoff class."
+      "verb": "Reuse",
+      "title": "Word Spectrum vocabulary worksheet",
+      "action": "Slot this into next ESL1 class as targeted practice."
     },
     {
-      "verb": "Reuse",
-      "title": "My Favorite Things Jazz Worksheet",
-      "action": "Adapt this jazz-standard sheet for Fall ESL1."
+      "verb": "Revisit",
+      "title": "Handwritten Notes Pipeline SOP",
+      "action": "Run the next handwritten letter through the pipeline, not manually."
     }
   ],
   "headlines": [
     {
-      "title": "K-12 AI Restrictions Keep Widening as the School Year Settles In",
-      "blurb": "Chicago is weighing a moratorium and joins NYC and LA in tightening student-facing AI rules, while districts like Katy ISD near Houston ban chat tools outright through sixth grade."
+      "title": "Trump and Xi Meet at the White House Over AI and Trade",
+      "blurb": "The two leaders spent Thursday on AI and other high-stakes topics, with Trump giving Xi a tour of the grounds including the new Marine One helipad."
     },
     {
-      "title": "Spain Wins the 2026 FIFA World Cup",
-      "blurb": "Spain beat Argentina 1-0 in extra time at New York New Jersey Stadium to take the title in the first 48-team, three-country World Cup."
+      "title": "Denmark Orders Oral Exams and Screen Monitoring to Curb AI Cheating",
+      "blurb": "9,000 upper-secondary students now face in-person defenses of their written work after schools found AI-written submissions slipping through unchecked."
     },
     {
-      "title": "AI Music Tools Are Maturing Past the Novelty Phase",
-      "blurb": "September coverage of the AI-music startup scene says founders can now generate full tracks fast, but still need human judgment and clean rights records before anything ships."
+      "title": "Ella Langley's \"Choosin' Texas\" Sets a New Hot 100 Record",
+      "blurb": "The song just became the longest-running number one in Billboard Hot 100 history at 23 weeks on top."
     }
   ],
   "feedNews": [
     {
-      "source": "Audrey Watters",
-      "title": "Caching Behavior",
-      "blurb": "Fresh this morning from Second Breakfast, worth a read before it scrolls past.",
-      "link": "https://2ndbreakfast.audreywatters.com/caching-behavior/"
-    },
-    {
       "source": "Nick Potkalitsky",
-      "title": "Beyond the Hype: Why Your School's AI Strategy Needs System Altitude",
-      "blurb": "Argues most school AI policies operate at the wrong altitude, tackling tool choice instead of the structural decisions underneath, relevant terrain for your own AI-in-pedagogy pitch work.",
-      "link": "https://nickpotkalitsky.substack.com/p/beyond-the-hype-why-your-schools-4fc"
-    },
-    {
-      "source": "Sandy Millin",
-      "title": "How Can Experienced Teachers Continue to Develop?",
-      "blurb": "A practical look at what keeps veteran ELT teachers growing once the early-career training track runs out, useful against your own long Berklee run.",
-      "link": "https://sandymillin.wordpress.com/2026/09/10/how-can-experienced-teachers-continue-to-develop/"
+      "title": "The Gap Between Me and the Machine",
+      "blurb": "A teacher's read on where AI writing still falls short of a real human voice, useful ground for your own Cosmo-style voice work.",
+      "link": "https://nickpotkalitsky.substack.com/p/the-gap-between-me-and-the-machine"
     },
     {
       "source": "Simon Willison",
-      "title": "OpenAI Agents Attacked RubyGems Back in May",
-      "blurb": "A concrete account of an AI coding agent getting weaponized against a package registry, worth knowing as you keep leaning on agent-heavy build pipelines of your own.",
-      "link": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/"
+      "title": "Gemini 3.8 TTS Playground",
+      "blurb": "Google shipped a browser tool for testing Gemini's new speech-to-speech models, worth a look for anything voice or audio in your teaching builds.",
+      "link": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/"
     },
     {
       "source": "Latent Space",
-      "title": "The Rise of the Forward Deployed Engineer, and How to Do the Job Right",
-      "blurb": "A field guide to the engineer-who-builds-the-custom-system-for-one-client role, close in spirit to the bespoke AI system you run for your own classroom.",
-      "link": "https://www.latent.space/p/forward-deployed-engineer-best-practices"
+      "title": "Meta Connect 2026: Muse Glasses, Voice, Video, and Charm",
+      "blurb": "Meta's annual hardware and AI showcase landed this week, with new glasses and voice features that keep pushing AI further into everyday devices.",
+      "link": "https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses"
     },
     {
-      "source": "Marc Rebillet",
-      "title": "MUSIC MUSIC MUSIC",
-      "blurb": "New improvised loop-building stream from last night, fresh source material for the looping-performance side of your world.",
-      "link": "https://www.youtube.com/watch?v=kXKxqnjOgXU"
+      "source": "Latent Space",
+      "title": "Runway's WorldPrompt and the Engineering of Real-Time Worlds",
+      "blurb": "A look at generating real-time interactive 3D worlds from a prompt, close to the kind of generative-scene work Tess and Suzanne do for you.",
+      "link": "https://www.latent.space/p/runway"
+    },
+    {
+      "source": "Andrew Huang",
+      "title": "Start the Rhythm Before the Melody",
+      "blurb": "A quick songwriting tip on building the groove first and letting the melody follow, a fast one to try on your own next sketch.",
+      "link": "https://www.youtube.com/shorts/nEqfHf2cbHc"
+    },
+    {
+      "source": "Berklee Online",
+      "title": "Berklee Online and Berklee Press Earn Three NAMM TEC Award Finalist Spots",
+      "blurb": "Three POPP division entries made the 2027 NAMM TEC Awards finalist list, a strong showing for the school you teach at.",
+      "link": "https://online.berklee.edu/takenote/berklee-online-berklee-press-earn-three-finalist-spots-in-2027-namm-tec-awards/"
     }
   ],
   "wordCloud": [
     {
-      "text": "Caching Behavior",
+      "text": "Gemini Tts",
       "weight": 5
     },
     {
-      "text": "School AI",
+      "text": "Meta Connect",
       "weight": 5
     },
     {
-      "text": "Needs System",
+      "text": "Glasses Voice",
       "weight": 5
     },
     {
-      "text": "Experienced Teachers",
+      "text": "Runway Worldprompt",
       "weight": 5
     },
     {
-      "text": "Openai Agents",
+      "text": "Real-time Worlds",
       "weight": 5
     },
     {
-      "text": "Forward Deployed",
+      "text": "Berklee Online",
       "weight": 5
     },
     {
-      "text": "Job Right",
+      "text": "Berklee Press",
       "weight": 5
     },
     {
-      "text": "Music Music",
+      "text": "Namm",
       "weight": 5
     },
     {
-      "text": "Altitude",
+      "text": "Tec",
       "weight": 5
     },
     {
-      "text": "Second Breakfast",
-      "weight": 3
+      "text": "Finalist",
+      "weight": 5
     },
     {
-      "text": "Keeps Veteran",
-      "weight": 3
+      "text": "AI Writing",
+      "weight": 1
     },
     {
-      "text": "AI Coding",
-      "weight": 3
+      "text": "Falls Short",
+      "weight": 1
     },
     {
-      "text": "Night Fresh",
-      "weight": 3
+      "text": "Browser Tool",
+      "weight": 1
     },
     {
-      "text": "Worth",
-      "weight": 3
+      "text": "Quick Songwriting",
+      "weight": 1
     },
     {
-      "text": "Beyond",
-      "weight": 3
+      "text": "Melody Follow",
+      "weight": 1
     },
     {
-      "text": "Hype",
-      "weight": 3
+      "text": "Gap",
+      "weight": 1
     },
     {
-      "text": "Strategy",
-      "weight": 3
+      "text": "Machine",
+      "weight": 1
     },
     {
-      "text": "Develop",
-      "weight": 3
+      "text": "Playground",
+      "weight": 1
     },
     {
-      "text": "Run",
-      "weight": 3
+      "text": "Look",
+      "weight": 1
     },
     {
-      "text": "Attacked",
-      "weight": 3
+      "text": "Muse",
+      "weight": 1
     },
     {
-      "text": "Rubygems",
-      "weight": 3
+      "text": "Charm",
+      "weight": 1
     },
     {
-      "text": "Rise",
-      "weight": 3
+      "text": "Engineering",
+      "weight": 1
     },
     {
-      "text": "Engineer",
-      "weight": 3
+      "text": "Start",
+      "weight": 1
     },
     {
-      "text": "Morning",
+      "text": "Rhythm",
       "weight": 1
     }
   ],
