@@ -1,10 +1,10 @@
 window.BRIEFING = {
-  "date": "2026-09-25",
-  "builtAt": "2026-09-25",
-  "dayName": "Friday",
-  "dateLong": "September 25, 2026",
+  "date": "2026-10-26",
+  "builtAt": "2026-10-26",
+  "dayName": "Monday",
+  "dateLong": "October 26, 2026",
   "coverLine": "4 projects in motion.",
-  "yesterdayLabel": "Thursday",
+  "yesterdayLabel": "Sunday",
   "yesterday": [],
   "weekWinCount": 0,
   "weekHighlights": [],
@@ -32,203 +32,227 @@ window.BRIEFING = {
   ],
   "today": [
     {
-      "time": "11:00 AM",
-      "title": "Help John"
+      "time": "9:00 AM",
+      "title": "Reach out to Laura to reschedule lunch"
     },
     {
-      "time": "5:00 PM",
-      "title": "Lift &mdash; 20 min"
+      "time": "9:30 AM",
+      "title": "Film LoopGrid basement video"
+    },
+    {
+      "time": "11:00 AM",
+      "title": "Jose Soto coffee"
+    },
+    {
+      "time": "1:00 PM",
+      "title": "LENS 9C &middot; 150-A73"
+    },
+    {
+      "time": "3:00 PM",
+      "title": "LENS 9B &middot; 150-A73"
+    },
+    {
+      "time": "6:30 PM",
+      "title": "Cantab open mic"
+    },
+    {
+      "time": "7:00 PM",
+      "title": "Privacy Sweep session"
     }
   ],
   "twoWeeks": [
     {
-      "date": "Sat Sep 26",
-      "title": "Jean Paul Cantab"
+      "date": "Tue Oct 27",
+      "title": "ESL1 &middot; ESL3"
     },
     {
-      "date": "Mon Sep 28",
-      "title": "Nana Bubba end &middot; Cantab open mic &middot; Privacy Sweep session"
+      "date": "Wed Oct 28",
+      "title": "Tutoring &middot; Brighton Bangers"
     },
     {
-      "date": "Tue Sep 29",
-      "title": "Nolan Agni"
+      "date": "Thu Oct 29",
+      "title": "ESL1 &middot; ESL3 &middot; LENS 9A"
     },
     {
-      "date": "Wed Sep 30",
-      "title": "Brighton Bangers"
+      "date": "Sun Nov 1",
+      "title": "Athletic vs Real Sociedad (Basque derby) &middot; KKAS Monthly Assessment"
     },
     {
-      "date": "Sun Oct 4",
-      "title": "Brighton Open Streets &middot; KKAS Monthly Assessment"
+      "date": "Mon Nov 2",
+      "title": "Buy Sanders Theatre tix (Colbert, Yo-Yo Ma) &middot; Cantab open mic"
     },
     {
-      "date": "Mon Oct 5",
-      "title": "Cantab open mic"
+      "date": "Wed Nov 4",
+      "title": "Tutoring &middot; Brighton Bangers"
     },
     {
-      "date": "Thu Oct 8",
-      "title": "Mass incarceration"
+      "date": "Thu Nov 5",
+      "title": "Zach's birthday"
+    },
+    {
+      "date": "Sun Nov 8",
+      "title": "Osasuna vs Athletic &middot; Papa Bubba's birthday"
     }
   ],
   "workOn": [
     {
-      "verb": "Reuse",
-      "title": "Word Spectrum vocabulary worksheet",
-      "action": "Slot this into next ESL1 class as targeted practice."
+      "verb": "Revisit",
+      "title": "Prepositions quiz, rescheduled",
+      "action": "Check dates and the week 6 references before reprinting for Tuesday."
     },
     {
-      "verb": "Revisit",
-      "title": "Handwritten Notes Pipeline SOP",
-      "action": "Run the next handwritten letter through the pipeline, not manually."
+      "verb": "Connect",
+      "title": "Cover letter case study",
+      "action": "Pull its show-don't-tell examples into the Hiring Room letters."
     }
   ],
   "headlines": [
     {
-      "title": "Trump and Xi Meet at the White House Over AI and Trade",
-      "blurb": "The two leaders spent Thursday on AI and other high-stakes topics, with Trump giving Xi a tour of the grounds including the new Marine One helipad."
+      "title": "Serbia's Vucic Concedes Defeat to Student-Led Movement",
+      "blurb": "After almost two years of student protests, the Students' List won Sunday's snap election and Belgrade filled with celebrating crowds."
     },
     {
-      "title": "Denmark Orders Oral Exams and Screen Monitoring to Curb AI Cheating",
-      "blurb": "9,000 upper-secondary students now face in-person defenses of their written work after schools found AI-written submissions slipping through unchecked."
+      "title": "Machado Returns to Venezuela After 10 Months in Exile",
+      "blurb": "The opposition leader drew crowds in Caracas on Sunday, challenging an interim government that has scheduled no election."
     },
     {
-      "title": "Ella Langley's \"Choosin' Texas\" Sets a New Hot 100 Record",
-      "blurb": "The song just became the longest-running number one in Billboard Hot 100 history at 23 weeks on top."
+      "title": "Iran Says Seven Tankers Hit in the Strait of Hormuz",
+      "blurb": "The unverified claim, disputed by the US, would be the waterway's worst day since the war began and has rattled markets."
     }
   ],
   "feedNews": [
     {
       "source": "Nick Potkalitsky",
-      "title": "The Gap Between Me and the Machine",
-      "blurb": "A teacher's read on where AI writing still falls short of a real human voice, useful ground for your own Cosmo-style voice work.",
-      "link": "https://nickpotkalitsky.substack.com/p/the-gap-between-me-and-the-machine"
+      "title": "How Teachers Unintentionally Encourage Cognitive Offloading",
+      "blurb": "Ordinary planning choices that push students to hand thinking to AI, and the lesson design that pushes back.",
+      "link": "https://nickpotkalitsky.substack.com/p/how-teachers-unintentionally-encourage"
+    },
+    {
+      "source": "Dan Meyer",
+      "title": "Updating My Grading Policy Because You're All Using AI All The Time",
+      "blurb": "A working teacher's rewritten grading policy for the AI era, useful next to your own LENS and ESL policies.",
+      "link": "https://danmeyer.substack.com/p/updating-my-grading-policy-because"
+    },
+    {
+      "source": "EFL Magazine",
+      "title": "Changing the Way Students See Mistakes",
+      "blurb": "How the student-teacher relationship shapes whether learners treat errors as feedback, relevant to the ESL writing review.",
+      "link": "https://eflmagazine.com/changing-the-way-students-see-mistakes/"
+    },
+    {
+      "source": "Ethan Mollick",
+      "title": "30 Months on the Exponential (in Charts)",
+      "blurb": "Mollick's new book is out, and this post charts how far AI has moved since his last one.",
+      "link": "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts"
     },
     {
       "source": "Simon Willison",
-      "title": "Gemini 3.8 TTS Playground",
-      "blurb": "Google shipped a browser tool for testing Gemini's new speech-to-speech models, worth a look for anything voice or audio in your teaching builds.",
-      "link": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/"
+      "title": "Donating Agent Skills to the Agentic AI Foundation",
+      "blurb": "Anthropic hands the Agent Skills standard, the same format KRAMOS skills use, to a vendor-neutral foundation.",
+      "link": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/"
     },
     {
-      "source": "Latent Space",
-      "title": "Meta Connect 2026: Muse Glasses, Voice, Video, and Charm",
-      "blurb": "Meta's annual hardware and AI showcase landed this week, with new glasses and voice features that keep pushing AI further into everyday devices.",
-      "link": "https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses"
-    },
-    {
-      "source": "Latent Space",
-      "title": "Runway's WorldPrompt and the Engineering of Real-Time Worlds",
-      "blurb": "A look at generating real-time interactive 3D worlds from a prompt, close to the kind of generative-scene work Tess and Suzanne do for you.",
-      "link": "https://www.latent.space/p/runway"
-    },
-    {
-      "source": "Andrew Huang",
-      "title": "Start the Rhythm Before the Melody",
-      "blurb": "A quick songwriting tip on building the groove first and letting the melody follow, a fast one to try on your own next sketch.",
-      "link": "https://www.youtube.com/shorts/nEqfHf2cbHc"
-    },
-    {
-      "source": "Berklee Online",
-      "title": "Berklee Online and Berklee Press Earn Three NAMM TEC Award Finalist Spots",
-      "blurb": "Three POPP division entries made the 2027 NAMM TEC Awards finalist list, a strong showing for the school you teach at.",
-      "link": "https://online.berklee.edu/takenote/berklee-online-berklee-press-earn-three-finalist-spots-in-2027-namm-tec-awards/"
+      "source": "Frank Force",
+      "title": "LittleJS is 2D and 3D now",
+      "blurb": "The tiny dependency-free HTML5 game engine adds a full 3D renderer that shares the canvas with 2D.",
+      "link": "https://frankforce.com/littlejs-is-2d-and-3d-now/"
     }
   ],
   "wordCloud": [
     {
-      "text": "Gemini Tts",
+      "text": "Teachers Unintentionally",
       "weight": 5
     },
     {
-      "text": "Meta Connect",
+      "text": "Cognitive Offloading",
       "weight": 5
     },
     {
-      "text": "Glasses Voice",
+      "text": "Grading Policy",
       "weight": 5
     },
     {
-      "text": "Runway Worldprompt",
+      "text": "Students See",
       "weight": 5
     },
     {
-      "text": "Real-time Worlds",
+      "text": "Donating Agent",
       "weight": 5
     },
     {
-      "text": "Berklee Online",
+      "text": "Agentic AI",
       "weight": 5
     },
     {
-      "text": "Berklee Press",
+      "text": "Charts",
       "weight": 5
     },
     {
-      "text": "Namm",
+      "text": "Skills",
       "weight": 5
     },
     {
-      "text": "Tec",
+      "text": "Foundation",
       "weight": 5
     },
     {
-      "text": "Finalist",
-      "weight": 5
-    },
-    {
-      "text": "AI Writing",
+      "text": "AI Era",
       "weight": 1
     },
     {
-      "text": "Falls Short",
+      "text": "Learners Treat",
       "weight": 1
     },
     {
-      "text": "Browser Tool",
+      "text": "Far AI",
       "weight": 1
     },
     {
-      "text": "Quick Songwriting",
+      "text": "Moved Since",
       "weight": 1
     },
     {
-      "text": "Melody Follow",
+      "text": "Tiny Dependency-free",
       "weight": 1
     },
     {
-      "text": "Gap",
+      "text": "Game Engine",
       "weight": 1
     },
     {
-      "text": "Machine",
+      "text": "Encourage",
       "weight": 1
     },
     {
-      "text": "Playground",
+      "text": "Updating",
       "weight": 1
     },
     {
-      "text": "Look",
+      "text": "Time",
       "weight": 1
     },
     {
-      "text": "Muse",
+      "text": "Esl",
       "weight": 1
     },
     {
-      "text": "Charm",
+      "text": "Changing",
       "weight": 1
     },
     {
-      "text": "Engineering",
+      "text": "Mistakes",
       "weight": 1
     },
     {
-      "text": "Start",
+      "text": "Months",
       "weight": 1
     },
     {
-      "text": "Rhythm",
+      "text": "Exponential",
+      "weight": 1
+    },
+    {
+      "text": "Littlejs",
       "weight": 1
     }
   ],
