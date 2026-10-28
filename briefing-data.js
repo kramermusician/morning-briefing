@@ -1,10 +1,10 @@
 window.BRIEFING = {
-  "date": "2026-10-26",
-  "builtAt": "2026-10-26",
-  "dayName": "Monday",
-  "dateLong": "October 26, 2026",
+  "date": "2026-10-28",
+  "builtAt": "2026-10-28",
+  "dayName": "Wednesday",
+  "dateLong": "October 28, 2026",
   "coverLine": "4 projects in motion.",
-  "yesterdayLabel": "Sunday",
+  "yesterdayLabel": "Tuesday",
   "yesterday": [],
   "weekWinCount": 0,
   "weekHighlights": [],
@@ -32,43 +32,55 @@ window.BRIEFING = {
   ],
   "today": [
     {
+      "time": "8:00 AM",
+      "title": "Mac mini migration: run the five setup steps"
+    },
+    {
       "time": "9:00 AM",
-      "title": "Reach out to Laura to reschedule lunch"
+      "title": "Vacuum, then scrub the shower and finish the bathroom"
     },
     {
-      "time": "9:30 AM",
-      "title": "Film LoopGrid basement video"
+      "time": "10:45 AM",
+      "title": "Grading block 1: ESL"
     },
     {
-      "time": "11:00 AM",
-      "title": "Jose Soto coffee"
+      "time": "12:15 PM",
+      "title": "Lunch &middot; put away laundry"
     },
     {
       "time": "1:00 PM",
-      "title": "LENS 9C &middot; 150-A73"
+      "title": "Gym (moved from 5:00)"
     },
     {
-      "time": "3:00 PM",
-      "title": "LENS 9B &middot; 150-A73"
+      "time": "2:00 PM",
+      "title": "Grocery shopping"
     },
     {
-      "time": "6:30 PM",
-      "title": "Cantab open mic"
+      "time": "2:45 PM",
+      "title": "Look over Thursday's classes and the Nov 2 Blender intro"
+    },
+    {
+      "time": "3:45 PM",
+      "title": "Tutoring preview and Lens check"
+    },
+    {
+      "time": "4:30 PM",
+      "title": "Tutoring"
     },
     {
       "time": "7:00 PM",
-      "title": "Privacy Sweep session"
+      "title": "Brighton Bangers"
+    },
+    {
+      "time": "8:00 PM",
+      "title": "Plan and queue big renders on the mini and iMac"
+    },
+    {
+      "time": "8:45 PM",
+      "title": "Grading block 2: LENS 101"
     }
   ],
   "twoWeeks": [
-    {
-      "date": "Tue Oct 27",
-      "title": "ESL1 &middot; ESL3"
-    },
-    {
-      "date": "Wed Oct 28",
-      "title": "Tutoring &middot; Brighton Bangers"
-    },
     {
       "date": "Thu Oct 29",
       "title": "ESL1 &middot; ESL3 &middot; LENS 9A"
@@ -79,7 +91,11 @@ window.BRIEFING = {
     },
     {
       "date": "Mon Nov 2",
-      "title": "Buy Sanders Theatre tix (Colbert, Yo-Yo Ma) &middot; Cantab open mic"
+      "title": "Jose Soto coffee &middot; Buy Sanders Theatre tix &middot; LENS 9C &middot; LENS 9B &middot; Cantab open mic"
+    },
+    {
+      "date": "Tue Nov 3",
+      "title": "ESL1 &middot; ESL3"
     },
     {
       "date": "Wed Nov 4",
@@ -87,172 +103,176 @@ window.BRIEFING = {
     },
     {
       "date": "Thu Nov 5",
-      "title": "Zach's birthday"
+      "title": "Zach's birthday &middot; ESL1 &middot; ESL3 &middot; LENS 9A"
     },
     {
       "date": "Sun Nov 8",
       "title": "Osasuna vs Athletic &middot; Papa Bubba's birthday"
+    },
+    {
+      "date": "Mon Nov 9",
+      "title": "James's birthday &middot; LENS 9C &middot; LENS 9B &middot; Cantab open mic"
     }
   ],
   "workOn": [
     {
-      "verb": "Revisit",
-      "title": "Prepositions quiz, rescheduled",
-      "action": "Check dates and the week 6 references before reprinting for Tuesday."
+      "verb": "Reuse",
+      "title": "Verb Spectrum Precision Practice",
+      "action": "Pair it with a quick check for ESL3 this week."
     },
     {
       "verb": "Connect",
-      "title": "Cover letter case study",
-      "action": "Pull its show-don't-tell examples into the Hiring Room letters."
+      "title": "Complexity Spectrum Deck",
+      "action": "Link it to the writing review before the next batch."
     }
   ],
   "headlines": [
     {
-      "title": "Serbia's Vucic Concedes Defeat to Student-Led Movement",
-      "blurb": "After almost two years of student protests, the Students' List won Sunday's snap election and Belgrade filled with celebrating crowds."
+      "title": "Israel votes on Netanyahu's future",
+      "blurb": "High turnout in a national election that decides whether his coalition stays in power, with former army chief Gadi Eisenkot as the main challenger."
     },
     {
-      "title": "Machado Returns to Venezuela After 10 Months in Exile",
-      "blurb": "The opposition leader drew crowds in Caracas on Sunday, challenging an interim government that has scheduled no election."
+      "title": "Labels sue Suno as Spotify clears 50 million slop tracks",
+      "blurb": "Universal and Sony are suing Suno over its training data, while Spotify says it has pulled about 50 million spam and AI slop tracks from recommendations this year."
     },
     {
-      "title": "Iran Says Seven Tankers Hit in the Strait of Hormuz",
-      "blurb": "The unverified claim, disputed by the US, would be the waterway's worst day since the war began and has rattled markets."
+      "title": "Anthropic files to go public",
+      "blurb": "The S-1 filing reports fast revenue growth, most of it through cloud partners, ahead of a listing expected in about two weeks."
     }
   ],
   "feedNews": [
     {
-      "source": "Nick Potkalitsky",
-      "title": "How Teachers Unintentionally Encourage Cognitive Offloading",
-      "blurb": "Ordinary planning choices that push students to hand thinking to AI, and the lesson design that pushes back.",
-      "link": "https://nickpotkalitsky.substack.com/p/how-teachers-unintentionally-encourage"
+      "source": "Latent Space",
+      "title": "How Anthropic ships Claude with Claude: separating the brain from the hands",
+      "blurb": "An inside look at how the model maker uses its own agents to build and ship, useful framing for how KRAMOS splits planning from action.",
+      "link": "https://latent.space/p/opus55/"
     },
     {
-      "source": "Dan Meyer",
-      "title": "Updating My Grading Policy Because You're All Using AI All The Time",
-      "blurb": "A working teacher's rewritten grading policy for the AI era, useful next to your own LENS and ESL policies.",
-      "link": "https://danmeyer.substack.com/p/updating-my-grading-policy-because"
-    },
-    {
-      "source": "EFL Magazine",
-      "title": "Changing the Way Students See Mistakes",
-      "blurb": "How the student-teacher relationship shapes whether learners treat errors as feedback, relevant to the ESL writing review.",
-      "link": "https://eflmagazine.com/changing-the-way-students-see-mistakes/"
-    },
-    {
-      "source": "Ethan Mollick",
-      "title": "30 Months on the Exponential (in Charts)",
-      "blurb": "Mollick's new book is out, and this post charts how far AI has moved since his last one.",
-      "link": "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts"
+      "source": "Audrey Watters",
+      "title": "Heel Turn",
+      "blurb": "Her latest critique of the ed-tech and AI hype cycle, a counterweight to the week's launch news.",
+      "link": "https://2ndbreakfast.audreywatters.com/heel-turn/"
     },
     {
       "source": "Simon Willison",
-      "title": "Donating Agent Skills to the Agentic AI Foundation",
-      "blurb": "Anthropic hands the Agent Skills standard, the same format KRAMOS skills use, to a vendor-neutral foundation.",
-      "link": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/"
+      "title": "GPT-6.1 Terra",
+      "blurb": "His hands-on notes on OpenAI's newest model, the quickest way to see what changed.",
+      "link": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/"
+    },
+    {
+      "source": "Latent Space",
+      "title": "Coding from the Himalayas with an offline AI agent",
+      "blurb": "A developer runs a coding agent with no internet, relevant to the on-device qwen lane and the mini.",
+      "link": "https://latent.space/p/offline-coding/"
     },
     {
       "source": "Frank Force",
-      "title": "LittleJS is 2D and 3D now",
-      "blurb": "The tiny dependency-free HTML5 game engine adds a full 3D renderer that shares the canvas with 2D.",
-      "link": "https://frankforce.com/littlejs-is-2d-and-3d-now/"
+      "title": "The Gateless Gate 3D",
+      "blurb": "A new tiny-code 3D piece, the kind of generative visual that feeds Blender and Cavalry ideas.",
+      "link": "https://frankforce.com/the-gateless-gate-3d/"
+    },
+    {
+      "source": "Simon Willison",
+      "title": "Game Boy Color on my conference badge",
+      "blurb": "A playful hardware hack in the spirit of the Playdate games.",
+      "link": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/"
     }
   ],
   "wordCloud": [
     {
-      "text": "Teachers Unintentionally",
+      "text": "Anthropic Ships",
       "weight": 5
     },
     {
-      "text": "Cognitive Offloading",
+      "text": "Claude Separating",
       "weight": 5
     },
     {
-      "text": "Grading Policy",
+      "text": "Heel Turn",
       "weight": 5
     },
     {
-      "text": "Students See",
+      "text": "Gpt Terra",
       "weight": 5
     },
     {
-      "text": "Donating Agent",
+      "text": "Offline AI",
       "weight": 5
     },
     {
-      "text": "Agentic AI",
+      "text": "Gateless Gate",
       "weight": 5
     },
     {
-      "text": "Charts",
+      "text": "Game Boy",
       "weight": 5
     },
     {
-      "text": "Skills",
+      "text": "Conference Badge",
       "weight": 5
     },
     {
-      "text": "Foundation",
+      "text": "Coding",
       "weight": 5
     },
     {
-      "text": "AI Era",
+      "text": "Agent",
+      "weight": 5
+    },
+    {
+      "text": "AI Hype",
+      "weight": 3
+    },
+    {
+      "text": "Openai Newest",
+      "weight": 3
+    },
+    {
+      "text": "On-device Qwen",
+      "weight": 3
+    },
+    {
+      "text": "Generative Visual",
+      "weight": 3
+    },
+    {
+      "text": "Brain",
+      "weight": 3
+    },
+    {
+      "text": "Hands",
+      "weight": 3
+    },
+    {
+      "text": "Model",
+      "weight": 3
+    },
+    {
+      "text": "Himalayas",
+      "weight": 3
+    },
+    {
+      "text": "Color",
+      "weight": 3
+    },
+    {
+      "text": "Inside",
       "weight": 1
     },
     {
-      "text": "Learners Treat",
+      "text": "Look",
       "weight": 1
     },
     {
-      "text": "Far AI",
+      "text": "Maker",
       "weight": 1
     },
     {
-      "text": "Moved Since",
+      "text": "Uses",
       "weight": 1
     },
     {
-      "text": "Tiny Dependency-free",
-      "weight": 1
-    },
-    {
-      "text": "Game Engine",
-      "weight": 1
-    },
-    {
-      "text": "Encourage",
-      "weight": 1
-    },
-    {
-      "text": "Updating",
-      "weight": 1
-    },
-    {
-      "text": "Time",
-      "weight": 1
-    },
-    {
-      "text": "Esl",
-      "weight": 1
-    },
-    {
-      "text": "Changing",
-      "weight": 1
-    },
-    {
-      "text": "Mistakes",
-      "weight": 1
-    },
-    {
-      "text": "Months",
-      "weight": 1
-    },
-    {
-      "text": "Exponential",
-      "weight": 1
-    },
-    {
-      "text": "Littlejs",
+      "text": "Agents",
       "weight": 1
     }
   ],
