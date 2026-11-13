@@ -13,6 +13,10 @@ An auto-playing daily briefing for Kramer, modeled on the welcome-splash aesthet
 8. **The world** — three global headlines
 9. **Go make something** — sign-off
 
+## Reading order (2026-11-13)
+
+Content first, logistics after: cover with a hook, the story (one item read properly, with the case against), graph of the day (guess, then the reveal), AI frontier, the world (linked, with why it matters), argue with this, from your feeds, then calendar, wins, projects, ideas, word cloud, close. Order lives in `ORDER` in `index.html`. Goal behind it: a brief good enough to replace YouTube, The Economist, Reddit and Instagram. `hook`, `lead`, `graph`, `argue` show only when `_updated` is today.
+
 ## How it updates daily
 
 `build_briefing.py` re-derives the data every run and writes `briefing-data.js`,

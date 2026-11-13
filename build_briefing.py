@@ -35,6 +35,7 @@ def _find_repo(start):
 REPO = _find_repo(HERE)
 
 PRIORITIES = REPO / "priorities.md"
+ARCHIVE    = REPO / "pastWork" / "priorities-archive-2026.md"   # wins live here since the Oct 2026 split
 TIMELINE   = REPO / "project-timeline.json"
 SERENDIPITY= REPO / "serendipity.json"
 FEED       = HERE / "briefing-feed.json"
@@ -69,7 +70,7 @@ MONTHS = {m: i for i, m in enumerate(
 
 def parse_win_date(tag, year):
     """'Jun 12' -> date(2026,6,12), best-effort."""
-    m = re.match(r"([A-Za-z]{3})\s+(\d{1,2})", tag.strip())
+    m = re.match(r"([A-Za-z]{3,9})\s+(\d{1,2})", tag.strip())
     if not m:
         return None
     mon = MONTHS.get(m.group(1)[:3].title())
@@ -87,22 +88,27 @@ def load_wins(today):
     Each line looks like:  - <text> -- Jun 12 (Team, Team)
     Returns (yesterday_list, week_list) of {text, team, date}.
     """
-    if not PRIORITIES.exists():
-        return [], []
-    lines = PRIORITIES.read_text(encoding="utf-8").splitlines()
-    # isolate the Recently Accomplished block
-    block, grab = [], False
-    for ln in lines:
-        if ln.strip().startswith("## "):
-            grab = ln.strip().lower().startswith("## recently accomplished")
+    # Wins moved to the archive's "## Accomplished" (newest first); the old
+    # "Recently Accomplished" block in priorities.md is still read if present.
+    block = []
+    for src, head in ((ARCHIVE, "## accomplished"), (PRIORITIES, "## recently accomplished")):
+        if not src.exists():
             continue
-        if grab and ln.strip().startswith("- "):
-            block.append(ln.strip()[2:])
+        grab = False
+        for ln in src.read_text(encoding="utf-8").splitlines():
+            t = ln.strip()
+            if t.startswith("## ") or t.startswith("### "):
+                grab = t.lower().startswith(head) and t.startswith("## ")
+                continue
+            if grab and t.startswith("- "):
+                block.append(t[2:])
 
     wins = []
     for raw in block:
         # split off trailing date + team:  text -- Jun 12 (A, B)
-        m = re.search(r"\s--\s([A-Za-z]{3}\s+\d{1,2})\s*(\(([^)]*)\))?\s*$", raw)
+        raw = re.sub(r"\s*\(`[^`]*`[^)]*\)", "", raw)   # file paths stay off the public page
+        raw = re.sub(r"`[^`]*`", "", raw)
+        m = re.search(r"\s--\s([A-Za-z]{3,9}\s+\d{1,2})\s*(\(([^)]*)\))?\s*$", raw)
         wdate, team = None, ""
         text = raw
         if m:
@@ -170,6 +176,7 @@ def build(today):
     projects = load_projects(today)
     workon = load_workon()
     feed = load_feed()
+    fresh = str(feed.get("_updated", "")) == today.isoformat()
 
     # cover line: a warm one-liner summarizing the state of things
     n_week = len(wk_wins)
@@ -203,6 +210,12 @@ def build(today):
         "headlines": feed.get("headlines", []),
         "feedNews": feed.get("feedNews", []),
         "wordCloud": feed.get("wordCloud", []),
+        "frontier": feed.get("frontier"),
+        # the daily pieces only show on the day they were written, never a day late
+        "hook": feed.get("hook") if fresh else None,
+        "lead": feed.get("lead") if fresh else None,
+        "graph": feed.get("graph") if fresh else None,
+        "argue": feed.get("argue") if fresh else None,
         "closeLine": feed.get("closeLine", "Open something. The drop is data."),
         "closeSub": feed.get("closeSub",
                              "Tap through anytime — the briefing rebuilds itself each morning."),
@@ -228,5 +241,6 @@ if __name__ == "__main__":
     print(f"  work-on picks  : {len(d['workOn'])}")
     print(f"  headlines      : {len(d['headlines'])}")
     print(f"  feed news      : {len(d['feedNews'])}")
+    print(f"  frontier items : {len((d.get('frontier') or {}).get('items', []))}")
     print(f"  word cloud     : {len(d['wordCloud'])}")
     print(f"  -> {OUT}")
