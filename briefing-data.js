@@ -1,13 +1,35 @@
 window.BRIEFING = {
-  "date": "2026-11-14",
-  "builtAt": "2026-11-14",
-  "dayName": "Saturday",
-  "dateLong": "November 14, 2026",
-  "coverLine": "3 things shipped this week. 5 projects in motion.",
-  "yesterdayLabel": "Friday",
-  "yesterday": [],
-  "weekWinCount": 3,
+  "date": "2026-11-15",
+  "builtAt": "2026-11-15",
+  "dayName": "Sunday",
+  "dateLong": "November 15, 2026",
+  "coverLine": "6 things shipped this week. 5 projects in motion.",
+  "yesterdayLabel": "Saturday",
+  "yesterday": [
+    {
+      "text": "Planned the Mixing Coach: a read-only Logic mixing coach for the iMac that analyzes exported stems and teaches three measured fixes per pass",
+      "team": ""
+    },
+    {
+      "text": "Created the mixing-coach project folder and PLAN.md with endpoint, architecture, phases and risks",
+      "team": ""
+    },
+    {
+      "text": "Closed the ESL flowers card live-round check and swapped Mixing Coach in as a P1",
+      "team": ""
+    }
+  ],
+  "weekWinCount": 6,
   "weekHighlights": [
+    {
+      "text": "Planned the Mixing Coach: a read-only Logic mixing coach for the iMac that analyzes exported stems and teaches three me…"
+    },
+    {
+      "text": "Created the mixing-coach project folder and PLAN.md with endpoint, architecture, phases and risks"
+    },
+    {
+      "text": "Closed the ESL flowers card live-round check and swapped Mixing Coach in as a P1"
+    },
     {
       "text": "Added an Add with Claude button to Polyglot Word Web: a search with no match offers to have Claude add the word to all…"
     },
@@ -55,306 +77,290 @@ window.BRIEFING = {
   "workOn": [
     {
       "verb": "Reuse",
-      "title": "BTOT vibecoding talk",
-      "action": "Pull two or three slides into Tuesday's KRAMOS workshop deck."
+      "title": "Idioms Meet Venn Circles",
+      "action": "Feed these idioms into the Venn Diagram Generator for ESL."
     },
     {
-      "verb": "Reuse",
-      "title": "12 Bar Blues Rubric",
-      "action": "Model the 50-point final project draft rubric on this layout."
+      "verb": "Revisit",
+      "title": "AI Film Composers Clip",
+      "action": "Rewatch it as a discussion opener for the AI statement."
     }
   ],
   "headlines": [
     {
-      "title": "Google tells schools: keep AI in Search or lose Search",
-      "blurb": "NPR reports schools that turn off AI Overviews for students will lose Google Search altogether, as Los Angeles, Seattle and New York City districts adopt classroom AI bans.",
-      "why": "It is the clearest case yet of a vendor, not a faculty, deciding whether AI is in the classroom.",
-      "link": "https://text.npr.org/nx-s1-6029408"
+      "title": "Jensen Huang resigns as Nvidia's chief executive, effective immediately",
+      "blurb": "Nvidia's Nov. 12 filing names CFO Colette Kress interim CEO and Harvey C. Jones the board's first chair, five days before Nov. 17 earnings; it gives no reason.",
+      "why": "The company that sells most of the chips AI runs on lost its founder overnight, which matters to anyone advising schools on AI costs and vendors.",
+      "link": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
     },
     {
-      "title": "Trump, Xi and Putin to hold a first three-way meeting on nuclear weapons",
-      "blurb": "The White House says the leaders will meet next week on the sidelines of the APEC summit in China; officials do not expect an agreement, and Beijing and Moscow have not confirmed.",
-      "why": "The last US and Russia arms treaty expired in February, so this is the first leader-level talk on what replaces it.",
-      "link": "https://lite.cnn.com/2026/11/13/politics/trump-putin-xi-meeting"
+      "title": "U.S. has lost its measles elimination status, health authorities say",
+      "blurb": "NPR reports the Pan American Health Organization concluded measles is spreading regularly again in the U.S., with more than 8,000 cases in two years and a public announcement planned for Nov. 17.",
+      "why": "Campus health rules for international students and touring musicians may tighten, and it is a live case study in how public trust shapes policy.",
+      "link": "https://text.npr.org/nx-s1-6041119"
     },
     {
-      "title": "U2's new album ends with Dolly Parton's last recording",
-      "blurb": "Carnaval de Luz, the band's 16th studio album, closes with Torn, a duet with Bono that Parton co-wrote and recorded in Nashville in June.",
-      "why": "A co-write across country and rock, finished in one session, is a ready listening example for a songwriting or arranging class.",
-      "link": "https://lite.cnn.com/2026/11/13/entertainment/dolly-parton-u2-torn-released-intl-scli"
+      "title": "Fuel prices and protests pressure Chile's president",
+      "blurb": "Truckers blockaded two major highways until President José Antonio Kast's government agreed to send Congress a bill reversing fuel price rises; his approval is at 24% after about eight months.",
+      "why": "A fast-moving world politics story with clear vocabulary (blockade, approval rating, reversal) for an upper-level ESL news discussion.",
+      "link": "https://text.npr.org/nx-s1-6040144"
     }
   ],
   "feedNews": [
     {
-      "source": "Andrew Huang",
-      "title": "The most innovative music tools of the year",
-      "blurb": "His annual roundup of new instruments and controllers, made with The MIDI Association; a quick way to see what gear students will ask about.",
-      "link": "https://www.youtube.com/watch?v=tJOmw4eM2HI"
-    },
-    {
-      "source": "Two Minute Papers",
-      "title": "Funkiest Teams meeting EVER (Surprise video)",
-      "blurb": "The AI-paper explainer put out a funk song with a full band instead of a paper, and shares the guitar tab for anyone who wants to cover it.",
-      "link": "https://www.youtube.com/watch?v=x7iwI6WfWS0"
-    },
-    {
       "source": "Inside Higher Ed",
-      "title": "Florida University System Punts on Restoring Admission for Some Noncitizens",
-      "blurb": "The board for Florida's 12 public universities postponed a decision on a narrow exception to its rule barring undocumented students.",
-      "link": "https://www.insidehighered.com/news/governance/trustees-regents/2026/11/13/florida-university-system-punts-admission-noncitizens"
+      "title": "One City's Game Plan to Retain International Students",
+      "blurb": "More than 100 Philadelphia-area college, nonprofit and business leaders met on how to keep international students in the city as federal work pathways narrow; relevant to ESL students weighing life after graduation.",
+      "link": "https://www.insidehighered.com/news/global/international-students-us/2026/11/13/one-citys-game-plan-retain-international-students"
     },
     {
-      "source": "Andrew Huang",
-      "title": "Playable LEGO xylophone!",
-      "blurb": "A new short: a working xylophone built from LEGO, a possible 60-second opener for a LENS class.",
-      "link": "https://www.youtube.com/shorts/YuXrm0q8Yfw"
+      "source": "Robin Sloan",
+      "title": "Dragoncatcher: The new software distribution",
+      "blurb": "He argues plain-language instructions that an AI agent carries out are becoming the new installer, a neat framing for anyone who writes READMEs or class setup sheets.",
+      "link": "https://www.robinsloan.com/lab/new-distribution/"
     },
     {
       "source": "Simon Willison",
-      "title": "datasette-cluster-map 0.19",
-      "blurb": "An update to his plugin that turns any table with latitude and longitude into a clustered map, shown with a map of PG&E power plants.",
-      "link": "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/"
+      "title": "datasette-llm 0.1a11",
+      "blurb": "His Datasette LLM plugin now talks to any OpenAI-compatible endpoint, so it can use local models running in Ollama, LM Studio or llama.cpp.",
+      "link": "https://simonwillison.net/2026/Nov/14/datasette-llm/"
+    },
+    {
+      "source": "Simon Willison",
+      "title": "datasette-vega 0.7",
+      "blurb": "The first release since 2018 of his chart plugin, now working in the browser-only Datasette Lite, so a table becomes a chart with nothing installed.",
+      "link": "https://simonwillison.net/2026/Nov/14/datasette-vega/"
+    },
+    {
+      "source": "Marc Rebillet",
+      "title": "LIVE LAUGH LOVE",
+      "blurb": "A new full-length live-looping video, built in real time from voice and keys.",
+      "link": "https://www.youtube.com/watch?v=9gKuakzT0Ok"
     }
   ],
   "wordCloud": [
     {
-      "text": "Innovative Music",
+      "text": "City Game",
       "weight": 5
     },
     {
-      "text": "Funkiest Teams",
+      "text": "Retain International",
       "weight": 5
     },
     {
-      "text": "Ever Surprise",
+      "text": "Software Distribution",
       "weight": 5
     },
     {
-      "text": "Florida University",
+      "text": "Live Laugh",
       "weight": 5
-    },
-    {
-      "text": "Restoring Admission",
-      "weight": 5
-    },
-    {
-      "text": "Playable Lego",
-      "weight": 5
-    },
-    {
-      "text": "Midi Association",
-      "weight": 3
-    },
-    {
-      "text": "Working Xylophone",
-      "weight": 3
-    },
-    {
-      "text": "Clustered Map",
-      "weight": 3
-    },
-    {
-      "text": "Power Plants",
-      "weight": 3
-    },
-    {
-      "text": "Tools",
-      "weight": 3
-    },
-    {
-      "text": "Year",
-      "weight": 3
     },
     {
       "text": "Students",
+      "weight": 5
+    },
+    {
+      "text": "AI Agent",
       "weight": 3
     },
     {
-      "text": "Meeting",
+      "text": "Datasette Llm",
       "weight": 3
     },
     {
-      "text": "System",
+      "text": "Openai-compatible Endpoint",
       "weight": 3
     },
     {
-      "text": "Punts",
+      "text": "Release Since",
       "weight": 3
     },
     {
-      "text": "Noncitizens",
+      "text": "Chart Plugin",
       "weight": 3
     },
     {
-      "text": "Datasette-cluster-map",
+      "text": "Real Time",
       "weight": 3
     },
     {
-      "text": "Annual",
+      "text": "Plan",
+      "weight": 3
+    },
+    {
+      "text": "Dragoncatcher",
+      "weight": 3
+    },
+    {
+      "text": "Datasette-llm",
+      "weight": 3
+    },
+    {
+      "text": "Datasette-vega",
+      "weight": 3
+    },
+    {
+      "text": "Love",
+      "weight": 3
+    },
+    {
+      "text": "Philadelphia-area",
       "weight": 1
     },
     {
-      "text": "Roundup",
+      "text": "College",
       "weight": 1
     },
     {
-      "text": "Instruments",
+      "text": "Nonprofit",
       "weight": 1
     },
     {
-      "text": "Controllers",
+      "text": "Business",
       "weight": 1
     },
     {
-      "text": "Quick",
+      "text": "Leaders",
       "weight": 1
     },
     {
-      "text": "See",
+      "text": "Met",
+      "weight": 1
+    },
+    {
+      "text": "Keep",
+      "weight": 1
+    },
+    {
+      "text": "Federal",
       "weight": 1
     }
   ],
   "frontier": {
     "items": [
       {
-        "source": "Hugging Face Blog / Ai2",
-        "title": "XYBench: models can spot the helpful answer but rarely write it",
-        "explainer": "An XY problem is when someone wants X, assumes method Y will get them there, and asks only about Y. XYBench is a set of 8,115 such questions that checks whether an assistant notices the mistaken assumption and steers toward the real goal. On its Stack Overflow questions, five models made the real goal the focus of their answer 35 to 41% of the time, yet picked the goal-focused answer 71 to 84% of the time when shown two to choose from.",
-        "why": "Students ask XY questions all day, and a tutor bot that answers the literal question is the default behavior unless you prompt against it.",
-        "link": "https://huggingface.co/blog/allenai/xybench"
+        "source": "Education Week / Stanford AI Hub for Education",
+        "title": "52 real tests out of 1,686 papers: what the evidence on AI and learning says",
+        "explainer": "Stanford's AI Hub for Education reviewed the 52 randomized controlled trials and quasi-experimental studies in its repository of 1,686 papers on AI in education. A randomized trial assigns students to use a tool or not by chance, so differences in learning can be traced to the tool. Across the 52, students who used AI for support, such as explanations or practice problems, generally learned more than students who used it to complete their work, though neither use was consistently positive.",
+        "why": "It gives a teacher one evidence-backed rule for designing AI use: point the tool at practice and explanation, not at producing the graded work.",
+        "link": "https://www.edweek.org/technology/is-ai-good-or-bad-for-learning-the-answer-isnt-so-simple/2026/11"
       },
       {
-        "source": "Latent Space / slopmanifesto.com",
-        "title": "The No AI Slop Manifesto",
-        "explainer": "Speakers and attendees of the AI Engineer Code Summit wrote a manifesto modeled on the 2001 Agile Manifesto. It defines slop as putting less effort into producing something than you ask the reader to spend understanding it, and says using AI does not by itself make work slop. Its resolutions include labeling agent-written text, checking the parts that matter before sending, and telling a colleague kindly when they send you slop.",
-        "why": "The definition is about effort, not about AI, so it works as a classroom norm and as a one-page starting point for a team policy.",
-        "link": "https://slopmanifesto.com"
+        "source": "Hugging Face Blog / IBM Granite",
+        "title": "LLMON: a markup language built into the model to separate instructions from data",
+        "explainer": "IBM released preview Granite 4.1 models (3B and 8B) trained on LLMON, a markup format whose six structural delimiters are reserved special tokens that never appear in ordinary text. Every block of instructions, data or requirements gets an ID, and an exec block says which instructions apply to which data, much like passing arguments to a function. IBM reports it resists prompt injection, where text inside a document hijacks the model, far better than plain prompts, though these are IBM's own benchmarks on experimental models.",
+        "why": "Any AI tool that reads student work, email or web pages can be steered by hidden text in that content, and this is the first serious attempt to fix it inside the model rather than in the prompt.",
+        "link": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
       },
       {
-        "source": "OpenAI News",
-        "title": "ChatGPT Wallet lets agents buy things with your approval",
-        "explainer": "OpenAI describes Wallet as a way for its agents to complete purchases with user approval and existing card protections. Latent Space reports the agent never sees the card number and that it works through Amex, Mastercard and Visa. In plain words: the assistant can now finish the checkout, and the person approves the charge.",
-        "why": "Once an agent can spend, the question for a school or client shifts from what it can write to what it is allowed to approve.",
-        "link": "https://openai.com/index/introducing-chatgpt-wallet"
+        "source": "Nick Potkalitsky, Educating AI",
+        "title": "AI is getting weird again",
+        "explainer": "Potkalitsky argues that the open question about AI has shifted from what the systems are to whether they can speed up their own development, a process called recursive self-improvement. He points to an Anthropic report saying Claude wrote more than 80% of the code merged into its production codebase by May 2026, while Pew polling shows public concern stuck at 52% since 2023. His point is that insiders may notice a change well before the public or schools do.",
+        "why": "It is a clear, sourced way to explain to faculty why AI guidance written a year ago may already be out of date.",
+        "link": "https://nickpotkalitsky.substack.com/p/ai-is-getting-weird-again"
       }
     ],
     "tryThisWeek": {
-      "title": "Ask the question behind the question",
-      "steps": "Paste three real questions students asked you last week into your AI assistant, exactly as asked, and note whether it answers the literal question or the real goal. Then add one line (\"Before you answer, say what I am probably trying to achieve, and if my approach is not the best way, lead with the better way\") and run them again. It takes about 20 minutes and shows you what a student gets by default.",
-      "link": "https://huggingface.co/blog/allenai/xybench"
+      "title": "Move one AI task from doing to practicing",
+      "steps": "Pick one assignment where students now use AI to produce part of the work. Rewrite the AI step so the tool only explains a concept or generates five practice items, and students write the graded piece themselves. Ask them afterward which version helped them remember more.",
+      "link": "https://www.edweek.org/technology/is-ai-good-or-bad-for-learning-the-answer-isnt-so-simple/2026/11"
     },
     "policy": null
   },
-  "hook": "AI models can pick the helpful answer out of two most of the time. How often do they write it themselves?",
+  "hook": "Out of 1,686 research papers on AI in education, how many actually tested whether an AI tool helped students learn?",
   "lead": {
     "kicker": "The story",
-    "title": "It knows the better answer. It gives you the other one.",
-    "dek": "A new benchmark shows AI models usually recognize the answer that solves your real problem, then write the one that answers your literal question instead.",
+    "title": "Thousands of papers, a handful of tests",
+    "dek": "A Stanford review finds that only 52 of 1,686 papers on AI in education tested whether a specific use changed learning, and the answer depends on how students used it.",
     "paragraphs": [
-      "Programmers call it the XY problem. You want X, you assume Y will get you there, and you ask only about Y. Someone with weak vacuum suction asks which stronger vacuum to buy, when the hose is clogged. Researchers at Ai2, with colleagues at Carnegie Mellon, NVIDIA and Johns Hopkins, built XYBench to test whether AI assistants catch this: 8,115 questions, most generated from WikiHow guides and about 1,700 taken from Stack Overflow and Stack Exchange, where human experts had already answered the question behind the question.",
-      "On the Stack Overflow questions, five models (Claude Sonnet 4.6, GPT-5, Gemini 3.1 Pro, Qwen3.5-9B and DeepSeek-V4 Pro) made the real goal the main focus of their answer only 35 to 41% of the time. They focused on the literal request 47 to 57% of the time. A fix for the real problem often appeared somewhere in the answer, but as a passing mention.",
-      "Then the researchers showed the models two finished answers, one literal and one that named the misconception. The models chose the goal-focused answer 71 to 84% of the time. So the knowledge is there. Even telling one model the user's real goal outright helped only a little: its goal solutions rose from 59 to 67%, and it flagged the misconception less often, 34% against 47%."
+      "Stanford's AI Hub for Education keeps a repository of research on generative AI in schools and colleges. Of the 1,686 papers in it, only 52 tested the impact of a specific intervention, using randomized controlled trials or quasi-experimental designs. The Hub's new review of those 52, reported by Education Week on Nov. 10, updates a similar review from March. Only 10 of the 52 were done with U.S. K-12 students or educators.",
+      "The clearest pattern is about use, not tools. When students used generative AI for learning support, such as explanations of concepts or practice problems, learning gains were generally better than when they used it to complete their work. Neither use produced consistent positive results across studies. Teacher use could raise the quantity and quality of feedback, though at least one study found it lowered student motivation and confidence.",
+      "The thin base is also a quality problem. In a separate Education Week story on Nov. 2, Patrick O'Neill of Ivy Tech Community College described his audit of 14 meta-analyses, drawn from nearly 40 that concluded AI improves learning; all 14 failed basic research standards, such as pooling different populations and measures. Those papers have been cited more than 3,000 times, and one in Nature was retracted a year after it appeared. Susanna Loeb, a Stanford education professor and an author of the review, put it plainly: \"There is plenty of evidence that unless carefully used, these tools can reduce learning.\""
     ],
-    "against": "The judge was another AI model, and on the key measure (which request the answer emphasizes) two human reviewers agreed with it only 74 to 80% of the time. The models tested are not the newest, and they got one turn with no chance to ask a clarifying question. Sometimes the person asking really does want Y, and an assistant that second-guesses every request is its own kind of bad.",
-    "watch": "Whether the newest models close the gap between choosing and writing, and whether tutoring products start reporting a score on this instead of on right answers.",
-    "ask": "When a student asks you how to make an essay longer, you hear the real question. Which of your assignments would an AI tutor quietly answer the wrong way?",
-    "source": "Ai2 on the Hugging Face Blog",
-    "link": "https://huggingface.co/blog/allenai/xybench"
+    "against": "Fifty-two rigorous studies in under four years is fast for education research, and the support-versus-completion pattern matches decades of learning science on practice and explanation. Waiting for a complete evidence base means teachers decide with no evidence at all.",
+    "watch": "Whether the Hub's next update adds more U.S. classroom trials, and whether AI vendors start publishing controlled studies instead of usage counts.",
+    "ask": "In your ESL and LENS classes, which AI uses are support and which are completion, and which one could you move to the support side this week?",
+    "source": "Education Week",
+    "link": "https://www.edweek.org/technology/is-ai-good-or-bad-for-learning-the-answer-isnt-so-simple/2026/11"
   },
   "graph": {
     "kicker": "Graph of the day",
-    "title": "Knowing the better answer is not writing it",
-    "tease": "Ai2's XYBench asked AI models questions built on a mistaken assumption, like which stronger vacuum to buy when the hose is clogged. First test: shown two finished answers, how often did a model choose the one that solves the real problem?",
-    "question": "Now the models write their own answers. How often does the real problem become the main focus?",
+    "title": "A big pile of research, a small stack of tests",
+    "tease": "Stanford's AI Hub for Education collects research on generative AI in teaching and learning. Its November update draws on a repository of 1,686 papers, up from more than 800 studies in its earlier 2026 review.",
+    "question": "How many of the 1,686 papers actually tested whether a specific AI use changed learning?",
     "choices": [
       {
-        "label": "About as often, 70 to 85%"
+        "label": "About 600, roughly a third"
       },
       {
-        "label": "A bit over half, 55 to 60%"
+        "label": "About 250, roughly one in seven"
       },
       {
-        "label": "About a third, 35 to 41%",
+        "label": "52, about 3 in 100",
         "correct": true
       }
     ],
     "panels": [
       {
-        "label": "Chose the goal-focused answer when shown two (six models)",
-        "unit": "% of questions",
-        "max": 100,
+        "label": "Papers and studies the reviews drew on",
+        "unit": "papers",
+        "max": 1686,
         "hidden": false,
         "bars": [
           {
-            "name": "Highest model",
-            "value": 84,
-            "display": "84%",
-            "voice": "a"
+            "name": "Earlier 2026 review",
+            "value": 800,
+            "display": "800+",
+            "voice": "b"
           },
           {
-            "name": "Lowest model",
-            "value": 71,
-            "display": "71%",
-            "voice": "b"
+            "name": "November update",
+            "value": 1686,
+            "display": "1,686",
+            "voice": "a"
           }
         ]
       },
       {
-        "label": "Wrote an answer focused on the real goal (five models)",
-        "unit": "% of answers",
-        "max": 100,
+        "label": "Studies with a strong test of whether AI changed learning",
+        "unit": "papers",
+        "max": 1686,
         "hidden": true,
         "bars": [
           {
-            "name": "Highest model",
-            "value": 41,
-            "display": "41%",
-            "voice": "a"
+            "name": "Earlier 2026 review",
+            "value": 20,
+            "display": "20",
+            "voice": "b"
           },
           {
-            "name": "Lowest model",
-            "value": 35,
-            "display": "35%",
-            "voice": "b"
-          }
-        ]
-      },
-      {
-        "label": "Wrote an answer focused on the literal request (five models)",
-        "unit": "% of answers",
-        "max": 100,
-        "hidden": true,
-        "bars": [
-          {
-            "name": "Highest model",
-            "value": 57,
-            "display": "57%",
+            "name": "November update",
+            "value": 52,
+            "display": "52",
             "voice": "a"
-          },
-          {
-            "name": "Lowest model",
-            "value": 47,
-            "display": "47%",
-            "voice": "b"
           }
         ]
       }
     ],
-    "reveal": "About a third: 35 to 41%, while the literal request got the focus 47 to 57% of the time. A multiple-choice test would have said these models understand what people need, and their own writing says otherwise.",
-    "caveat": "Stack Overflow questions only, one reply per question, scored by an AI judge that humans agreed with 74 to 80% of the time on emphasis. The source gives ranges across models, not each model's score, and the choosing test included one extra model.",
+    "reveal": "Just 52 of 1,686, about 3 percent, and the earlier review found 20 out of more than 800. When someone cites the research on AI and learning, ask how many studies actually tested the thing.",
+    "caveat": "Counts as reported by Education Week on Nov. 2 and Nov. 10, 2026; the reviews themselves were not read at the source. The earlier figure is a floor (more than 800), and each review used its own inclusion rules.",
     "sources": [
       {
-        "label": "Ai2, XYBench (Hugging Face Blog, Nov 13, 2026)",
-        "link": "https://huggingface.co/blog/allenai/xybench"
+        "label": "Education Week, Is AI Good or Bad for Learning? (Nov. 10, 2026)",
+        "link": "https://www.edweek.org/technology/is-ai-good-or-bad-for-learning-the-answer-isnt-so-simple/2026/11"
+      },
+      {
+        "label": "Education Week, The Research on AI in Education Is a Mess (Nov. 2, 2026)",
+        "link": "https://edweek.org/technology/the-research-on-ai-in-education-is-a-mess/2026/11"
       }
     ]
   },
   "argue": {
     "kicker": "Argue with this",
-    "claim": "A college that spends more on catching AI misuse than on redesigning assignments is paying for the wrong thing.",
-    "context": "Adam Zolkover of Haverford College argues that AI has to earn its place in a course, and that integrity rules only work when paired with funded assignment redesign and licenses the institution pays for.",
-    "source": "Online Learning Consortium",
-    "link": "https://onlinelearningconsortium.org/olc-insights/2026/11/make-ai-pull-its-weight-in-class/"
+    "claim": "A school that adopts AI because it feels inevitable has already let the vendor set its teaching priorities.",
+    "context": "Audrey Watters argues that resistance to AI is real and growing, that ed-tech has long embedded its backers' priorities in schools, and that institutions should put people rather than machines at their center.",
+    "source": "Audrey Watters, Second Breakfast",
+    "link": "https://2ndbreakfast.audreywatters.com/the-work-ahead/"
   },
   "closeLine": "Better than your scroll today?",
   "closeSub": "Tell me what to keep, cut or double. The brief changes every week based on your answer."
