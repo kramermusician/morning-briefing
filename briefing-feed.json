@@ -36,6 +36,12 @@
       "link": "https://www.insidehighered.com/news/global/international-students-us/2026/11/13/one-citys-game-plan-retain-international-students"
     },
     {
+      "source": "Inside Higher Ed",
+      "title": "Florida University System Punts on Restoring Admission for Some Noncitizens",
+      "blurb": "Florida's public university system put off a decision on reopening admission for some noncitizen students, a reminder of how fast state rules can change for international applicants.",
+      "link": "https://www.insidehighered.com/news/governance/trustees-regents/2026/11/13/florida-university-system-punts-admission-noncitizens"
+    },
+    {
       "source": "Robin Sloan",
       "title": "Dragoncatcher: The new software distribution",
       "blurb": "He argues plain-language instructions that an AI agent carries out are becoming the new installer, a neat framing for anyone who writes READMEs or class setup sheets.",
@@ -48,10 +54,10 @@
       "link": "https://simonwillison.net/2026/Nov/14/datasette-llm/"
     },
     {
-      "source": "Simon Willison",
-      "title": "datasette-vega 0.7",
-      "blurb": "The first release since 2018 of his chart plugin, now working in the browser-only Datasette Lite, so a table becomes a chart with nothing installed.",
-      "link": "https://simonwillison.net/2026/Nov/14/datasette-vega/"
+      "source": "Andrew Huang",
+      "title": "The most innovative music tools of the year",
+      "blurb": "A new video rounding up the year's most inventive instruments and music tools, useful fodder for a LENS class on how gear shapes what people play.",
+      "link": "https://www.youtube.com/watch?v=tJOmw4eM2HI"
     },
     {
       "source": "Marc Rebillet",
@@ -64,68 +70,92 @@
   "closeSub": "Tell me what to keep, cut or double. The brief changes every week based on your answer.",
   "wordCloud": [
     {
-      "text": "City Game",
-      "weight": 5
-    },
-    {
-      "text": "Retain International",
-      "weight": 5
-    },
-    {
-      "text": "Software Distribution",
-      "weight": 5
-    },
-    {
-      "text": "Live Laugh",
-      "weight": 5
-    },
-    {
       "text": "Students",
       "weight": 5
     },
     {
+      "text": "City Game",
+      "weight": 4
+    },
+    {
+      "text": "Retain International",
+      "weight": 4
+    },
+    {
+      "text": "Florida University",
+      "weight": 4
+    },
+    {
+      "text": "Restoring Admission",
+      "weight": 4
+    },
+    {
+      "text": "Software Distribution",
+      "weight": 4
+    },
+    {
+      "text": "Innovative Music",
+      "weight": 4
+    },
+    {
+      "text": "Live Laugh",
+      "weight": 4
+    },
+    {
+      "text": "System",
+      "weight": 4
+    },
+    {
+      "text": "Tools",
+      "weight": 4
+    },
+    {
+      "text": "Year",
+      "weight": 4
+    },
+    {
       "text": "AI Agent",
-      "weight": 3
+      "weight": 2
     },
     {
       "text": "Datasette Llm",
-      "weight": 3
+      "weight": 2
     },
     {
       "text": "Openai-compatible Endpoint",
-      "weight": 3
+      "weight": 2
     },
     {
-      "text": "Release Since",
-      "weight": 3
-    },
-    {
-      "text": "Chart Plugin",
-      "weight": 3
+      "text": "Inventive Instruments",
+      "weight": 2
     },
     {
       "text": "Real Time",
-      "weight": 3
+      "weight": 2
     },
     {
       "text": "Plan",
-      "weight": 3
+      "weight": 2
+    },
+    {
+      "text": "Punts",
+      "weight": 2
+    },
+    {
+      "text": "Noncitizens",
+      "weight": 2
     },
     {
       "text": "Dragoncatcher",
-      "weight": 3
+      "weight": 2
     },
     {
       "text": "Datasette-llm",
-      "weight": 3
-    },
-    {
-      "text": "Datasette-vega",
-      "weight": 3
+      "weight": 2
     },
     {
       "text": "Love",
-      "weight": 3
+      "weight": 2
     },
     {
       "text": "Philadelphia-area",
@@ -133,30 +163,6 @@
     },
     {
       "text": "College",
-      "weight": 1
-    },
-    {
-      "text": "Nonprofit",
-      "weight": 1
-    },
-    {
-      "text": "Business",
-      "weight": 1
-    },
-    {
-      "text": "Leaders",
-      "weight": 1
-    },
-    {
-      "text": "Met",
-      "weight": 1
-    },
-    {
-      "text": "Keep",
-      "weight": 1
-    },
-    {
-      "text": "Federal",
       "weight": 1
     }
   ],
