@@ -1,26 +1,21 @@
 window.BRIEFING = {
-  "date": "2026-11-15",
-  "builtAt": "2026-11-15",
-  "dayName": "Sunday",
-  "dateLong": "November 15, 2026",
-  "coverLine": "6 things shipped this week. 5 projects in motion.",
-  "yesterdayLabel": "Saturday",
+  "date": "2026-11-16",
+  "builtAt": "2026-11-16",
+  "dayName": "Monday",
+  "dateLong": "November 16, 2026",
+  "coverLine": "7 things shipped this week. 6 projects in motion.",
+  "yesterdayLabel": "Sunday",
   "yesterday": [
     {
-      "text": "Planned the Mixing Coach: a read-only Logic mixing coach for the iMac that analyzes exported stems and teaches three measured fixes per pass",
-      "team": ""
-    },
-    {
-      "text": "Created the mixing-coach project folder and PLAN.md with endpoint, architecture, phases and risks",
-      "team": ""
-    },
-    {
-      "text": "Closed the ESL flowers card live-round check and swapped Mixing Coach in as a P1",
+      "text": "Model routing: subagents and capture lanes default to Sonnet, Opus kept for judgment; SOPs/Model_Routing_SOP.md",
       "team": ""
     }
   ],
-  "weekWinCount": 6,
+  "weekWinCount": 7,
   "weekHighlights": [
+    {
+      "text": "Model routing: subagents and capture lanes default to Sonnet, Opus kept for judgment; SOPs/Model_Routing_SOP.md"
+    },
     {
       "text": "Planned the Mixing Coach: a read-only Logic mixing coach for the iMac that analyzes exported stems and teaches three me…"
     },
@@ -35,9 +30,6 @@ window.BRIEFING = {
     },
     {
       "text": "Built a one-image KRAMOS voice-memo workflow diagram for colleagues: phone, Dropbox, computer, watcher, Whisper, Claude…"
-    },
-    {
-      "text": "Built Past Tense Cats for ESL1 from a voice memo: 100 verbs, past form plus -ed sound (t, d, id), cat animations, linke…"
     }
   ],
   "projects": [
@@ -62,6 +54,11 @@ window.BRIEFING = {
       "next": "Define the next step"
     },
     {
+      "name": "Juggle Words",
+      "status": "on-track",
+      "next": "Define the next step"
+    },
+    {
       "name": "Solo Looping / Live Performance",
       "status": "paused",
       "next": "Lock setlist (4-6 loop-friendly tunes)"
@@ -76,297 +73,297 @@ window.BRIEFING = {
   "twoWeeks": [],
   "workOn": [
     {
-      "verb": "Reuse",
-      "title": "Idioms Meet Venn Circles",
-      "action": "Feed these idioms into the Venn Diagram Generator for ESL."
+      "verb": "Revise",
+      "title": "Prepositions Collocations Quiz 2",
+      "action": "Add the among/between/through/around Cavalry GIFs as picture prompts."
     },
     {
-      "verb": "Revisit",
-      "title": "AI Film Composers Clip",
-      "action": "Rewatch it as a discussion opener for the AI statement."
+      "verb": "Connect",
+      "title": "6/8 Rhythm Packet",
+      "action": "Turn three 6/8 patterns into Jam Box preset grooves."
     }
   ],
   "headlines": [
     {
-      "title": "Jensen Huang resigns as Nvidia's chief executive, effective immediately",
-      "blurb": "Nvidia's Nov. 12 filing names CFO Colette Kress interim CEO and Harvey C. Jones the board's first chair, five days before Nov. 17 earnings; it gives no reason.",
-      "why": "The company that sells most of the chips AI runs on lost its founder overnight, which matters to anyone advising schools on AI costs and vendors.",
-      "link": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
+      "title": "Xi, Trump and Putin to meet together for the first time, in Shenzhen on Thursday",
+      "blurb": "China's Foreign Ministry confirmed the three-way meeting on the sidelines of APEC; nuclear arms, Iran, trade and Ukraine are in play, though analysts expect little concrete.",
+      "why": "A rare three-power meeting is a ready-made discussion topic for upper-level ESL news reading and a backdrop to chip and tariff costs that shape AI budgets.",
+      "link": "https://www.cnbc.com/2026/11/16/trump-xi-putin-ukraine-nuclear-tariffs-russia-iran-.html"
     },
     {
-      "title": "U.S. has lost its measles elimination status, health authorities say",
-      "blurb": "NPR reports the Pan American Health Organization concluded measles is spreading regularly again in the U.S., with more than 8,000 cases in two years and a public announcement planned for Nov. 17.",
-      "why": "Campus health rules for international students and touring musicians may tighten, and it is a live case study in how public trust shapes policy.",
-      "link": "https://text.npr.org/nx-s1-6041119"
+      "title": "Leaders at the Manila ASEAN summit look for trade partners beyond the US",
+      "blurb": "Carney, Lula and Albanese opened the summit seeking deals that hedge against US tariffs, and ASEAN reports major progress with China on a South China Sea code of conduct due in 2027.",
+      "why": "Many international musicians come from this region, and its trade shifts touch visas, touring and where students choose to study.",
+      "link": "https://unn.ua/en/news/world-leaders-at-the-summit-in-manila-seek-an-alternative-to-the-united-states-because-of-trumps-trade-policy-bloomberg"
     },
     {
-      "title": "Fuel prices and protests pressure Chile's president",
-      "blurb": "Truckers blockaded two major highways until President José Antonio Kast's government agreed to send Congress a bill reversing fuel price rises; his approval is at 24% after about eight months.",
-      "why": "A fast-moving world politics story with clear vocabulary (blockade, approval rating, reversal) for an upper-level ESL news discussion.",
-      "link": "https://text.npr.org/nx-s1-6040144"
+      "title": "University of Kentucky draft tech policy would bar all 'political activity' on campus devices and Wi-Fi",
+      "blurb": "The draft also bars posting to personal social media on university networks and says users have no expectation of privacy; feedback is open through the end of November.",
+      "why": "Acceptable-use rules like this are where future campus AI rules will live, so faculty should read them before they are final.",
+      "link": "https://www.insidehighered.com/news/faculty/academic-freedom/2026/11/16/kentucky-tech-policy-aims-restrict-political-activity"
     }
   ],
   "feedNews": [
     {
       "source": "Inside Higher Ed",
-      "title": "One City's Game Plan to Retain International Students",
-      "blurb": "More than 100 Philadelphia-area college, nonprofit and business leaders met on how to keep international students in the city as federal work pathways narrow; relevant to ESL students weighing life after graduation.",
-      "link": "https://www.insidehighered.com/news/global/international-students-us/2026/11/13/one-citys-game-plan-retain-international-students"
-    },
-    {
-      "source": "Inside Higher Ed",
-      "title": "Florida University System Punts on Restoring Admission for Some Noncitizens",
-      "blurb": "Florida's public university system put off a decision on reopening admission for some noncitizen students, a reminder of how fast state rules can change for international applicants.",
-      "link": "https://www.insidehighered.com/news/governance/trustees-regents/2026/11/13/florida-university-system-punts-admission-noncitizens"
-    },
-    {
-      "source": "Robin Sloan",
-      "title": "Dragoncatcher: The new software distribution",
-      "blurb": "He argues plain-language instructions that an AI agent carries out are becoming the new installer, a neat framing for anyone who writes READMEs or class setup sheets.",
-      "link": "https://www.robinsloan.com/lab/new-distribution/"
+      "title": "The Tao of 2 Cultures",
+      "blurb": "An essay using the yin-yang pattern to argue that humanities and sciences need each other, and what that means for how a liberal arts education is built.",
+      "link": "https://www.insidehighered.com/opinion/views/2026/11/16/tao-2-cultures-opinion"
     },
     {
       "source": "Simon Willison",
-      "title": "datasette-llm 0.1a11",
-      "blurb": "His Datasette LLM plugin now talks to any OpenAI-compatible endpoint, so it can use local models running in Ollama, LM Studio or llama.cpp.",
-      "link": "https://simonwillison.net/2026/Nov/14/datasette-llm/"
+      "title": "datasette 1.0a43",
+      "blurb": "Willison says he is leaning hard on Claude Fable 5.2 to clear the Datasette 1.0 milestone, now 53 percent complete; the headline feature is streaming CSV and TSV export.",
+      "link": "https://simonwillison.net/2026/Nov/15/datasette/"
     },
     {
-      "source": "Andrew Huang",
-      "title": "The most innovative music tools of the year",
-      "blurb": "A new video rounding up the year's most inventive instruments and music tools, useful fodder for a LENS class on how gear shapes what people play.",
-      "link": "https://www.youtube.com/watch?v=tJOmw4eM2HI"
+      "source": "Simon Willison",
+      "title": "datasette-maplibre 0.1a0",
+      "blurb": "A new map plugin pairing MapLibre GL with the free OpenFreeMap tile server, built mostly from a single prompt; a clean example of one-prompt tool building.",
+      "link": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/"
     },
     {
       "source": "Marc Rebillet",
       "title": "LIVE LAUGH LOVE",
-      "blurb": "A new full-length live-looping video, built in real time from voice and keys.",
+      "blurb": "A new video from the live-looping improviser, posted Sunday.",
       "link": "https://www.youtube.com/watch?v=9gKuakzT0Ok"
+    },
+    {
+      "source": "EdSurge",
+      "title": "For Special Education Teachers, \"Everydayness Is the Enemy\"",
+      "blurb": "Routine gives structure but can hide the student behind it; practical ways to break the cycle that carry over to any small-group or language classroom.",
+      "link": "https://www.edsurge.com/news/for-special-education-teachers-everydayness-is-the-enemy"
+    },
+    {
+      "source": "Inside Higher Ed",
+      "title": "Can We Agree on How Higher Education Should Change?",
+      "blurb": "Doug Lederman finds that reform prescriptions from across the ideological spectrum overlap more than the public sniping suggests.",
+      "link": "https://www.insidehighered.com/opinion/columns/tough-love/2026/11/16/can-we-agree-how-higher-education-should-change-column"
     }
   ],
   "wordCloud": [
     {
-      "text": "Students",
+      "text": "Live Laugh",
       "weight": 5
     },
     {
-      "text": "City Game",
-      "weight": 4
+      "text": "Special Education",
+      "weight": 5
     },
     {
-      "text": "Retain International",
-      "weight": 4
+      "text": "Higher Education",
+      "weight": 5
     },
     {
-      "text": "Florida University",
-      "weight": 4
+      "text": "Datasette",
+      "weight": 5
     },
     {
-      "text": "Restoring Admission",
-      "weight": 4
+      "text": "Yin-yang Pattern",
+      "weight": 3
     },
     {
-      "text": "Software Distribution",
-      "weight": 4
+      "text": "Liberal Arts",
+      "weight": 3
     },
     {
-      "text": "Innovative Music",
-      "weight": 4
+      "text": "Leaning Hard",
+      "weight": 3
     },
     {
-      "text": "Live Laugh",
-      "weight": 4
+      "text": "Claude Fable",
+      "weight": 3
     },
     {
-      "text": "System",
-      "weight": 4
+      "text": "Map Plugin",
+      "weight": 3
     },
     {
-      "text": "Tools",
-      "weight": 4
+      "text": "Free Openfreemap",
+      "weight": 3
     },
     {
-      "text": "Year",
-      "weight": 4
+      "text": "Live-looping Improviser",
+      "weight": 3
     },
     {
-      "text": "AI Agent",
-      "weight": 2
+      "text": "Student Behind",
+      "weight": 3
     },
     {
-      "text": "Datasette Llm",
-      "weight": 2
+      "text": "Ideological Spectrum",
+      "weight": 3
     },
     {
-      "text": "Openai-compatible Endpoint",
-      "weight": 2
+      "text": "Tao",
+      "weight": 3
     },
     {
-      "text": "Inventive Instruments",
-      "weight": 2
+      "text": "Cultures",
+      "weight": 3
     },
     {
-      "text": "Real Time",
-      "weight": 2
+      "text": "Built",
+      "weight": 3
     },
     {
-      "text": "Plan",
-      "weight": 2
-    },
-    {
-      "text": "Punts",
-      "weight": 2
-    },
-    {
-      "text": "Noncitizens",
-      "weight": 2
-    },
-    {
-      "text": "Dragoncatcher",
-      "weight": 2
-    },
-    {
-      "text": "Datasette-llm",
-      "weight": 2
+      "text": "Datasette-maplibre",
+      "weight": 3
     },
     {
       "text": "Love",
-      "weight": 2
+      "weight": 3
     },
     {
-      "text": "Philadelphia-area",
-      "weight": 1
+      "text": "Teachers",
+      "weight": 3
     },
     {
-      "text": "College",
+      "text": "Everydayness",
+      "weight": 3
+    },
+    {
+      "text": "Enemy",
+      "weight": 3
+    },
+    {
+      "text": "Agree",
+      "weight": 3
+    },
+    {
+      "text": "Change",
+      "weight": 3
+    },
+    {
+      "text": "Essay",
       "weight": 1
     }
   ],
   "frontier": {
     "items": [
       {
-        "source": "Education Week / Stanford AI Hub for Education",
-        "title": "52 real tests out of 1,686 papers: what the evidence on AI and learning says",
-        "explainer": "Stanford's AI Hub for Education reviewed the 52 randomized controlled trials and quasi-experimental studies in its repository of 1,686 papers on AI in education. A randomized trial assigns students to use a tool or not by chance, so differences in learning can be traced to the tool. Across the 52, students who used AI for support, such as explanations or practice problems, generally learned more than students who used it to complete their work, though neither use was consistently positive.",
-        "why": "It gives a teacher one evidence-backed rule for designing AI use: point the tool at practice and explanation, not at producing the graded work.",
-        "link": "https://www.edweek.org/technology/is-ai-good-or-bad-for-learning-the-answer-isnt-so-simple/2026/11"
+        "source": "OpenAI",
+        "title": "GPT-6 Astra helped build a candidate lattice definition of the Standard Model",
+        "explainer": "Physicists simulate particle physics by placing fields on a grid of points in spacetime, called a lattice, but the Standard Model's left-handed and right-handed particles have long resisted a clean lattice definition. Physicist Nathaniel Craig says he set the strategy and the model turned it into a concrete construction and a detailed proof, including a way to carry field configurations onto ever finer grids. Craig calls the result a candidate that is more an answer in principle than in practice.",
+        "why": "It is the clearest current example of a model doing the proof steps while a human expert sets direction and outside specialists check the work, a pattern worth showing any faculty group.",
+        "link": "https://openai.com/index/step-toward-defining-the-standard-model"
       },
       {
-        "source": "Hugging Face Blog / IBM Granite",
-        "title": "LLMON: a markup language built into the model to separate instructions from data",
-        "explainer": "IBM released preview Granite 4.1 models (3B and 8B) trained on LLMON, a markup format whose six structural delimiters are reserved special tokens that never appear in ordinary text. Every block of instructions, data or requirements gets an ID, and an exec block says which instructions apply to which data, much like passing arguments to a function. IBM reports it resists prompt injection, where text inside a document hijacks the model, far better than plain prompts, though these are IBM's own benchmarks on experimental models.",
-        "why": "Any AI tool that reads student work, email or web pages can be steered by hidden text in that content, and this is the first serious attempt to fix it inside the model rather than in the prompt.",
-        "link": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
+        "source": "myicor (Tom Solid)",
+        "title": "Claude Code Desktop sessions that message each other",
+        "explainer": "Tom Solid shows a setup where several Claude Code Desktop sessions, each with its own context, send messages to one another. It is a small multi-agent system: one session can hand a task to another and get a result back instead of one long conversation doing everything.",
+        "why": "Multi-session setups are what most organizations will ask about next, and this is a plain-language demo to point them to.",
+        "link": "https://www.youtube.com/watch?v=e_BiN-2AALA"
       },
       {
-        "source": "Nick Potkalitsky, Educating AI",
-        "title": "AI is getting weird again",
-        "explainer": "Potkalitsky argues that the open question about AI has shifted from what the systems are to whether they can speed up their own development, a process called recursive self-improvement. He points to an Anthropic report saying Claude wrote more than 80% of the code merged into its production codebase by May 2026, while Pew polling shows public concern stuck at 52% since 2023. His point is that insiders may notice a change well before the public or schools do.",
-        "why": "It is a clear, sourced way to explain to faculty why AI guidance written a year ago may already be out of date.",
-        "link": "https://nickpotkalitsky.substack.com/p/ai-is-getting-weird-again"
+        "source": "OpenAI",
+        "title": "LVMH's media division partners with OpenAI",
+        "explainer": "LVMH's media arm, which owns several European newspapers and magazines, will use AI in its newsrooms and make its publications more accessible through ChatGPT. Deals like this decide which journalism a chatbot can draw on and cite when it answers a question.",
+        "why": "Students increasingly meet the news through a chatbot answer, so knowing which publishers sit behind those answers is a source-literacy lesson.",
+        "link": "https://openai.com/index/lvmh-media-division-partnership"
       }
     ],
     "tryThisWeek": {
-      "title": "Move one AI task from doing to practicing",
-      "steps": "Pick one assignment where students now use AI to produce part of the work. Rewrite the AI step so the tool only explains a concept or generates five practice items, and students write the graded piece themselves. Ask them afterward which version helped them remember more.",
-      "link": "https://www.edweek.org/technology/is-ai-good-or-bad-for-learning-the-answer-isnt-so-simple/2026/11"
+      "title": "Build one small tool from one prompt",
+      "steps": "Pick a tiny classroom need, such as a page that shows where your students' favorite musicians come from on a map. Write one detailed prompt to a coding assistant describing the data, the page and what a click should do, then note what worked first time and what needed a second prompt. Simon Willison built a full map plugin mostly this way this weekend.",
+      "link": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/"
     },
-    "policy": null
+    "policy": {
+      "title": "University of Nebraska sets one acceptable-use policy for all AI systems",
+      "blurb": "Executive Memorandum 48, dated Nov. 1, covers chatbots, coding, transcription and research tools, requires human review and disclosure of material AI contributions, and leaves course expectations with faculty; staff on personal ChatGPT accounts are asked to move to the university's enterprise account by the end of fall.",
+      "link": "https://docs.nebraska.edu/unop/docs/Board%20of%20Regents/Policies/executive-memorandum/Acceptable%20Use%20of%20Artificial%20Intelligence%20Systems.pdf"
+    }
   },
-  "hook": "Out of 1,686 research papers on AI in education, how many actually tested whether an AI tool helped students learn?",
+  "hook": "New international students fell less this fall than last, so why did total enrollment drop three times as hard?",
   "lead": {
     "kicker": "The story",
-    "title": "Thousands of papers, a handful of tests",
-    "dek": "A Stanford review finds that only 52 of 1,686 papers on AI in education tested whether a specific use changed learning, and the answer depends on how students used it.",
+    "title": "The physicist set the plan; the model wrote the proof",
+    "dek": "OpenAI's new science blog says GPT-6 Astra built the detailed proof behind a candidate lattice definition of the Standard Model, a division of labor that is about to become normal in research.",
     "paragraphs": [
-      "Stanford's AI Hub for Education keeps a repository of research on generative AI in schools and colleges. Of the 1,686 papers in it, only 52 tested the impact of a specific intervention, using randomized controlled trials or quasi-experimental designs. The Hub's new review of those 52, reported by Education Week on Nov. 10, updates a similar review from March. Only 10 of the 52 were done with U.S. K-12 students or educators.",
-      "The clearest pattern is about use, not tools. When students used generative AI for learning support, such as explanations of concepts or practice problems, learning gains were generally better than when they used it to complete their work. Neither use produced consistent positive results across studies. Teacher use could raise the quantity and quality of feedback, though at least one study found it lowered student motivation and confidence.",
-      "The thin base is also a quality problem. In a separate Education Week story on Nov. 2, Patrick O'Neill of Ivy Tech Community College described his audit of 14 meta-analyses, drawn from nearly 40 that concluded AI improves learning; all 14 failed basic research standards, such as pooling different populations and measures. Those papers have been cited more than 3,000 times, and one in Nature was retracted a year after it appeared. Susanna Loeb, a Stanford education professor and an author of the review, put it plainly: \"There is plenty of evidence that unless carefully used, these tools can reduce learning.\""
+      "Lattice field theory is how physicists compute particle physics on a computer: space and time become a grid of points, and the forces live on the links between them. For decades the Standard Model has resisted that treatment because its particles treat left and right differently, and a naive grid breaks that asymmetry. A definition that holds up beyond approximations, called nonperturbative, has been a long-standing gap.",
+      "Nathaniel Craig, a UC Santa Barbara physicist working as a visiting scientist at OpenAI, posted an October preprint proposing such a definition. In the account published this weekend, Craig supplied the strategy and the model turned it into a concrete construction and a detailed proof, including a way to carry field configurations onto finer and finer grids. Three lattice specialists, Maarten Golterman, Andreas Kronfeld and Yigal Shamir, gave input along the way.",
+      "Craig is careful about the claim. He calls the result more an answer in principle than an answer in practice, and two key checks remain open: a positivity property the theory needs at finite grid spacing, and a link to the smooth, continuum theory physicists actually use. What changes now is less the physics than the workflow: a human picks the problem and the route, the model does long technical derivations, and human experts audit."
     ],
-    "against": "Fifty-two rigorous studies in under four years is fast for education research, and the support-versus-completion pattern matches decades of learning science on practice and explanation. Waiting for a complete evidence base means teachers decide with no evidence at all.",
-    "watch": "Whether the Hub's next update adds more U.S. classroom trials, and whether AI vendors start publishing controlled studies instead of usage counts.",
-    "ask": "In your ESL and LENS classes, which AI uses are support and which are completion, and which one could you move to the support side this week?",
-    "source": "Education Week",
-    "link": "https://www.edweek.org/technology/is-ai-good-or-bad-for-learning-the-answer-isnt-so-simple/2026/11"
+    "against": "The account comes from the company that sells the model and from a researcher it employs, the result is a preprint rather than a peer-reviewed paper, and the open checks are exactly where many past lattice proposals failed.",
+    "watch": "Whether independent lattice theorists reproduce or break the construction, and whether the open positivity and continuum checks are closed by humans, by models, or not at all.",
+    "ask": "If a model can draft the proof while the expert sets the route, which parts of your students' work should they still do by hand, and which should they learn to direct and audit?",
+    "source": "OpenAI science blog",
+    "link": "https://openai.com/index/step-toward-defining-the-standard-model"
   },
   "graph": {
     "kicker": "Graph of the day",
-    "title": "A big pile of research, a small stack of tests",
-    "tease": "Stanford's AI Hub for Education collects research on generative AI in teaching and learning. Its November update draws on a repository of 1,686 papers, up from more than 800 studies in its earlier 2026 review.",
-    "question": "How many of the 1,686 papers actually tested whether a specific AI use changed learning?",
+    "title": "Fewer new arrivals, a bigger hole",
+    "tease": "The Institute of International Education surveyed about 800 US colleges on this fall's international enrollment, as reported by Inside Higher Ed.",
+    "question": "New international students fell 18 percent in fall 2025. What happened to new international students this fall?",
     "choices": [
       {
-        "label": "About 600, roughly a third"
+        "label": "Fell faster, about 25 percent"
       },
       {
-        "label": "About 250, roughly one in seven"
-      },
-      {
-        "label": "52, about 3 in 100",
+        "label": "Fell a bit more slowly, about 15 percent",
         "correct": true
+      },
+      {
+        "label": "Recovered, up about 5 percent"
       }
     ],
     "panels": [
       {
-        "label": "Papers and studies the reviews drew on",
-        "unit": "papers",
-        "max": 1686,
+        "label": "Drop in total international enrollment",
+        "unit": "percent",
+        "max": 18,
         "hidden": false,
         "bars": [
           {
-            "name": "Earlier 2026 review",
-            "value": 800,
-            "display": "800+",
+            "name": "Fall 2025",
+            "value": 3,
+            "display": "about 3%",
             "voice": "b"
           },
           {
-            "name": "November update",
-            "value": 1686,
-            "display": "1,686",
+            "name": "Fall 2026",
+            "value": 9,
+            "display": "9%",
             "voice": "a"
           }
         ]
       },
       {
-        "label": "Studies with a strong test of whether AI changed learning",
-        "unit": "papers",
-        "max": 1686,
+        "label": "Drop in new international students",
+        "unit": "percent",
+        "max": 18,
         "hidden": true,
         "bars": [
           {
-            "name": "Earlier 2026 review",
-            "value": 20,
-            "display": "20",
+            "name": "Fall 2025",
+            "value": 18,
+            "display": "18%",
             "voice": "b"
           },
           {
-            "name": "November update",
-            "value": 52,
-            "display": "52",
+            "name": "Fall 2026",
+            "value": 15,
+            "display": "15%",
             "voice": "a"
           }
         ]
       }
     ],
-    "reveal": "Just 52 of 1,686, about 3 percent, and the earlier review found 20 out of more than 800. When someone cites the research on AI and learning, ask how many studies actually tested the thing.",
-    "caveat": "Counts as reported by Education Week on Nov. 2 and Nov. 10, 2026; the reviews themselves were not read at the source. The earlier figure is a floor (more than 800), and each review used its own inclusion rules.",
+    "reveal": "New arrivals fell 15 percent, slightly less than last year's 18, yet the total fell three times as hard as a year ago. Two smaller incoming classes in a row stack up, and graduate students took the biggest hit this fall at 15 percent.",
+    "caveat": "Preliminary snapshot of about 800 institutions, not the full Open Doors count; the fall 2025 total is given as about 3 percent.",
     "sources": [
       {
-        "label": "Education Week, Is AI Good or Bad for Learning? (Nov. 10, 2026)",
-        "link": "https://www.edweek.org/technology/is-ai-good-or-bad-for-learning-the-answer-isnt-so-simple/2026/11"
-      },
-      {
-        "label": "Education Week, The Research on AI in Education Is a Mess (Nov. 2, 2026)",
-        "link": "https://edweek.org/technology/the-research-on-ai-in-education-is-a-mess/2026/11"
+        "label": "Inside Higher Ed, Nov. 16, 2026",
+        "link": "https://www.insidehighered.com/news/global/international-students-us/2026/11/16/international-student-enrollment-down-9-fall-2026"
       }
     ]
   },
   "argue": {
     "kicker": "Argue with this",
-    "claim": "A school that adopts AI because it feels inevitable has already let the vendor set its teaching priorities.",
-    "context": "Audrey Watters argues that resistance to AI is real and growing, that ed-tech has long embedded its backers' priorities in schools, and that institutions should put people rather than machines at their center.",
-    "source": "Audrey Watters, Second Breakfast",
-    "link": "https://2ndbreakfast.audreywatters.com/the-work-ahead/"
+    "claim": "When a teacher cannot prove a student used AI, the honest move is to change the assignment, not to accuse the student.",
+    "context": "A former school leader recalls the 2023 summer-reading essays he suspected were written with ChatGPT; with no proof and no rule, he apologized to the families and rewrote the policy instead. \"I was not going to punish someone unless I was sure they were guilty.\"",
+    "source": "Educating AI (guest post by Tim Moon)",
+    "link": "https://nickpotkalitsky.substack.com/p/ais-historical-present-its-plagiarism"
   },
   "closeLine": "Better than your scroll today?",
   "closeSub": "Tell me what to keep, cut or double. The brief changes every week based on your answer."
