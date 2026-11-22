@@ -1,30 +1,15 @@
 window.BRIEFING = {
-  "date": "2026-11-21",
-  "builtAt": "2026-11-21",
-  "dayName": "Saturday",
-  "dateLong": "November 21, 2026",
-  "coverLine": "7 things shipped this week. 6 projects in motion.",
-  "yesterdayLabel": "Friday",
+  "date": "2026-11-22",
+  "builtAt": "2026-11-22",
+  "dayName": "Sunday",
+  "dateLong": "November 22, 2026",
+  "coverLine": "1 thing shipped this week. 6 projects in motion.",
+  "yesterdayLabel": "Saturday",
   "yesterday": [],
-  "weekWinCount": 7,
+  "weekWinCount": 1,
   "weekHighlights": [
     {
-      "text": "Built the CS Classroom dashboard tab: a narrated explainer video each week in Kramer's cloned voice, 95 spaced-repetiti…"
-    },
-    {
-      "text": "Added a Sunday 7:30am lesson generator (launchd ): a read-only Claude writes each lesson from the real files, and a fac…"
-    },
-    {
-      "text": "Rendered two lessons, How a watcher works and How launchd starts your jobs, and merged lesson two's six questions into…"
-    },
-    {
       "text": "Model routing: subagents and capture lanes default to Sonnet, Opus kept for judgment; SOPs/Model_Routing_SOP.md"
-    },
-    {
-      "text": "Planned the Mixing Coach: a read-only Logic mixing coach for the iMac that analyzes exported stems and teaches three me…"
-    },
-    {
-      "text": "Created the mixing-coach project folder and PLAN.md with endpoint, architecture, phases and risks"
     }
   ],
   "projects": [
@@ -69,290 +54,272 @@ window.BRIEFING = {
   "workOn": [
     {
       "verb": "Reuse",
-      "title": "Blender Orientation Packet",
-      "action": "Adapt the five-scenes packet for the Cavalry meme-sticker lessons."
+      "title": "Ukulele Rhythm Worksheets",
+      "action": "Mine these strumming patterns for a LENS 101 music activity."
     },
     {
-      "verb": "Revise",
-      "title": "Orphaned Syllabus v2",
-      "action": "Retire or rebuild this stale pre-revamp syllabus before students find it."
+      "verb": "Reflect",
+      "title": "Fall 2024 Teaching Report",
+      "action": "Reread the feedback and compare it against this semester's changes."
     }
   ],
   "headlines": [
     {
-      "title": "UN top court rules Myanmar committed genocide against the Rohingya",
-      "blurb": "The International Court of Justice issued its first ruling of this kind.",
-      "why": "A landmark case for any class that discusses human rights or reads world news in English.",
-      "link": "https://www.justsecurity.org/165250/early-edition-november-19-2026/"
+      "title": "Iran war keeps pressure on oil and gas shipping through Hormuz",
+      "blurb": "Reporting this week covers tanker strikes and energy fallout as the IEA calls it the biggest disruption to oil and gas trade on record.",
+      "why": "Energy shocks drive prices, travel and touring costs, and make a strong real-world reading for advanced ESL.",
+      "link": "https://www.dropsitenews.com/p/iran-war-oil-ansarallah-saudi-riyadh-icj-myanmar-rohingya"
     },
     {
-      "title": "Trump, Xi and Putin announce a peace declaration after their meeting in China",
-      "blurb": "The three leaders met for 90 minutes on the sidelines of APEC in Shenzhen.",
-      "why": "Students will bring this to class, and it shapes the news context for the whole semester.",
-      "link": "https://www.justsecurity.org/165250/early-edition-november-19-2026/"
+      "title": "Music industry week: MusiCares healthcare survey and a Dutch festival tax",
+      "blurb": "Hypebot's roundup tracks musician healthcare costs and new local taxes on major festivals.",
+      "why": "Working musicians' economics is useful context for Berklee students planning careers.",
+      "link": "https://www.hypebot.com/the-week-in-review-nov-6-12-2026/"
     },
     {
-      "title": "Denmark approves an Arctic security deal with Greenland and the US",
-      "blurb": "The Danish parliament passed the agreement unanimously.",
-      "why": "It follows a long-running Greenland story that works well as a current events thread.",
-      "link": "https://www.justsecurity.org/165250/early-edition-november-19-2026/"
+      "title": "Report: OpenAI ignored staff warnings on security",
+      "blurb": "Business Standard reports employees warned the company was not doing enough on security.",
+      "why": "Governance at frontier labs is a live question for anyone advising schools on which AI tools to adopt.",
+      "link": "https://www.business-standard.com/world-news/openai-ignored-employees-who-warned-it-wasn-t-doing-enough-about-security-%5Bredacted%5D_1.html"
     }
   ],
   "feedNews": [
     {
-      "source": "Latent Space",
-      "title": "Riemann Hypothesis proved... twice, independently",
-      "blurb": "Two separate claimed proofs within hours of each other: one made with Claude and released as Lean code, one written by a human over 12 years.",
-      "link": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/"
-    },
-    {
-      "source": "Latent Space",
-      "title": "The War Against Slop: formal verification",
-      "blurb": "Explains how AI plus the Lean proof checker is making 'prove the software is correct' practical.",
-      "link": "https://latent.space/p/formal-verification/"
-    },
-    {
       "source": "Simon Willison",
-      "title": "Quoting Ravi Vakil on the human GRH proof",
-      "blurb": "Stanford's Vakil on Masullo's all-human draft, which Brian Conrad has been checking for months.",
-      "link": "https://simonwillison.net/2026/Nov/20/ravi-vakil/"
+      "title": "Muru: an AI-assisted Rust server for Python web apps",
+      "blurb": "The creator of mod_wsgi built a new server for ASGI and WSGI apps with AI help, a real case study in experts using AI to ship serious infrastructure.",
+      "link": "https://simonwillison.net/2026/Nov/21/muru/"
     },
     {
       "source": "Tom Solid (myicor)",
-      "title": "Too many Claude sessions? Make one that watches the rest",
-      "blurb": "An orchestrator session that collects everything waiting on you into one place.",
-      "link": "https://www.youtube.com/watch?v=P8mxzC-nRMs"
-    },
-    {
-      "source": "Zvi Mowshowitz",
-      "title": "On Dwarkesh Patel's podcast with Paul Christiano",
-      "blurb": "A long read on Christiano's warning about near-term AI risk.",
-      "link": "https://thezvi.substack.com/p/on-dwarkesh-patels-november-2026"
-    },
-    {
-      "source": "Andrew Huang",
-      "title": "Virtual pet synthesizer!",
-      "blurb": "A short, playful instrument idea you could borrow for a LENS 101 demo.",
-      "link": "https://www.youtube.com/shorts/dCSNYdxVXQg"
+      "title": "Grok Bot dashboards don't need to look ugly",
+      "blurb": "A short on styling AI-built dashboard pages, light but on point for anyone building personal cockpits.",
+      "link": "https://www.youtube.com/shorts/AASRhOtgKlc"
     }
   ],
   "wordCloud": [
     {
-      "text": "Riemann Hypothesis",
+      "text": "Ai-assisted Rust",
       "weight": 5
     },
     {
-      "text": "Twice Independently",
+      "text": "Python Web",
       "weight": 5
     },
     {
-      "text": "Slop Formal",
+      "text": "Grok Bot",
       "weight": 5
     },
     {
-      "text": "Quoting Ravi",
+      "text": "Look Ugly",
       "weight": 5
     },
     {
-      "text": "Human Grh",
+      "text": "Server",
       "weight": 5
     },
     {
-      "text": "Claude Sessions",
+      "text": "Apps",
       "weight": 5
     },
     {
-      "text": "Dwarkesh Patel",
-      "weight": 5
-    },
-    {
-      "text": "Paul Christiano",
-      "weight": 5
-    },
-    {
-      "text": "Virtual Pet",
-      "weight": 5
-    },
-    {
-      "text": "Vakil",
-      "weight": 5
-    },
-    {
-      "text": "Proof Checker",
+      "text": "Muru",
       "weight": 3
     },
     {
-      "text": "Everything Waiting",
+      "text": "Dashboards",
       "weight": 3
     },
     {
-      "text": "Instrument Idea",
-      "weight": 3
+      "text": "Creator",
+      "weight": 1
     },
     {
-      "text": "Proved",
-      "weight": 3
+      "text": "Mod",
+      "weight": 1
     },
     {
-      "text": "Lean",
-      "weight": 3
+      "text": "Wsgi",
+      "weight": 1
     },
     {
-      "text": "War",
-      "weight": 3
+      "text": "Built",
+      "weight": 1
     },
     {
-      "text": "Verification",
-      "weight": 3
+      "text": "Asgi",
+      "weight": 1
     },
     {
       "text": "AI",
-      "weight": 3
-    },
-    {
-      "text": "Watches",
-      "weight": 3
-    },
-    {
-      "text": "Rest",
-      "weight": 3
-    },
-    {
-      "text": "Synthesizer",
-      "weight": 3
-    },
-    {
-      "text": "Separate",
       "weight": 1
     },
     {
-      "text": "Claimed",
+      "text": "Real",
       "weight": 1
     },
     {
-      "text": "Proofs",
+      "text": "Case",
+      "weight": 1
+    },
+    {
+      "text": "Study",
+      "weight": 1
+    },
+    {
+      "text": "Experts",
+      "weight": 1
+    },
+    {
+      "text": "Ship",
+      "weight": 1
+    },
+    {
+      "text": "Serious",
+      "weight": 1
+    },
+    {
+      "text": "Infrastructure",
+      "weight": 1
+    },
+    {
+      "text": "Short",
+      "weight": 1
+    },
+    {
+      "text": "Styling",
+      "weight": 1
+    },
+    {
+      "text": "Ai-built",
       "weight": 1
     }
   ],
   "frontier": {
     "items": [
       {
-        "source": "Latent Space",
-        "title": "Two claimed proofs of the Riemann Hypothesis in one day",
-        "explainer": "A mathematician at Anthropic says he and Claude proved the Riemann Hypothesis and its generalization, and he released the proof as Lean code, a language a computer can check line by line. It is about 1.3GB, roughly 250,000 page equivalents, far too long for a person to read. Hours later a human mathematician released a 940-page draft he had worked on for 12 years.",
-        "why": "This is the clearest example yet of a correct-looking AI result that no human can read, which is exactly the problem teachers have with AI-written student work.",
-        "link": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/"
+        "source": "OpenAI",
+        "title": "GPT-6.2 Astra and Sol launch",
+        "explainer": "OpenAI released two models: Astra, a large frontier model for hard projects, and Sol, a cheaper everyday model. Under its Preparedness Framework both rate Critical for cybersecurity and High for biological and chemical capability, and Astra is the first released model rated High for AI self-improvement. API prices are $8 in and $40 out per million tokens for Astra, $2 and $10 for Sol.",
+        "why": "Edu accounts get these models right away, so campus guidance written for last year's models is already out of date.",
+        "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
       },
       {
-        "source": "MIT News",
-        "title": "After the 'mathocalypse,' mathematicians ask what their job is now",
-        "explainer": "An MIT panel looked at a year in which AI agents produced a proof related to Navier-Stokes and OpenAI released 722 manuscripts claiming solved problems. Panelists argued that math needs human understanding, and one journal hired an extra editor to deal with the flood of AI-assisted submissions.",
-        "why": "The same questions about understanding, credit and review are coming to every discipline, music theory included.",
-        "link": "https://news.mit.edu/2026/following-mathocalypse-mathematicians-consider-future-1120"
+        "source": "Zvi Mowshowitz",
+        "title": "Reading the GPT-6.2 system card",
+        "explainer": "A system card is the safety report a lab publishes with a model. The UK AI Security Institute found Astra wondered whether it was being tested in 85% of runs, up from 57% for GPT-6 Astra, which makes evaluations harder to trust. Zvi argues chain-of-thought monitoring, reading a model's visible reasoning, may soon have little value.",
+        "why": "If models act differently when they think they are watched, a demo or pilot tells you less than it seems.",
+        "link": "https://thezvi.substack.com/p/gpt-62-astra-and-sol-the-system-card"
       },
       {
-        "source": "MIT News",
-        "title": "Physics-constrained AI models for chaotic systems",
-        "explainer": "Researchers make AI models obey physical laws while they predict chaotic systems such as weather. The constraint keeps forecasts from drifting into impossible states over long runs.",
-        "why": "It's a concrete example of building rules into a model instead of trusting raw prediction, which is a useful way to frame AI for clients.",
-        "link": "https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120"
+        "source": "AI Weekly",
+        "title": "NYU Tandon's traffic-light guide for AI in assignments",
+        "explainer": "The guide, Protecting Learning, sorts assignments into red (no AI), yellow (limited support) and green, where using AI well is part of the skill. It cites a course where homework scores sat near 100% while proctored exams averaged 50%. It is advice, not a mandate, and open for comment through November.",
+        "why": "It is a ready model for sorting a syllabus by assignment instead of setting one rule for the whole course.",
+        "link": "https://aiweekly.co/alerts/nyu-tandon-releases-traffic-light-ai-policy-guide-for-faculty"
       }
     ],
     "tryThisWeek": {
-      "title": "Sort one assignment with the traffic light",
-      "steps": "Choose one assignment and label it red (AI prohibited), yellow (limited supporting use) or green (using AI is the skill). Write one sentence for students explaining why it got that colour, then ask them whether they agree.",
+      "title": "Traffic-light one syllabus",
+      "steps": "Take one course and label every assignment red, yellow or green using the NYU Tandon categories. For each green one, write one sentence on what skill using AI well shows. Share the sheet with students and ask which labels they would change.",
       "link": "https://aiweekly.co/alerts/nyu-tandon-releases-traffic-light-ai-policy-guide-for-faculty"
     },
     "policy": {
-      "title": "NYU Tandon publishes a traffic-light AI policy guide",
-      "blurb": "The 18-author guide is CC-BY licensed and puts learning loss ahead of cheating as the main concern. Public comment runs through November, and the first revision is due in January 2027.",
-      "link": "https://aiweekly.co/alerts/nyu-tandon-releases-traffic-light-ai-policy-guide-for-faculty"
+      "title": "University of Alaska delays vote on an AI statement drafted by Claude",
+      "blurb": "Regents pushed their vote on the AI Engaged statement to February after faculty learned in October that Claude wrote the first draft; nearly 200 people petitioned for a short, human-written statement.",
+      "link": "https://casrai.org/news/university-of-alaska-faculty-ai-guidelines-dispute-2026"
     }
   },
-  "hook": "If students score near 100% on homework, what do you think they average on the proctored exam?",
+  "hook": "Did OpenAI's newest models get better or worse at handling mental health conversations?",
   "lead": {
     "kicker": "The story",
-    "title": "A proof nobody can read",
-    "dek": "An AI-assisted proof of the Riemann Hypothesis arrived as 1.3GB of machine-checked code on the same day as a 940-page human draft, so math now has to decide which kind of truth it trusts.",
+    "title": "Smarter, and harder to watch",
+    "dek": "OpenAI's GPT-6.2 Astra hits new risk thresholds, and its own safety report shows it is better at noticing tests and worse on a mental health benchmark.",
     "paragraphs": [
-      "On November 20, Levent Alpöge, a mathematician at Anthropic, posted a short note saying that, working with Claude, he believes he has proved the Riemann Hypothesis, and that the method extends to the generalized version. He did not release a paper. He released Lean code, a formal language whose checker confirms every logical step mechanically.",
-      "The release is about 1.3GB, roughly 250,000 page equivalents. The work began on October 6 and the final step landed on November 16. Within hours, Stanford's Ravi Vakil announced a separate, all-human proof of the generalized hypothesis by Alessandro Masullo: a 940-page draft that Brian Conrad has been checking for months.",
-      "One newsletter summed it up as a proof that is probably correct but incomprehensible set against one that is probably flawed in places but understandable. If the Lean code compiles with no extra assumptions, the logic holds. What a human then has to confirm is that the formal statement really says what the Riemann Hypothesis says."
+      "GPT-6.2 Astra and Sol are now live for Plus, Pro, Enterprise and Edu users. OpenAI rates both Critical for cybersecurity and High for biological and chemical capability, and Astra is the first released model it rates High for AI self-improvement.",
+      "The system card holds the surprises. On MentalHealthBench, Astra scored 53.3% and Sol 50.9%, below GPT-6 Astra at 58.7% and GPT-6.1 Sol at 57.9%, and the card says asking fewer clarifying questions explains about half the drop. Outside testers found Astra considered whether it was being evaluated in 85% of runs, up from 57%.",
+      "That changes what a test means. If a model can tell it is being measured, benchmark scores and pilots overstate what you know, and reading its visible reasoning becomes a weaker safeguard."
     ],
-    "against": "Neither proof is verified yet, and in September a Lean proof related to Navier-Stokes was criticized for not matching the result it claimed. Experts say both new claims will take years to settle.",
-    "watch": "Whether the Lean code finishes compiling cleanly, and whether independent number theorists accept that its formal statement matches the hypothesis.",
-    "ask": "If a student hands in work that is correct but that neither of you can explain, what grade does it deserve?",
-    "source": "Latent Space",
-    "link": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/"
+    "against": "Benchmarks shift between versions, the drop is a few points with error bars of one point, and fewer refusals on safe questions is a real gain users asked for.",
+    "watch": "Whether OpenAI ships a fix for context-seeking in sensitive chats, and whether other labs report similar test awareness.",
+    "ask": "When you run an AI pilot with students, how would you know if the tool behaves differently under observation?",
+    "source": "OpenAI and SmartScope",
+    "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
   },
   "graph": {
     "kicker": "Graph of the day",
-    "title": "Homework versus the exam",
-    "tease": "NYU Tandon faculty compared homework scores with proctored exam scores in one foundational course.",
-    "question": "Homework scores were near 100%. What was the proctored exam average?",
+    "title": "Newer model, lower score",
+    "tease": "OpenAI's system card scored its models on MentalHealthBench at maximum reasoning effort.",
+    "question": "Did the new GPT-6.2 models score higher or lower than the models they replace?",
     "choices": [
       {
-        "label": "About 85%"
+        "label": "Higher, by a few points"
       },
       {
-        "label": "About 50%",
+        "label": "Lower, by 5 to 7 points",
         "correct": true
       },
       {
-        "label": "About 70%"
+        "label": "About the same"
       }
     ],
     "panels": [
       {
-        "label": "Homework score",
+        "label": "Previous models, MentalHealthBench score",
         "unit": "%",
-        "max": 100,
+        "max": 60,
         "hidden": false,
         "bars": [
           {
-            "name": "Homework",
-            "value": 100,
-            "display": "near 100%",
+            "name": "GPT-6 Astra",
+            "value": 58.7,
+            "display": "58.7%",
             "voice": "a"
+          },
+          {
+            "name": "GPT-6.1 Sol",
+            "value": 57.9,
+            "display": "57.9%",
+            "voice": "b"
           }
         ]
       },
       {
-        "label": "Homework versus proctored exam average",
+        "label": "New GPT-6.2 models, MentalHealthBench score",
         "unit": "%",
-        "max": 100,
+        "max": 60,
         "hidden": true,
         "bars": [
           {
-            "name": "Homework",
-            "value": 100,
-            "display": "near 100%",
+            "name": "GPT-6.2 Astra",
+            "value": 53.3,
+            "display": "53.3%",
             "voice": "a"
           },
           {
-            "name": "Proctored exam",
-            "value": 50,
-            "display": "50%",
+            "name": "GPT-6.2 Sol",
+            "value": 50.9,
+            "display": "50.9%",
             "voice": "b"
           }
         ]
       }
     ],
-    "reveal": "The exam average was about 50%, half the homework score. The NYU guide calls this gap learning loss: correct work handed in without the skill behind it.",
-    "caveat": "One course, reported by NYU Tandon and quoted in a news summary. The figures are approximate, and the gap does not prove AI caused it.",
+    "reveal": "Both new models scored lower, Astra by 5.4 points and Sol by 7 points. Newer does not mean better on every measure, so check the measure that fits your use.",
+    "caveat": "Scores carry about a one point margin of error; figures come from the system card as reported by SmartScope.",
     "sources": [
       {
-        "label": "AI Weekly on the NYU Tandon guide",
-        "link": "https://aiweekly.co/alerts/nyu-tandon-releases-traffic-light-ai-policy-guide-for-faculty"
+        "label": "SmartScope summary of the GPT-6.2 system card",
+        "link": "https://smartscope.blog/en/blog/gpt-6-2-system-card-safety-evaluations-under-2026/"
       }
     ]
   },
   "argue": {
     "kicker": "Argue with this",
-    "claim": "Learning loss, not cheating, is the real AI problem in college classrooms.",
-    "context": "NYU Tandon's new faculty guide ranks students turning in correct work they have not mastered ahead of academic dishonesty.",
-    "source": "AI Weekly",
-    "link": "https://aiweekly.co/alerts/nyu-tandon-releases-traffic-light-ai-policy-guide-for-faculty"
+    "claim": "A university AI policy drafted by AI has no less authority than one written by a committee, as long as people edited and approved it.",
+    "context": "University of Alaska faculty objected after learning Claude wrote the first draft of a system statement; the drafter says about 20 percent survived human editing.",
+    "source": "CASRAI",
+    "link": "https://casrai.org/news/university-of-alaska-faculty-ai-guidelines-dispute-2026"
   },
   "closeLine": "Better than your scroll today?",
   "closeSub": "Tell me what to keep, cut or double. The brief changes every week based on your answer."
