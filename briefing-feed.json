@@ -1,6 +1,6 @@
 {
   "_note": "Live external bits Cadence (calendar) + Pax (headlines) refresh each morning. The rest of the briefing auto-derives from priorities.md / project-timeline.json / serendipity.json. Daily language-habit calendar blocks are intentionally filtered out of 'today' and 'twoWeeks' so only real appointments show.",
-  "_updated": "2026-11-23",
+  "_updated": "2026-11-24",
   "today": [
     {
       "time": "Calendar",
@@ -10,159 +10,159 @@
   "twoWeeks": [],
   "headlines": [
     {
+      "title": "Courts deal blows to key international education policies",
+      "blurb": "Judges have checked the administration's visa limits and student restrictions.",
+      "why": "International enrollment decides who fills ESL and music classrooms next year.",
+      "link": "https://www.insidehighered.com/news/global/international-students-us/2026/11/24/where-trumps-international-student-crackdown"
+    },
+    {
+      "title": "Nvidia reinstates founder Jensen Huang as CEO",
+      "blurb": "The chipmaker brought its founder back, the biggest leadership story in AI hardware this month.",
+      "why": "Nvidia's chips set the cost and pace of every AI tool teachers end up using.",
+      "link": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/"
+    },
+    {
       "title": "IEA calls the Iran war the biggest disruption to oil and gas trade on record",
-      "blurb": "Crude shipments through Hormuz fell to about half their prewar level in November, per Kpler data.",
-      "why": "Energy shocks raise travel and touring costs and make a strong real-world reading for advanced ESL.",
+      "blurb": "Hormuz shipments fell to about half their prewar level in November.",
+      "why": "Energy shocks raise touring costs and make a strong real-world reading for advanced ESL.",
       "link": "https://www.dropsitenews.com/p/iran-war-oil-ansarallah-saudi-riyadh-icj-myanmar-rohingya"
-    },
-    {
-      "title": "Virginia Foxx loses her House seat, ending 20 years shaping higher ed law",
-      "blurb": "The longtime education committee leader lost re-election, reshaping who writes federal college policy.",
-      "why": "Federal rules on aid, accreditation and campus policy pass through that committee.",
-      "link": "https://www.insidehighered.com/news/quick-takes/2026/11/23/virginia-foxx-loses-house-seat-ending-20-year-reign"
-    },
-    {
-      "title": "Students from crisis-hit countries rise as travel-ban countries fall",
-      "blurb": "Nepal students in the US rose nearly 15 percent since 2024 while Eritrea fell nearly 57 percent.",
-      "why": "International enrollment shifts change who sits in ESL classrooms at places like Berklee.",
-      "link": "https://www.insidehighered.com/news/global/international-students-us/2026/11/23/number-students-crisis-stricken-countries-rising"
     }
   ],
   "feedNews": [
     {
-      "source": "Inside Higher Ed",
-      "title": "Student Mental Health Improving, but Slowly",
-      "blurb": "The Healthy Minds study finds depression down to 34 percent and, for the first time, 7 percent of students using AI chatbots for emotional support.",
-      "link": "https://www.insidehighered.com/news/student-success/health-wellness/2026/11/23/student-mental-health-improving-slowly"
+      "source": "Audrey Watters",
+      "title": "Refusing \"Normal Technology\"",
+      "blurb": "A talk arguing educators should not accept AI as an ordinary, inevitable tool.",
+      "link": "https://2ndbreakfast.audreywatters.com/refusing-normal-technology/"
     },
     {
       "source": "Inside Higher Ed",
-      "title": "Vaccine Injuries, 5G Harms and More: The Research Trump Is Funding",
-      "blurb": "A look at how federal science money is being redirected rather than simply cut.",
-      "link": "https://www.insidehighered.com/news/government/science-research-policy/2026/11/23/vaccine-injuries-5g-harms-and-more-research"
+      "title": "5 Findings on Gen Z's Changing Priorities",
+      "blurb": "New research on what today's students want from college and work.",
+      "link": "https://www.insidehighered.com/news/student-success/college-experience/2026/11/24/5-findings-gen-zs-changing-priorities"
+    },
+    {
+      "source": "Inside Higher Ed",
+      "title": "Book Explores 'New American Frontier' of Training for Tech Jobs",
+      "blurb": "A look at the fast-growing world of short tech job training outside degrees.",
+      "link": "https://www.insidehighered.com/news/tech-innovation/teaching-learning/2026/11/24/book-explores-new-american-frontier-tech-job"
     },
     {
       "source": "Simon Willison",
-      "title": "Select Styling Specimens",
-      "blurb": "A small tool comparing how HTML select boxes render across browsers, useful for anyone building class tools.",
-      "link": "https://simonwillison.net/2026/Nov/22/select-styling/"
+      "title": "Ladybird's first alpha release",
+      "blurb": "A brand-new independent web browser engine reaches its first alpha.",
+      "link": "https://simonwillison.net/2026/Nov/23/ladybird/"
+    },
+    {
+      "source": "Simon Willison",
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "blurb": "A Chinese lab ships a coding model that reuses its layers in a loop.",
+      "link": "https://simonwillison.net/2026/Nov/23/glm-54/"
     },
     {
       "source": "Andrew Huang",
-      "title": "We know the industry is f**ked but here it is in a chart",
-      "blurb": "A short on music industry economics from a producer who teaches through his channel.",
-      "link": "https://www.youtube.com/shorts/K8FWOr3s-2M"
-    },
-    {
-      "source": "Marc Rebillet",
-      "title": "NOTHING TO IT BUT TO DO IT",
-      "blurb": "New live-looping set from the loop artist.",
-      "link": "https://www.youtube.com/watch?v=HshZon82nqo"
-    },
-    {
-      "source": "EFL Magazine",
-      "title": "The TEFL Certificate Dilemma",
-      "blurb": "Which teaching qualifications employers actually value, a practical read for ESL career conversations.",
-      "link": "https://eflmagazine.com/the-tefl-certificate-dilemma-which-qualification-actually-matters-to-employers/"
+      "title": "I wish every device had this feature!!",
+      "blurb": "A new short from the producer on a music gear feature he wants everywhere.",
+      "link": "https://www.youtube.com/shorts/0iKeHMfVXAE"
     }
   ],
   "closeLine": "Better than your scroll today?",
   "closeSub": "Tell me what to keep, cut or double. The brief changes every week based on your answer.",
   "wordCloud": [
     {
-      "text": "Student Mental",
+      "text": "Refusing Normal",
       "weight": 5
     },
     {
-      "text": "Vaccine Injuries",
+      "text": "Changing Priorities",
       "weight": 5
     },
     {
-      "text": "Research Trump",
+      "text": "Book Explores",
       "weight": 5
     },
     {
-      "text": "Select Styling",
+      "text": "American Frontier",
       "weight": 5
     },
     {
-      "text": "Tefl Certificate",
+      "text": "Alpha Release",
       "weight": 5
     },
     {
-      "text": "Study Finds",
+      "text": "Glm Toward",
+      "weight": 5
+    },
+    {
+      "text": "Loop Transformer",
+      "weight": 5
+    },
+    {
+      "text": "Wish Every",
+      "weight": 5
+    },
+    {
+      "text": "Training",
+      "weight": 5
+    },
+    {
+      "text": "Tech",
+      "weight": 5
+    },
+    {
+      "text": "Coding",
+      "weight": 5
+    },
+    {
+      "text": "Feature",
+      "weight": 5
+    },
+    {
+      "text": "Accept AI",
       "weight": 3
     },
     {
-      "text": "Html Select",
+      "text": "Engine Reaches",
       "weight": 3
     },
     {
-      "text": "Music Industry",
+      "text": "Music Gear",
       "weight": 3
     },
     {
-      "text": "Loop Artist",
+      "text": "Technology",
       "weight": 3
     },
     {
-      "text": "Actually Value",
+      "text": "Findings",
       "weight": 3
     },
     {
-      "text": "Health",
+      "text": "Gen",
       "weight": 3
     },
     {
-      "text": "Improving",
+      "text": "Jobs",
       "weight": 3
     },
     {
-      "text": "Slowly",
+      "text": "Short",
       "weight": 3
     },
     {
-      "text": "Harms",
+      "text": "Ladybird",
       "weight": 3
     },
     {
-      "text": "Funding",
+      "text": "Generalized",
       "weight": 3
     },
     {
-      "text": "Specimens",
+      "text": "Device",
       "weight": 3
     },
     {
-      "text": "Know",
-      "weight": 3
-    },
-    {
-      "text": "Ked",
-      "weight": 3
-    },
-    {
-      "text": "Chart",
-      "weight": 3
-    },
-    {
-      "text": "Nothing",
-      "weight": 3
-    },
-    {
-      "text": "Dilemma",
-      "weight": 3
-    },
-    {
-      "text": "Healthy",
-      "weight": 1
-    },
-    {
-      "text": "Minds",
-      "weight": 1
-    },
-    {
-      "text": "Depression",
+      "text": "Arguing",
       "weight": 1
     }
   ],
@@ -170,131 +170,126 @@
     "items": [
       {
         "source": "MIT News",
-        "title": "A laptop-sized model that nearly matches frontier AI at analog chip design",
-        "explainer": "SLIC is a training method where a small language model of a few billion parameters first imitates design demonstrations from a large model, then practices alone with reinforcement learning: it guesses circuit parameters, runs a simulator, checks the result and refines. Because the simulator gives a verifiable score, the model learns from real outcomes rather than opinions. MIT reports it came close to a flagship model's results while using a fraction of the compute.",
-        "why": "It is a clear case that a small, private, specialised model can beat paying for the biggest one when the task has a checkable answer.",
-        "link": "https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123"
+        "title": "Many languages, one common neural code",
+        "explainer": "Researchers recorded brain activity of speakers of 21 languages listening to Alice in Wonderland, then used multilingual language models to build encoding models that predict that activity. A model trained on one language, such as French, could predict brain responses in another it never saw, such as Vietnamese. That suggests the brain represents meaning in a shared way across languages.",
+        "why": "It gives language teachers new evidence that meaning, not surface form, is the common ground learners build on.",
+        "link": "https://news.mit.edu/2026/many-languages-one-common-neural-code-1123"
       },
       {
-        "source": "Inside Higher Ed",
-        "title": "7 percent of college students now get emotional support from AI chatbots",
-        "explainer": "The Healthy Minds Study surveyed 67,477 students at 107 colleges and asked about chatbots for the first time. Seven percent said they had received counseling or emotional support from a chatbot like ChatGPT, and a co-author calls that likely an underestimate. The same survey shows depression and anxiety easing slightly.",
-        "why": "Students are already using AI for more than homework, which belongs in any campus AI guidance conversation.",
-        "link": "https://www.insidehighered.com/news/student-success/health-wellness/2026/11/23/student-mental-health-improving-slowly"
+        "source": "Google DeepMind",
+        "title": "Finding faster quantum algorithms with agents and formal verification",
+        "explainer": "Teams of AI agents propose improvements to quantum algorithms, and a formal verifier mathematically checks each claim before it is accepted. The checker is what makes the agents' output trustworthy.",
+        "why": "Pairing AI generation with an automatic checker is a pattern any teacher can copy for AI-assisted work.",
+        "link": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+      },
+      {
+        "source": "Simon Willison",
+        "title": "GLM-5.4: a loop transformer for coding",
+        "explainer": "Z.ai's new model is its first loop transformer, which runs some of its layers more than once instead of stacking more distinct layers. The idea is to get more reasoning per parameter.",
+        "why": "Open models from new labs keep getting cheaper to run, which shapes what schools can afford.",
+        "link": "https://simonwillison.net/2026/Nov/23/glm-54/"
       }
     ],
     "tryThisWeek": {
-      "title": "Grade an AI with a checkable answer",
-      "steps": "Pick one task from your teaching that has a verifiable right answer, such as transposing a chord chart or fixing a set of verb tenses. Run it through a small free model and a large one, then score both against your key. Note where the small one is good enough.",
-      "link": "https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123"
+      "title": "Same meaning, two languages",
+      "steps": "Give an AI chatbot one short paragraph in English and ask for it in a language your students speak, then ask it to explain three places where the two versions differ in form but keep the same meaning. Use the result as a five-minute warm-up on meaning over word-for-word translation.",
+      "link": "https://news.mit.edu/2026/many-languages-one-common-neural-code-1123"
     },
     "policy": {
-      "title": "Florida moves to compel campus responses to a state call to action",
-      "blurb": "Florida officials advanced a proposal Friday that would require institutions to respond to a state directive, another sign of tightening state oversight.",
-      "link": "https://www.insidehighered.com/news/governance/state-oversight/2026/11/23/florida-aims-compel-call-action-response"
+      "title": "What's really fueling higher ed's AI 'witch hunt'?",
+      "blurb": "Faculty use AI widely but there is no agreed line between help and dishonesty; a Dartmouth provost resigned after a detector flagged his writing.",
+      "link": "https://www.insidehighered.com/news/faculty/2026/11/24/whats-really-fueling-higher-eds-ai-witch-hunt"
     }
   },
-  "hook": "Did college student depression go up or down last year, and how many students now talk to a chatbot instead?",
+  "hook": "Could a model trained only on French brains read a Vietnamese speaker's brain?",
   "lead": {
     "kicker": "The story",
-    "title": "The small model that learned by running the simulator",
-    "dek": "MIT researchers trained a few-billion-parameter model to design analog circuits nearly as well as a flagship model, and it runs on a laptop.",
+    "title": "Twenty-one languages, one way of meaning",
+    "dek": "An MIT study used multilingual AI to show that brains across 21 languages seem to encode meaning the same way, which matters for anyone who teaches language.",
     "paragraphs": [
-      "SLIC, short for Small LM Iterating on Circuits, starts by having a large model produce demonstrations of the design process. The small model imitates those, then practices alone: it guesses component values, runs a circuit simulation, reads the result and tries again.",
-      "That loop is reinforcement learning with verifiable rewards. The simulator, not a human or another model, says whether a design meets its targets, so the small model gets honest feedback thousands of times. MIT says the model is several thousand times smaller than trillion-parameter frontier models and came close to matching the latest GPT model.",
-      "Because it runs locally, a chip company can keep its design and foundry data in house. The model also explains its choices in plain language, so engineers can follow and check its reasoning. The paper will be presented at NeurIPS 2026."
+      "The Fedorenko lab at MIT combined brain imaging from speakers of 21 languages with outputs from multilingual language models. Twelve languages came from existing data; nine more, including Korean, Mandarin, Hindi and Arabic, were recruited for this study. Everyone listened to Alice in Wonderland in their native language.",
+      "The team built encoding models that predict brain activity from the AI's internal representation of the text. They worked in every language, even ones with little data like Marathi and Lithuanian. The surprise: a model trained on one language predicted brain responses in a language it never saw, such as French to Vietnamese.",
+      "That transfer only works if brains share a common code, and the analysis points to meaning as that shared part. The work appears in Nature Neuroscience. It could also help clinical language tools reach speakers beyond English."
     ],
-    "against": "The article reports no accuracy or cost figures, only that SLIC came close to a flagship model, and analog design has a precise simulator as a judge, which most real tasks lack.",
-    "watch": "Whether the same recipe of imitation plus a verifiable checker spreads to other fields with automatic graders, such as code, music theory drills or grammar exercises.",
-    "ask": "Which of your course tasks has an answer a machine could check, and would a small local model be enough for it?",
+    "against": "Encoding models measure correlation with imaging signals, and a shared meaning component does not erase the real differences between languages that the authors themselves say must also be represented.",
+    "watch": "Whether the reverse direction, decoding language from brain activity, gets tried for endangered languages.",
+    "ask": "If meaning is the shared layer, how much class time should go to meaning-first tasks before form?",
     "source": "MIT News",
-    "link": "https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123"
+    "link": "https://news.mit.edu/2026/many-languages-one-common-neural-code-1123"
   },
   "graph": {
     "kicker": "Graph of the day",
-    "title": "Campus mental health, a decade on",
-    "tease": "The Healthy Minds Study surveyed 67,477 students at 107 colleges in 2025 to 2026.",
-    "question": "Compared with a decade ago (2015 to 2016), how has the share of students with depression symptoms changed?",
+    "title": "How much training does a brain model need?",
+    "tease": "MIT researchers built models that predict brain activity from multilingual AI.",
+    "question": "To predict brain responses in Vietnamese, how many languages did one model need to be trained on?",
     "choices": [
       {
-        "label": "About the same"
+        "label": "All 21"
       },
       {
-        "label": "Up by about 9 points",
+        "label": "Just 1",
         "correct": true
       },
       {
-        "label": "Down by about 9 points"
+        "label": "About half"
       }
     ],
     "panels": [
       {
-        "label": "Students reporting anxiety, percent",
-        "unit": "%",
-        "max": 34,
+        "label": "Languages in the study",
+        "unit": "languages",
+        "max": 21,
         "hidden": false,
         "bars": [
           {
-            "name": "2015-16",
-            "value": 21,
-            "display": "21%",
+            "name": "Existing brain data",
+            "value": 12,
+            "display": "12",
             "voice": "a"
           },
           {
-            "name": "2024-25",
-            "value": 32,
-            "display": "32%",
-            "voice": "b"
-          },
-          {
-            "name": "2025-26",
-            "value": 30,
-            "display": "30%",
+            "name": "Newly recruited",
+            "value": 9,
+            "display": "9",
             "voice": "b"
           }
         ]
       },
       {
-        "label": "Students reporting depression symptoms, percent",
-        "unit": "%",
-        "max": 37,
+        "label": "Languages used to predict Vietnamese",
+        "unit": "languages",
+        "max": 21,
         "hidden": true,
         "bars": [
           {
-            "name": "2015-16",
-            "value": 25,
-            "display": "about 25%",
+            "name": "Languages tested",
+            "value": 21,
+            "display": "21",
             "voice": "a"
           },
           {
-            "name": "2024-25",
-            "value": 37,
-            "display": "37%",
-            "voice": "b"
-          },
-          {
-            "name": "2025-26",
-            "value": 34,
-            "display": "34%",
+            "name": "Trained on (French)",
+            "value": 1,
+            "display": "1",
             "voice": "b"
           }
         ]
       }
     ],
-    "reveal": "Depression symptoms fell from 37 to 34 percent this year but remain about 9 points above 2015 to 2016. One good year is real progress, not a return to baseline.",
-    "caveat": "Large self-report survey; the 2015-16 figure is reported as approximate, and campuses in the sample vary by year.",
+    "reveal": "A model trained on French alone predicted Vietnamese brain responses. That only works if brains share a code for meaning across languages.",
+    "caveat": "One peer-reviewed study; counts are from the MIT News summary, and the French to Vietnamese case is the example the authors give.",
     "sources": [
       {
-        "label": "Inside Higher Ed, Nov 23 2026",
-        "link": "https://www.insidehighered.com/news/student-success/health-wellness/2026/11/23/student-mental-health-improving-slowly"
+        "label": "MIT News, Nov 23 2026",
+        "link": "https://news.mit.edu/2026/many-languages-one-common-neural-code-1123"
       }
     ]
   },
   "argue": {
     "kicker": "Argue with this",
-    "claim": "If 7 percent of students already turn to chatbots for emotional support, colleges should write guidance for that use instead of pretending it is not happening.",
-    "context": "The Healthy Minds Study asked about chatbot support for the first time this year, and its authors think 7 percent undercounts it.",
+    "claim": "Punishing scholars for undisclosed AI writing does more harm than the AI use itself.",
+    "context": "Inside Higher Ed traces a run of public shamings, including a Dartmouth provost's resignation after a detector flag, and asks what is really driving them.",
     "source": "Inside Higher Ed",
-    "link": "https://www.insidehighered.com/news/student-success/health-wellness/2026/11/23/student-mental-health-improving-slowly"
+    "link": "https://www.insidehighered.com/news/faculty/2026/11/24/whats-really-fueling-higher-eds-ai-witch-hunt"
   }
 }
