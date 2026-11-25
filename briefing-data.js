@@ -1,23 +1,13 @@
 window.BRIEFING = {
-  "date": "2026-11-24",
-  "builtAt": "2026-11-24",
-  "dayName": "Tuesday",
-  "dateLong": "November 24, 2026",
-  "coverLine": "3 things shipped this week. 6 projects in motion.",
-  "yesterdayLabel": "Monday",
+  "date": "2026-11-25",
+  "builtAt": "2026-11-25",
+  "dayName": "Wednesday",
+  "dateLong": "November 25, 2026",
+  "coverLine": "6 projects in motion.",
+  "yesterdayLabel": "Tuesday",
   "yesterday": [],
-  "weekWinCount": 3,
-  "weekHighlights": [
-    {
-      "text": "Rebuilt the workshop starter kit for Jandro and Leo around their teaching names: team-inbox and owners-inbox, plus know…"
-    },
-    {
-      "text": "Added Codex support to the kit: a one-line installer (no Homebrew or Node) and the orchestrator and Senior Researcher t…"
-    },
-    {
-      "text": "Built a four-page One-Folder Guide for the workshop (folder map, Terminal installs for Claude Code and Codex, voice pip…"
-    }
-  ],
+  "weekWinCount": 0,
+  "weekHighlights": [],
   "projects": [
     {
       "name": "Korean Learning System",
@@ -60,296 +50,314 @@ window.BRIEFING = {
   "workOn": [
     {
       "verb": "Reuse",
-      "title": "Blender Orientation Deck",
-      "action": "Mine its five-scene structure for the next Blender class."
+      "title": "Art Essay Rubric Import",
+      "action": "Import the rubric into Canvas before the essay is assigned."
     },
     {
-      "verb": "Revise",
-      "title": "ESL3 Rest-of-Semester Handout",
-      "action": "Check weeks 9-15 against what actually got taught, then reprint."
+      "verb": "Reflect",
+      "title": "Fall 2024 Teaching Report",
+      "action": "Reread the feedback and compare it to this semester's changes."
     }
   ],
   "headlines": [
     {
-      "title": "Courts deal blows to key international education policies",
-      "blurb": "Judges have checked the administration's visa limits and student restrictions.",
-      "why": "International enrollment decides who fills ESL and music classrooms next year.",
-      "link": "https://www.insidehighered.com/news/global/international-students-us/2026/11/24/where-trumps-international-student-crackdown"
+      "title": "Chinese neuroscientist at Princeton detained by ICE after airport stop",
+      "blurb": "AP reports the researcher was held at a Washington airport and then taken into immigration custody.",
+      "why": "Cases like this shape how safe international scholars and students feel coming to US campuses.",
+      "link": "https://accessnorthga.com/ap_article/ap-top-u-s-news-at-1236-a-m-est-5"
     },
     {
-      "title": "Nvidia reinstates founder Jensen Huang as CEO",
-      "blurb": "The chipmaker brought its founder back, the biggest leadership story in AI hardware this month.",
-      "why": "Nvidia's chips set the cost and pace of every AI tool teachers end up using.",
-      "link": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/"
+      "title": "Jensen Huang reinstated as Nvidia CEO after Trump urges the board",
+      "blurb": "Nvidia's board brought Huang back after the President said he hoped they would rehire him.",
+      "why": "The company that sells most AI chips now has its leadership tied openly to politics, which matters for anyone advising schools on AI costs.",
+      "link": "https://thezvi.substack.com/p/jensen-huang-reinstated-as-nvidia"
     },
     {
-      "title": "IEA calls the Iran war the biggest disruption to oil and gas trade on record",
-      "blurb": "Hormuz shipments fell to about half their prewar level in November.",
-      "why": "Energy shocks raise touring costs and make a strong real-world reading for advanced ESL.",
-      "link": "https://www.dropsitenews.com/p/iran-war-oil-ansarallah-saudi-riyadh-icj-myanmar-rohingya"
+      "title": "Appeals court gives Trump a path to erasing hush money conviction",
+      "blurb": "A federal appeals court opened a possible route to vacating the New York conviction.",
+      "why": "A major test of how courts handle a sitting president, and a live civics topic for any class discussing the news.",
+      "link": "https://accessnorthga.com/ap_article/ap-top-u-s-news-at-1236-a-m-est-5"
     }
   ],
   "feedNews": [
     {
-      "source": "Audrey Watters",
-      "title": "Refusing \"Normal Technology\"",
-      "blurb": "A talk arguing educators should not accept AI as an ordinary, inevitable tool.",
-      "link": "https://2ndbreakfast.audreywatters.com/refusing-normal-technology/"
+      "source": "MIT News",
+      "title": "Agentic system personalizes physical controls to help users \"DJ their art\"",
+      "blurb": "TangiMap uses an AI agent to remap knobs, buttons and sliders so the same controller can edit photos or perform music.",
+      "link": "https://news.mit.edu/2026/tangimap-agentic-system-personalizes-physical-controls-help-users-dj-their-art-1124"
     },
     {
       "source": "Inside Higher Ed",
-      "title": "5 Findings on Gen Z's Changing Priorities",
-      "blurb": "New research on what today's students want from college and work.",
-      "link": "https://www.insidehighered.com/news/student-success/college-experience/2026/11/24/5-findings-gen-zs-changing-priorities"
+      "title": "Global Higher Education Enrollments 'to Peak by 2036'",
+      "blurb": "A new projection says Africa's growing youth population will not offset falling enrollment elsewhere, a long-range signal for international recruiting.",
+      "link": "https://www.insidehighered.com/news/global/2026/11/25/global-higher-education-enrollments-peak-2036"
+    },
+    {
+      "source": "EFL Magazine",
+      "title": "How to Become an English Teacher in Japan as a Filipino",
+      "blurb": "A practical guide to one of the larger teacher pipelines in Asian ELT, useful context on who teaches English abroad and how they get there.",
+      "link": "https://eflmagazine.com/how-to-become-an-english-teacher-in-japan-as-a-filipino/"
     },
     {
       "source": "Inside Higher Ed",
-      "title": "Book Explores 'New American Frontier' of Training for Tech Jobs",
-      "blurb": "A look at the fast-growing world of short tech job training outside degrees.",
-      "link": "https://www.insidehighered.com/news/tech-innovation/teaching-learning/2026/11/24/book-explores-new-american-frontier-tech-job"
+      "title": "PEN America Splinter Group Forms Amid Tensions Over Gaza War",
+      "blurb": "Writers split from the free-expression group, a story about arts organizations and where they draw lines.",
+      "link": "https://www.insidehighered.com/news/quick-takes/2026/11/25/pen-america-splinter-group-forms-amid-tensions-over-gaza-war"
     },
     {
-      "source": "Simon Willison",
-      "title": "Ladybird's first alpha release",
-      "blurb": "A brand-new independent web browser engine reaches its first alpha.",
-      "link": "https://simonwillison.net/2026/Nov/23/ladybird/"
-    },
-    {
-      "source": "Simon Willison",
-      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
-      "blurb": "A Chinese lab ships a coding model that reuses its layers in a loop.",
-      "link": "https://simonwillison.net/2026/Nov/23/glm-54/"
-    },
-    {
-      "source": "Andrew Huang",
-      "title": "I wish every device had this feature!!",
-      "blurb": "A new short from the producer on a music gear feature he wants everywhere.",
-      "link": "https://www.youtube.com/shorts/0iKeHMfVXAE"
+      "source": "Online Learning Consortium",
+      "title": "How Online Labs Can Widen the Healthcare Pipeline",
+      "blurb": "A look at what online lab work can and cannot replace, relevant to any hands-on course that moves partly online.",
+      "link": "https://onlinelearningconsortium.org/olc-insights/2026/11/how-online-labs-can-widen-the-healthcare-pipeline/"
     }
   ],
   "wordCloud": [
     {
-      "text": "Refusing Normal",
+      "text": "Agentic System",
       "weight": 5
     },
     {
-      "text": "Changing Priorities",
+      "text": "Physical Controls",
       "weight": 5
     },
     {
-      "text": "Book Explores",
+      "text": "Global Higher",
       "weight": 5
     },
     {
-      "text": "American Frontier",
+      "text": "English Teacher",
       "weight": 5
     },
     {
-      "text": "Alpha Release",
+      "text": "Pen America",
       "weight": 5
     },
     {
-      "text": "Glm Toward",
+      "text": "Group Forms",
       "weight": 5
     },
     {
-      "text": "Loop Transformer",
+      "text": "Online Labs",
       "weight": 5
     },
     {
-      "text": "Wish Every",
+      "text": "Healthcare Pipeline",
       "weight": 5
     },
     {
-      "text": "Training",
-      "weight": 5
+      "text": "Africa Growing",
+      "weight": 1
     },
     {
-      "text": "Tech",
-      "weight": 5
+      "text": "Larger Teacher",
+      "weight": 1
     },
     {
-      "text": "Coding",
-      "weight": 5
+      "text": "Personalizes",
+      "weight": 1
     },
     {
-      "text": "Feature",
-      "weight": 5
+      "text": "Users",
+      "weight": 1
     },
     {
-      "text": "Accept AI",
-      "weight": 3
+      "text": "Art",
+      "weight": 1
     },
     {
-      "text": "Engine Reaches",
-      "weight": 3
+      "text": "Education",
+      "weight": 1
     },
     {
-      "text": "Music Gear",
-      "weight": 3
+      "text": "Enrollments",
+      "weight": 1
     },
     {
-      "text": "Technology",
-      "weight": 3
+      "text": "Peak",
+      "weight": 1
     },
     {
-      "text": "Findings",
-      "weight": 3
+      "text": "Become",
+      "weight": 1
     },
     {
-      "text": "Gen",
-      "weight": 3
+      "text": "Japan",
+      "weight": 1
     },
     {
-      "text": "Jobs",
-      "weight": 3
+      "text": "Filipino",
+      "weight": 1
     },
     {
-      "text": "Short",
-      "weight": 3
+      "text": "Splinter",
+      "weight": 1
     },
     {
-      "text": "Ladybird",
-      "weight": 3
+      "text": "Amid",
+      "weight": 1
     },
     {
-      "text": "Generalized",
-      "weight": 3
+      "text": "Tensions",
+      "weight": 1
     },
     {
-      "text": "Device",
-      "weight": 3
+      "text": "Gaza",
+      "weight": 1
     },
     {
-      "text": "Arguing",
+      "text": "War",
       "weight": 1
     }
   ],
   "frontier": {
     "items": [
       {
-        "source": "MIT News",
-        "title": "Many languages, one common neural code",
-        "explainer": "Researchers recorded brain activity of speakers of 21 languages listening to Alice in Wonderland, then used multilingual language models to build encoding models that predict that activity. A model trained on one language, such as French, could predict brain responses in another it never saw, such as Vietnamese. That suggests the brain represents meaning in a shared way across languages.",
-        "why": "It gives language teachers new evidence that meaning, not surface form, is the common ground learners build on.",
-        "link": "https://news.mit.edu/2026/many-languages-one-common-neural-code-1123"
-      },
-      {
-        "source": "Google DeepMind",
-        "title": "Finding faster quantum algorithms with agents and formal verification",
-        "explainer": "Teams of AI agents propose improvements to quantum algorithms, and a formal verifier mathematically checks each claim before it is accepted. The checker is what makes the agents' output trustworthy.",
-        "why": "Pairing AI generation with an automatic checker is a pattern any teacher can copy for AI-assisted work.",
-        "link": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+        "source": "Google",
+        "title": "Introducing Gemini 4 Neon",
+        "explainer": "Gemini 4 Neon is Google's new middle model, sitting between the fast Hydrogen and the heavy Carbon, with four thinking levels you choose per request. More thinking means the model spends more hidden reasoning tokens before answering, which costs more but solves harder tasks. Google lists it at $3 per million input tokens and $15 per million output tokens with a 1 million token context window, and claims a per-task cost 32 percent below Carbon.",
+        "why": "A near-frontier model at mid-tier prices changes the cost math you give any school asking which AI plan to buy, though most benchmark numbers here are Google's own.",
+        "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
       },
       {
         "source": "Simon Willison",
-        "title": "GLM-5.4: a loop transformer for coding",
-        "explainer": "Z.ai's new model is its first loop transformer, which runs some of its layers more than once instead of stacking more distinct layers. The idea is to get more reasoning per parameter.",
-        "why": "Open models from new labs keep getting cheaper to run, which shapes what schools can afford.",
-        "link": "https://simonwillison.net/2026/Nov/23/glm-54/"
+        "title": "Three LLM inflection points in twelve months",
+        "explainer": "Willison argues the past year had three jumps: coding agents became reliable in November 2025, models that solve a defined goal by brute force with tools arrived in mid 2026, and by autumn models got good at 3D modeling and even at making a game fun. An agent here is a model that runs in a loop, calling tools such as a terminal or browser, until a goal is met. His point is that the jumps came from models plus tools, not from chat getting smarter.",
+        "why": "It gives you a clean, dated timeline for explaining to faculty why advice from even a year ago is already out of date.",
+        "link": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/"
+      },
+      {
+        "source": "Simon Willison",
+        "title": "GPT 6.2 Astra Solves a Historical Mystery",
+        "explainer": "Willison links a case study by history professor Mark Humphries, who used GPT 6.2 Astra on a real historical research question. Astra is OpenAI's current top reasoning model, built to work through long, multi-step problems instead of giving one quick answer. The case is worth reading for how the historian framed the question and checked the model's evidence, not just for the result.",
+        "why": "Humanities faculty often hear only about AI as a cheating tool, and this is a concrete research use you can show them.",
+        "link": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/"
       }
     ],
     "tryThisWeek": {
-      "title": "Same meaning, two languages",
-      "steps": "Give an AI chatbot one short paragraph in English and ask for it in a language your students speak, then ask it to explain three places where the two versions differ in form but keep the same meaning. Use the result as a five-minute warm-up on meaning over word-for-word translation.",
-      "link": "https://news.mit.edu/2026/many-languages-one-common-neural-code-1123"
+      "title": "Run the me versus my classmates AI poll",
+      "steps": "Make an anonymous four-question form: for two helpful uses (explaining a concept, making a practice quiz) and two shortcut uses (drafting an essay, pasting AI text in unedited), ask whether the student does it and whether they think classmates do. Run it in the last five minutes of class and show the two bars side by side next time. The gap between them starts an honest conversation about norms without accusing anyone.",
+      "link": "https://www.insidehighered.com/news/students/academics/2026/11/25/students-say-they-dont-use-ai-harmful-ways-peers-do"
     },
     "policy": {
-      "title": "What's really fueling higher ed's AI 'witch hunt'?",
-      "blurb": "Faculty use AI widely but there is no agreed line between help and dishonesty; a Dartmouth provost resigned after a detector flagged his writing.",
-      "link": "https://www.insidehighered.com/news/faculty/2026/11/24/whats-really-fueling-higher-eds-ai-witch-hunt"
+      "title": "NYU Tandon faculty release a traffic-light guide to AI use in assignments",
+      "blurb": "An 18-author faculty working group published Protecting Learning, a guide that helps instructors sort each assignment by whether AI supports or substitutes for the learning it is meant to build.",
+      "link": "https://aiweekly.co/alerts/nyu-tandon-releases-traffic-light-ai-policy-guide-for-faculty"
     }
   },
-  "hook": "Could a model trained only on French brains read a Vietnamese speaker's brain?",
+  "hook": "If 23 percent of students say they draft essays with AI, how many say their classmates do?",
   "lead": {
     "kicker": "The story",
-    "title": "Twenty-one languages, one way of meaning",
-    "dek": "An MIT study used multilingual AI to show that brains across 21 languages seem to encode meaning the same way, which matters for anyone who teaches language.",
+    "title": "Everyone else is cheating",
+    "dek": "A new NBER working paper finds college students describe their own AI use as mostly helpful and their peers' use as mostly shortcuts, and the gap may say more about norms than about cheating.",
     "paragraphs": [
-      "The Fedorenko lab at MIT combined brain imaging from speakers of 21 languages with outputs from multilingual language models. Twelve languages came from existing data; nine more, including Korean, Mandarin, Hindi and Arabic, were recruited for this study. Everyone listened to Alice in Wonderland in their native language.",
-      "The team built encoding models that predict brain activity from the AI's internal representation of the text. They worked in every language, even ones with little data like Marathi and Lithuanian. The surprise: a model trained on one language predicted brain responses in a language it never saw, such as French to Vietnamese.",
-      "That transfer only works if brains share a common code, and the analysis points to meaning as that shared part. The work appears in Nature Neuroscience. It could also help clinical language tools reach speakers beyond English."
+      "Dartmouth economist Bruce Sacerdote and research specialist Mason Parris-Bacon surveyed three groups through College Pulse between June and September: 1,201 Dartmouth undergraduates, 332 incoming Dartmouth first-years, and a representative sample of 1,003 US college students. Each student answered twice for every kind of AI use: do you do this, and do your peers?",
+      "For uses the authors call potentially harmful, the answers split sharply. Among US students, 23 percent said they use AI to draft essays but 54 percent said their peers do. Only 8 percent admitted pasting AI text into assignments with little editing, while 50 percent said peers do. For helpful uses the two numbers nearly match: 61 percent use AI to explain difficult concepts, and 58 percent say peers do.",
+      "The authors offer two readings. Either students under-admit cheating while freely reporting it in others, or they overestimate peers by reporting the worst thing they have seen. Either way, the norm students believe in is that most of their classmates take shortcuts, and believed norms tend to move behavior."
     ],
-    "against": "Encoding models measure correlation with imaging signals, and a shared meaning component does not erase the real differences between languages that the authors themselves say must also be represented.",
-    "watch": "Whether the reverse direction, decoding language from brain activity, gets tried for endangered languages.",
-    "ask": "If meaning is the shared layer, how much class time should go to meaning-first tasks before form?",
-    "source": "MIT News",
-    "link": "https://news.mit.edu/2026/many-languages-one-common-neural-code-1123"
+    "against": "Asking about peers is a long-standing survey trick for getting at behavior people will not admit to, but it double counts: one student who pastes AI text can be the peer that dozens of classmates have in mind. The paper is a working paper, not yet peer reviewed, and the US sample leans heavily toward science majors, with only 4 percent in arts and humanities.",
+    "watch": "Whether the paper's job-market findings hold up: 56 percent of students said AI is reducing jobs in their field, yet 55 percent said strong AI skills will matter for their career.",
+    "ask": "If your students believe most classmates paste in AI text, what would it take to show them the real number for your own room?",
+    "source": "Inside Higher Ed",
+    "link": "https://www.insidehighered.com/news/students/academics/2026/11/25/students-say-they-dont-use-ai-harmful-ways-peers-do"
   },
   "graph": {
     "kicker": "Graph of the day",
-    "title": "How much training does a brain model need?",
-    "tease": "MIT researchers built models that predict brain activity from multilingual AI.",
-    "question": "To predict brain responses in Vietnamese, how many languages did one model need to be trained on?",
+    "title": "What I do, and what I think you do",
+    "tease": "Dartmouth economists asked 1,003 US college students how they use AI, and how they think their peers use it.",
+    "question": "23 percent of students say they draft essays with AI. What share say their peers do?",
     "choices": [
       {
-        "label": "All 21"
+        "label": "About 25 percent"
       },
       {
-        "label": "Just 1",
+        "label": "About 54 percent",
         "correct": true
       },
       {
-        "label": "About half"
+        "label": "About 90 percent"
       }
     ],
     "panels": [
       {
-        "label": "Languages in the study",
-        "unit": "languages",
-        "max": 21,
+        "label": "Use AI to explain difficult concepts",
+        "unit": "% of US college students",
+        "max": 70,
         "hidden": false,
         "bars": [
           {
-            "name": "Existing brain data",
-            "value": 12,
-            "display": "12",
+            "name": "Say they do",
+            "value": 61,
+            "display": "61%",
             "voice": "a"
           },
           {
-            "name": "Newly recruited",
-            "value": 9,
-            "display": "9",
+            "name": "Say peers do",
+            "value": 58,
+            "display": "58%",
             "voice": "b"
           }
         ]
       },
       {
-        "label": "Languages used to predict Vietnamese",
-        "unit": "languages",
-        "max": 21,
+        "label": "Use AI to draft essays",
+        "unit": "% of US college students",
+        "max": 70,
         "hidden": true,
         "bars": [
           {
-            "name": "Languages tested",
-            "value": 21,
-            "display": "21",
+            "name": "Say they do",
+            "value": 23,
+            "display": "23%",
             "voice": "a"
           },
           {
-            "name": "Trained on (French)",
-            "value": 1,
-            "display": "1",
+            "name": "Say peers do",
+            "value": 54,
+            "display": "54%",
+            "voice": "b"
+          }
+        ]
+      },
+      {
+        "label": "Paste AI text into assignments with little editing",
+        "unit": "% of US college students",
+        "max": 70,
+        "hidden": true,
+        "bars": [
+          {
+            "name": "Say they do",
+            "value": 8,
+            "display": "8%",
+            "voice": "a"
+          },
+          {
+            "name": "Say peers do",
+            "value": 50,
+            "display": "50%",
             "voice": "b"
           }
         ]
       }
     ],
-    "reveal": "A model trained on French alone predicted Vietnamese brain responses. That only works if brains share a code for meaning across languages.",
-    "caveat": "One peer-reviewed study; counts are from the MIT News summary, and the French to Vietnamese case is the example the authors give.",
+    "reveal": "54 percent said their peers draft essays with AI, more than twice the 23 percent who admit it, and the gap is widest for pasting AI text in unedited. For helpful uses the two answers match, so the gap shows up only where a use carries stigma.",
+    "caveat": "One survey of 1,003 students fielded by College Pulse, reported in an NBER working paper that is not yet peer reviewed; peer estimates can double count a few visible cases.",
     "sources": [
       {
-        "label": "MIT News, Nov 23 2026",
-        "link": "https://news.mit.edu/2026/many-languages-one-common-neural-code-1123"
+        "label": "Inside Higher Ed, Nov 25, 2026",
+        "link": "https://www.insidehighered.com/news/students/academics/2026/11/25/students-say-they-dont-use-ai-harmful-ways-peers-do"
+      },
+      {
+        "label": "NBER working paper w36021",
+        "link": "https://www.nber.org/system/files/working_papers/w36021/w36021.pdf"
       }
     ]
   },
   "argue": {
     "kicker": "Argue with this",
-    "claim": "Punishing scholars for undisclosed AI writing does more harm than the AI use itself.",
-    "context": "Inside Higher Ed traces a run of public shamings, including a Dartmouth provost's resignation after a detector flag, and asks what is really driving them.",
+    "claim": "Colleges should be planning for humanoid robots on campus now, the same way they wish they had planned for chatbots in 2022.",
+    "context": "An Inside Higher Ed column argues that 2027 is a visible tipping point for humanoid robots arriving on campuses.",
     "source": "Inside Higher Ed",
-    "link": "https://www.insidehighered.com/news/faculty/2026/11/24/whats-really-fueling-higher-eds-ai-witch-hunt"
+    "link": "https://www.insidehighered.com/opinion/columns/online-trending-now/2026/11/25/2027-tipping-point-humanoid-robots-campus"
   },
   "closeLine": "Better than your scroll today?",
   "closeSub": "Tell me what to keep, cut or double. The brief changes every week based on your answer."
