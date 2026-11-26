@@ -1,6 +1,6 @@
 {
   "_note": "Live external bits Cadence (calendar) + Pax (headlines) refresh each morning. The rest of the briefing auto-derives from priorities.md / project-timeline.json / serendipity.json. Daily language-habit calendar blocks are intentionally filtered out of 'today' and 'twoWeeks' so only real appointments show.",
-  "_updated": "2026-11-25",
+  "_updated": "2026-11-26",
   "today": [
     {
       "time": "Calendar",
@@ -10,304 +10,286 @@
   "twoWeeks": [],
   "headlines": [
     {
-      "title": "Chinese neuroscientist at Princeton detained by ICE after airport stop",
-      "blurb": "AP reports the researcher was held at a Washington airport and then taken into immigration custody.",
-      "why": "Cases like this shape how safe international scholars and students feel coming to US campuses.",
-      "link": "https://accessnorthga.com/ap_article/ap-top-u-s-news-at-1236-a-m-est-5"
+      "title": "Brazil calls new Trump tariff threat unacceptable as China denounces levies as baseless",
+      "blurb": "Two of the largest US trading partners pushed back hard on the latest round of tariff threats.",
+      "why": "Tariffs on electronics and instruments land on the gear budgets of schools, studios and working musicians.",
+      "link": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat"
     },
     {
-      "title": "Jensen Huang reinstated as Nvidia CEO after Trump urges the board",
-      "blurb": "Nvidia's board brought Huang back after the President said he hoped they would rehire him.",
-      "why": "The company that sells most AI chips now has its leadership tied openly to politics, which matters for anyone advising schools on AI costs.",
-      "link": "https://thezvi.substack.com/p/jensen-huang-reinstated-as-nvidia"
+      "title": "China sends its first foreign astronaut, from Pakistan, to its own space station",
+      "blurb": "China is opening its station, a rival to the ISS, to astronauts from partner countries.",
+      "why": "Science partnerships now follow geopolitics closely, a good current-events thread for an international classroom.",
+      "link": "https://www.theguardian.com/science/2026/nov/25/china-sends-first-pakistani-astronaut-into-space"
     },
     {
-      "title": "Appeals court gives Trump a path to erasing hush money conviction",
-      "blurb": "A federal appeals court opened a possible route to vacating the New York conviction.",
-      "why": "A major test of how courts handle a sitting president, and a live civics topic for any class discussing the news.",
-      "link": "https://accessnorthga.com/ap_article/ap-top-u-s-news-at-1236-a-m-est-5"
+      "title": "Canada says it does not report to the US after a Pentagon memo criticizes its military spending",
+      "blurb": "Ottawa answered a Pentagon memo on defence spending by stressing its sovereignty.",
+      "why": "A clear, current example of diplomatic register and pushback, useful for students reading political English.",
+      "link": "https://www.theguardian.com/world/2026/nov/24/canada-sovereign-nation-us-relations-defence-pentagon-memo"
     }
   ],
   "feedNews": [
     {
-      "source": "MIT News",
-      "title": "Agentic system personalizes physical controls to help users \"DJ their art\"",
-      "blurb": "TangiMap uses an AI agent to remap knobs, buttons and sliders so the same controller can edit photos or perform music.",
-      "link": "https://news.mit.edu/2026/tangimap-agentic-system-personalizes-physical-controls-help-users-dj-their-art-1124"
+      "source": "Audrey Watters",
+      "title": "Refusing \"Normal Technology\"",
+      "blurb": "This week's Second Breakfast pushes back on the idea that AI should be treated as just another ordinary tool in schools.",
+      "link": "https://2ndbreakfast.audreywatters.com/refusing-normal-technology/"
+    },
+    {
+      "source": "Andrew Huang",
+      "title": "Embers in water actually make the craziest sounds",
+      "blurb": "A short on recording hot embers hitting water, a found-sound idea you could steal for a sampling lesson.",
+      "link": "https://www.youtube.com/shorts/keiSxoyRNyg"
+    },
+    {
+      "source": "Tom Solid (myicor)",
+      "title": "Claude Teams replaced our team's AI setup. What it really costs.",
+      "blurb": "The ICOR team walks through moving its company onto Claude Teams and what the Slack integration costs per month.",
+      "link": "https://www.youtube.com/watch?v=rCh0wO-838k"
+    },
+    {
+      "source": "Latent Space",
+      "title": "The Revolution vs The Renaissance (Thariq Shihipar)",
+      "blurb": "A talk arguing that cheap AI-made software should buy you more time to make one thing feel right, not just more things.",
+      "link": "https://latent.space/p/the_revolution_vs_the_renaissance_thariq_shihipar_openai/"
+    },
+    {
+      "source": "Simon Willison",
+      "title": "datasette-charts 0.3a0",
+      "blurb": "His charting plugin now lets you annotate a chart with lines, shaded areas and labels, handy for class data stories.",
+      "link": "https://simonwillison.net/2026/Nov/25/datasette-charts/"
     },
     {
       "source": "Inside Higher Ed",
-      "title": "Global Higher Education Enrollments 'to Peak by 2036'",
-      "blurb": "A new projection says Africa's growing youth population will not offset falling enrollment elsewhere, a long-range signal for international recruiting.",
-      "link": "https://www.insidehighered.com/news/global/2026/11/25/global-higher-education-enrollments-peak-2036"
-    },
-    {
-      "source": "EFL Magazine",
-      "title": "How to Become an English Teacher in Japan as a Filipino",
-      "blurb": "A practical guide to one of the larger teacher pipelines in Asian ELT, useful context on who teaches English abroad and how they get there.",
-      "link": "https://eflmagazine.com/how-to-become-an-english-teacher-in-japan-as-a-filipino/"
-    },
-    {
-      "source": "Inside Higher Ed",
-      "title": "PEN America Splinter Group Forms Amid Tensions Over Gaza War",
-      "blurb": "Writers split from the free-expression group, a story about arts organizations and where they draw lines.",
-      "link": "https://www.insidehighered.com/news/quick-takes/2026/11/25/pen-america-splinter-group-forms-amid-tensions-over-gaza-war"
-    },
-    {
-      "source": "Online Learning Consortium",
-      "title": "How Online Labs Can Widen the Healthcare Pipeline",
-      "blurb": "A look at what online lab work can and cannot replace, relevant to any hands-on course that moves partly online.",
-      "link": "https://onlinelearningconsortium.org/olc-insights/2026/11/how-online-labs-can-widen-the-healthcare-pipeline/"
+      "title": "Revenue Shares and a Seat at the Table: Mamdani Reimagines Tech Transfer",
+      "blurb": "New York City is trying a new way to fund university research and share in what it produces.",
+      "link": "https://www.insidehighered.com/news/tech-innovation/2026/11/25/mamdani-unveils-new-model-tech-transfer"
     }
   ],
   "closeLine": "Better than your scroll today?",
   "closeSub": "Tell me what to keep, cut or double. The brief changes every week based on your answer.",
   "wordCloud": [
     {
-      "text": "Agentic System",
+      "text": "Refusing Normal",
       "weight": 5
     },
     {
-      "text": "Physical Controls",
+      "text": "Water Actually",
       "weight": 5
     },
     {
-      "text": "Global Higher",
+      "text": "Craziest Sounds",
       "weight": 5
     },
     {
-      "text": "English Teacher",
+      "text": "Claude Teams",
       "weight": 5
     },
     {
-      "text": "Pen America",
+      "text": "Team AI",
       "weight": 5
     },
     {
-      "text": "Group Forms",
+      "text": "Renaissance Thariq",
       "weight": 5
     },
     {
-      "text": "Online Labs",
+      "text": "Table Mamdani",
       "weight": 5
     },
     {
-      "text": "Healthcare Pipeline",
+      "text": "Tech Transfer",
       "weight": 5
     },
     {
-      "text": "Africa Growing",
+      "text": "Embers",
+      "weight": 5
+    },
+    {
+      "text": "Costs",
+      "weight": 5
+    },
+    {
+      "text": "Breakfast Pushes",
       "weight": 1
     },
     {
-      "text": "Larger Teacher",
+      "text": "Feel Right",
       "weight": 1
     },
     {
-      "text": "Personalizes",
+      "text": "Charting Plugin",
       "weight": 1
     },
     {
-      "text": "Users",
+      "text": "Lines Shaded",
       "weight": 1
     },
     {
-      "text": "Art",
+      "text": "Technology",
       "weight": 1
     },
     {
-      "text": "Education",
+      "text": "Idea",
       "weight": 1
     },
     {
-      "text": "Enrollments",
+      "text": "Replaced",
       "weight": 1
     },
     {
-      "text": "Peak",
+      "text": "Setup",
       "weight": 1
     },
     {
-      "text": "Become",
+      "text": "Revolution",
       "weight": 1
     },
     {
-      "text": "Japan",
+      "text": "Shihipar",
       "weight": 1
     },
     {
-      "text": "Filipino",
+      "text": "Datasette-charts",
       "weight": 1
     },
     {
-      "text": "Splinter",
+      "text": "Revenue",
       "weight": 1
     },
     {
-      "text": "Amid",
+      "text": "Seat",
       "weight": 1
     },
     {
-      "text": "Tensions",
-      "weight": 1
-    },
-    {
-      "text": "Gaza",
-      "weight": 1
-    },
-    {
-      "text": "War",
+      "text": "Reimagines",
       "weight": 1
     }
   ],
   "frontier": {
     "items": [
       {
-        "source": "Google",
-        "title": "Introducing Gemini 4 Neon",
-        "explainer": "Gemini 4 Neon is Google's new middle model, sitting between the fast Hydrogen and the heavy Carbon, with four thinking levels you choose per request. More thinking means the model spends more hidden reasoning tokens before answering, which costs more but solves harder tasks. Google lists it at $3 per million input tokens and $15 per million output tokens with a 1 million token context window, and claims a per-task cost 32 percent below Carbon.",
-        "why": "A near-frontier model at mid-tier prices changes the cost math you give any school asking which AI plan to buy, though most benchmark numbers here are Google's own.",
-        "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+        "source": "Lean FRO and Mathlib Initiative",
+        "title": "The Riemann Hypothesis is certified in Lean",
+        "explainer": "Mathematician Levent Alpöge, working with Claude, released a proof of the Riemann Hypothesis on November 20 as a Lean library of 17 million lines of code. Lean is a proof assistant: a program that only accepts a proof if every step follows from the rules, so a computer, not a referee, does the checking. The Lean and Mathlib communities certified the proof the next day after several independent checkers accepted it.",
+        "why": "The headline is not only that AI helped solve a famous problem; it is that a machine checker, not trust, decided the result was right, which is the model to teach for any AI output.",
+        "link": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
       },
       {
-        "source": "Simon Willison",
-        "title": "Three LLM inflection points in twelve months",
-        "explainer": "Willison argues the past year had three jumps: coding agents became reliable in November 2025, models that solve a defined goal by brute force with tools arrived in mid 2026, and by autumn models got good at 3D modeling and even at making a game fun. An agent here is a model that runs in a loop, calling tools such as a terminal or browser, until a goal is met. His point is that the jumps came from models plus tools, not from chat getting smarter.",
-        "why": "It gives you a clean, dated timeline for explaining to faculty why advice from even a year ago is already out of date.",
-        "link": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/"
+        "source": "Latent Space",
+        "title": "OpenAI claims the matrix multiplication exponent is exactly 9/4",
+        "explainer": "The exponent omega measures how fast, in principle, two large grids of numbers can be multiplied, the core operation inside every AI model. OpenAI found an upper bound of 9/4 in October and now claims a matching lower bound, which would pin omega exactly, when most experts expected 2. The papers come with Lean proofs but are still under review.",
+        "why": "It shows the pace: results that used to take decades are arriving weekly, and a careful reader has to track which are checked and which are still claims.",
+        "link": "https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/"
       },
       {
-        "source": "Simon Willison",
-        "title": "GPT 6.2 Astra Solves a Historical Mystery",
-        "explainer": "Willison links a case study by history professor Mark Humphries, who used GPT 6.2 Astra on a real historical research question. Astra is OpenAI's current top reasoning model, built to work through long, multi-step problems instead of giving one quick answer. The case is worth reading for how the historian framed the question and checked the model's evidence, not just for the result.",
-        "why": "Humanities faculty often hear only about AI as a cheating tool, and this is a concrete research use you can show them.",
-        "link": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/"
+        "source": "Ai2 on Hugging Face",
+        "title": "Where scientists draw the line on AI agents",
+        "explainer": "Ai2 interviewed 17 scientists in the natural, applied and social sciences about where they would let AI agents work on their research. An agent here is a model that uses tools and carries out multi-step tasks with some autonomy. The scientists' line: delegating a task never removes your responsibility to check the sources, the methods and whether the result reproduces.",
+        "why": "It is a ready-made frame for an AI use policy in any course: say what students may hand off, and what they must still be able to stand behind.",
+        "link": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
       }
     ],
     "tryThisWeek": {
-      "title": "Run the me versus my classmates AI poll",
-      "steps": "Make an anonymous four-question form: for two helpful uses (explaining a concept, making a practice quiz) and two shortcut uses (drafting an essay, pasting AI text in unedited), ask whether the student does it and whether they think classmates do. Run it in the last five minutes of class and show the two bars side by side next time. The gap between them starts an honest conversation about norms without accusing anyone.",
-      "link": "https://www.insidehighered.com/news/students/academics/2026/11/25/students-say-they-dont-use-ai-harmful-ways-peers-do"
+      "title": "Give one AI task a separate checker",
+      "steps": "Pick one job you already hand to AI, such as an answer key or a chord analysis. Write three yes or no checks that do not need the AI (does every answer appear in the reading, is every chord in the key, does it match the rubric), then run ten AI outputs through them and count the failures.",
+      "link": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
     },
     "policy": {
-      "title": "NYU Tandon faculty release a traffic-light guide to AI use in assignments",
-      "blurb": "An 18-author faculty working group published Protecting Learning, a guide that helps instructors sort each assignment by whether AI supports or substitutes for the learning it is meant to build.",
-      "link": "https://aiweekly.co/alerts/nyu-tandon-releases-traffic-light-ai-policy-guide-for-faculty"
+      "title": "University of Alaska faculty push back on AI principles partly drafted by Claude",
+      "blurb": "Both the UA Board of Regents and the UAA Faculty Senate postponed votes on AI Engaged, a four-page set of AI principles, after hundreds of faculty objected that it was partly written by a chatbot and disclosed late.",
+      "link": "https://www.adn.com/alaska-news/education/2026/11/11/ua-faculty-clash-over-postponed-artificial-intelligence-guidelines/"
     }
   },
-  "hook": "If 23 percent of students say they draft essays with AI, how many say their classmates do?",
+  "hook": "Of the 64 AI-assisted research breakthroughs one newsletter counted this year, how many came in November alone?",
   "lead": {
     "kicker": "The story",
-    "title": "Everyone else is cheating",
-    "dek": "A new NBER working paper finds college students describe their own AI use as mostly helpful and their peers' use as mostly shortcuts, and the gap may say more about norms than about cheating.",
+    "title": "The proof nobody had to take on trust",
+    "dek": "The Riemann Hypothesis, the most famous open problem in mathematics, fell to a mathematician working with Claude, and a computer checked every step before most experts had read a page.",
     "paragraphs": [
-      "Dartmouth economist Bruce Sacerdote and research specialist Mason Parris-Bacon surveyed three groups through College Pulse between June and September: 1,201 Dartmouth undergraduates, 332 incoming Dartmouth first-years, and a representative sample of 1,003 US college students. Each student answered twice for every kind of AI use: do you do this, and do your peers?",
-      "For uses the authors call potentially harmful, the answers split sharply. Among US students, 23 percent said they use AI to draft essays but 54 percent said their peers do. Only 8 percent admitted pasting AI text into assignments with little editing, while 50 percent said peers do. For helpful uses the two numbers nearly match: 61 percent use AI to explain difficult concepts, and 58 percent say peers do.",
-      "The authors offer two readings. Either students under-admit cheating while freely reporting it in others, or they overestimate peers by reporting the worst thing they have seen. Either way, the norm students believe in is that most of their classmates take shortcuts, and believed norms tend to move behavior."
+      "On November 20, Levent Alpöge released a proof of the Riemann Hypothesis, a 167-year-old question about how prime numbers are spread out. He wrote that he found it \"working with Claude\" and that the method also covers the Generalized Riemann Hypothesis. The proof arrived not as a paper but as a Lean library: 17 million lines of formal code.",
+      "Lean is a proof assistant. A proof only compiles if each step follows from the rules, so checking it is a job for software rather than a panel of referees. On November 21, the Lean FRO and the Mathlib Initiative certified it: dozens of people reproduced the build, two tools confirmed it proves exactly the standard statement, and several independent checkers, some with their own formal guarantees, accepted it.",
+      "That changes the order of events. Human understanding usually comes first and certainty later. Here certainty came first. Forecasters had the problem in the 2040s as recently as July, and Terence Tao said 35 days before the announcement that it might take until 2050. The same week, OpenAI claimed the exact value of the matrix multiplication exponent, and one newsletter counted 20 AI-assisted research advances in November alone."
     ],
-    "against": "Asking about peers is a long-standing survey trick for getting at behavior people will not admit to, but it double counts: one student who pastes AI text can be the peer that dozens of classmates have in mind. The paper is a working paper, not yet peer reviewed, and the US sample leans heavily toward science majors, with only 4 percent in arts and humanities.",
-    "watch": "Whether the paper's job-market findings hold up: 56 percent of students said AI is reducing jobs in their field, yet 55 percent said strong AI skills will matter for their career.",
-    "ask": "If your students believe most classmates paste in AI text, what would it take to show them the real number for your own room?",
-    "source": "Inside Higher Ed",
-    "link": "https://www.insidehighered.com/news/students/academics/2026/11/25/students-say-they-dont-use-ai-harmful-ways-peers-do"
+    "against": "Certified is not understood. Even Alpöge calls the Lean code \"full of garbage\" though it compiles, one estimate puts the real argument at 1,000 to 2,000 pages before simplification, and critics note it came from a lab insider with internal models and enormous compute, so nobody outside can yet say how repeatable the process is.",
+    "watch": "Whether mathematicians can distill a readable human proof, and whether the Clay Institute counts a machine-checked proof for its prize.",
+    "ask": "If a checker can certify a result before anyone understands it, what do you still require students to explain in their own words?",
+    "source": "Lean community blog",
+    "link": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
   },
   "graph": {
     "kicker": "Graph of the day",
-    "title": "What I do, and what I think you do",
-    "tease": "Dartmouth economists asked 1,003 US college students how they use AI, and how they think their peers use it.",
-    "question": "23 percent of students say they draft essays with AI. What share say their peers do?",
+    "title": "November broke the curve",
+    "tease": "Latent Space counted 64 selected AI-assisted research advances in 2026, including proofs still under review.",
+    "question": "How many of those 64 advances landed in November alone?",
     "choices": [
       {
-        "label": "About 25 percent"
+        "label": "About 6"
       },
       {
-        "label": "About 54 percent",
+        "label": "About 20",
         "correct": true
       },
       {
-        "label": "About 90 percent"
+        "label": "About 40"
       }
     ],
     "panels": [
       {
-        "label": "Use AI to explain difficult concepts",
-        "unit": "% of US college students",
-        "max": 70,
+        "label": "OpenAI's public math catalogue",
+        "unit": "count",
+        "max": 730,
         "hidden": false,
         "bars": [
           {
-            "name": "Say they do",
-            "value": 61,
-            "display": "61%",
+            "name": "Manuscripts",
+            "value": 730,
+            "display": "730",
             "voice": "a"
           },
           {
-            "name": "Say peers do",
-            "value": 58,
-            "display": "58%",
+            "name": "Distinct result families",
+            "value": 375,
+            "display": "375",
             "voice": "b"
           }
         ]
       },
       {
-        "label": "Use AI to draft essays",
-        "unit": "% of US college students",
-        "max": 70,
+        "label": "AI-assisted research advances per month, 2026",
+        "unit": "advances",
+        "max": 20,
         "hidden": true,
         "bars": [
           {
-            "name": "Say they do",
-            "value": 23,
-            "display": "23%",
+            "name": "January to October, average",
+            "value": 4.4,
+            "display": "4.4",
             "voice": "a"
           },
           {
-            "name": "Say peers do",
-            "value": 54,
-            "display": "54%",
-            "voice": "b"
-          }
-        ]
-      },
-      {
-        "label": "Paste AI text into assignments with little editing",
-        "unit": "% of US college students",
-        "max": 70,
-        "hidden": true,
-        "bars": [
-          {
-            "name": "Say they do",
-            "value": 8,
-            "display": "8%",
-            "voice": "a"
-          },
-          {
-            "name": "Say peers do",
-            "value": 50,
-            "display": "50%",
+            "name": "November so far",
+            "value": 20,
+            "display": "20",
             "voice": "b"
           }
         ]
       }
     ],
-    "reveal": "54 percent said their peers draft essays with AI, more than twice the 23 percent who admit it, and the gap is widest for pasting AI text in unedited. For helpful uses the two answers match, so the gap shows up only where a use carries stigma.",
-    "caveat": "One survey of 1,003 students fielded by College Pulse, reported in an NBER working paper that is not yet peer reviewed; peer estimates can double count a few visible cases.",
+    "reveal": "November accounts for 20 of the 64, more than four times the monthly average for January to October. The first panel is the warning label: paper counts run about twice the number of distinct results.",
+    "caveat": "One newsletter's hand-picked list, counted by public release and including proofs still under review; the January to October average is 44 advances over ten months.",
     "sources": [
       {
-        "label": "Inside Higher Ed, Nov 25, 2026",
-        "link": "https://www.insidehighered.com/news/students/academics/2026/11/25/students-say-they-dont-use-ai-harmful-ways-peers-do"
-      },
-      {
-        "label": "NBER working paper w36021",
-        "link": "https://www.nber.org/system/files/working_papers/w36021/w36021.pdf"
+        "label": "Latent Space AINews, Nov 25 2026",
+        "link": "https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/"
       }
     ]
   },
   "argue": {
     "kicker": "Argue with this",
-    "claim": "Colleges should be planning for humanoid robots on campus now, the same way they wish they had planned for chatbots in 2022.",
-    "context": "An Inside Higher Ed column argues that 2027 is a visible tipping point for humanoid robots arriving on campuses.",
-    "source": "Inside Higher Ed",
-    "link": "https://www.insidehighered.com/opinion/columns/online-trending-now/2026/11/25/2027-tipping-point-humanoid-robots-campus"
+    "claim": "Once a machine can check the work, teaching students to show their work matters more, not less.",
+    "context": "The Riemann Hypothesis proof was certified by software before experts could read it, and even its author calls the code a mess. The open question is who explains it.",
+    "source": "Zvi Mowshowitz, Don't Worry About the Vase",
+    "link": "https://thezvi.substack.com/p/claude-and-levent-alpoge-prove-the"
   }
 }
