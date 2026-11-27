@@ -1,16 +1,11 @@
 window.BRIEFING = {
-  "date": "2026-11-26",
-  "builtAt": "2026-11-26",
-  "dayName": "Thursday",
-  "dateLong": "November 26, 2026",
+  "date": "2026-11-27",
+  "builtAt": "2026-11-27",
+  "dayName": "Friday",
+  "dateLong": "November 27, 2026",
   "coverLine": "1 thing shipped this week. 6 projects in motion.",
-  "yesterdayLabel": "Wednesday",
-  "yesterday": [
-    {
-      "text": "Installed iTerm2 on the laptop (Homebrew, from the mini over SSH); confirmed km works unchanged and km stays the way to work from the laptop",
-      "team": ""
-    }
-  ],
+  "yesterdayLabel": "Thursday",
+  "yesterday": [],
   "weekWinCount": 1,
   "weekHighlights": [
     {
@@ -70,285 +65,305 @@ window.BRIEFING = {
   ],
   "headlines": [
     {
-      "title": "Brazil calls new Trump tariff threat unacceptable as China denounces levies as baseless",
-      "blurb": "Two of the largest US trading partners pushed back hard on the latest round of tariff threats.",
-      "why": "Tariffs on electronics and instruments land on the gear budgets of schools, studios and working musicians.",
-      "link": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat"
+      "title": "Macy's Thanksgiving Day Parade postponed by weather for the first time in its history",
+      "blurb": "With gusts up to 60 mph forecast, the 100th parade moved to 8:30 a.m. Saturday, Nov. 28.",
+      "why": "Even the biggest live show in American music and pageantry runs on a hard weather rule, set in 1998, that grounds the balloons above 34 mph gusts.",
+      "link": "https://www.yahoo.com/news/us/live/macys-thanksgiving-day-parade-postponed-until-saturday-due-to-severe-weather--follow-live-updates-214611617.html"
     },
     {
-      "title": "China sends its first foreign astronaut, from Pakistan, to its own space station",
-      "blurb": "China is opening its station, a rival to the ISS, to astronauts from partner countries.",
-      "why": "Science partnerships now follow geopolitics closely, a good current-events thread for an international classroom.",
-      "link": "https://www.theguardian.com/science/2026/nov/25/china-sends-first-pakistani-astronaut-into-space"
+      "title": "Eminem's publisher widens its copyright suit against AI music company Suno",
+      "blurb": "Eight Mile Style's amended complaint says Suno trained on 269 Eminem works and seeks $47.8 million.",
+      "why": "This case could decide whether AI music generators can train on songwriters' catalogs, a question students and clients will ask you about.",
+      "link": "https://www.digitalmusicnews.com/2026/11/20/eight-mile-style-v-suno-amended-suit/"
     },
     {
-      "title": "Canada says it does not report to the US after a Pentagon memo criticizes its military spending",
-      "blurb": "Ottawa answered a Pentagon memo on defence spending by stressing its sovereignty.",
-      "why": "A clear, current example of diplomatic register and pushback, useful for students reading political English.",
-      "link": "https://www.theguardian.com/world/2026/nov/24/canada-sovereign-nation-us-relations-defence-pentagon-memo"
+      "title": "UK-EU summit ends with no deal on post-Brexit touring for musicians",
+      "blurb": "A UK government report found British artists' European performances in 2024 were 21% below 2019.",
+      "why": "Touring rules shape which international careers are possible for the musicians you teach.",
+      "link": "https://completemusicupdate.com/no-deal-on-post-brexit-touring-after-uk-eu-summit-spells-disappointment-for-music-industry/"
     }
   ],
   "feedNews": [
     {
-      "source": "Audrey Watters",
-      "title": "Refusing \"Normal Technology\"",
-      "blurb": "This week's Second Breakfast pushes back on the idea that AI should be treated as just another ordinary tool in schools.",
-      "link": "https://2ndbreakfast.audreywatters.com/refusing-normal-technology/"
+      "source": "Simon Willison",
+      "title": "Quoting Jack Despain Zhou",
+      "blurb": "A short quote on AI's \"great de-individualization\": the writer opens a video, a talk and his inbox and hears the same model voice in all three.",
+      "link": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/"
+    },
+    {
+      "source": "Sandy Millin",
+      "title": "BSL Level 1 course lesson 4",
+      "blurb": "An experienced teacher trainer writes up being a tired beginner in British Sign Language, a useful reminder of what the learner's chair feels like.",
+      "link": "https://sandymillin.wordpress.com/2026/11/26/bsl-level-1-course-lesson-4/"
     },
     {
       "source": "Andrew Huang",
-      "title": "Embers in water actually make the craziest sounds",
-      "blurb": "A short on recording hot embers hitting water, a found-sound idea you could steal for a sampling lesson.",
-      "link": "https://www.youtube.com/shorts/keiSxoyRNyg"
+      "title": "World's best drum sticks",
+      "blurb": "A short video riff on drumsticks; quick fun for a music class opener.",
+      "link": "https://www.youtube.com/shorts/BVIrn4Y-zEE"
+    },
+    {
+      "source": "Zvi Mowshowitz",
+      "title": "AI #196: The Return",
+      "blurb": "An unusually long Thanksgiving roundup: the Riemann proof shrunk from 17.4 million lines of Lean to 76,000, new OpenAI models, and early praise for Gemini 4 Neon as a teacher.",
+      "link": "https://thezvi.substack.com/p/ai-196-the-return"
     },
     {
       "source": "Tom Solid (myicor)",
-      "title": "Claude Teams replaced our team's AI setup. What it really costs.",
-      "blurb": "The ICOR team walks through moving its company onto Claude Teams and what the Slack integration costs per month.",
-      "link": "https://www.youtube.com/watch?v=rCh0wO-838k"
+      "title": "How I set up Claude Projects so they do the work",
+      "blurb": "A step-by-step build of a Claude Project from scratch, close to how you would set one up for a course.",
+      "link": "https://www.youtube.com/watch?v=J8l8PhYYzjI"
     },
     {
       "source": "Latent Space",
-      "title": "The Revolution vs The Renaissance (Thariq Shihipar)",
-      "blurb": "A talk arguing that cheap AI-made software should buy you more time to make one thing feel right, not just more things.",
-      "link": "https://latent.space/p/the_revolution_vs_the_renaissance_thariq_shihipar_openai/"
-    },
-    {
-      "source": "Simon Willison",
-      "title": "datasette-charts 0.3a0",
-      "blurb": "His charting plugin now lets you annotate a chart with lines, shaded areas and labels, handy for class data stories.",
-      "link": "https://simonwillison.net/2026/Nov/25/datasette-charts/"
-    },
-    {
-      "source": "Inside Higher Ed",
-      "title": "Revenue Shares and a Seat at the Table: Mamdani Reimagines Tech Transfer",
-      "blurb": "New York City is trying a new way to fund university research and share in what it produces.",
-      "link": "https://www.insidehighered.com/news/tech-innovation/2026/11/25/mamdani-unveils-new-model-tech-transfer"
+      "title": "How Clay Builds GTM Agents",
+      "blurb": "An interview on building agents for sales work, including why customers dislike being asked to pick a model; relevant to anyone designing AI tools for non-experts.",
+      "link": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/"
     }
   ],
   "wordCloud": [
     {
-      "text": "Refusing Normal",
+      "text": "Quoting Jack",
       "weight": 5
     },
     {
-      "text": "Water Actually",
+      "text": "Bsl Level",
       "weight": 5
     },
     {
-      "text": "Craziest Sounds",
+      "text": "World Best",
       "weight": 5
     },
     {
-      "text": "Claude Teams",
+      "text": "Claude Projects",
       "weight": 5
     },
     {
-      "text": "Team AI",
+      "text": "Clay Builds",
       "weight": 5
     },
     {
-      "text": "Renaissance Thariq",
+      "text": "Course",
       "weight": 5
     },
     {
-      "text": "Table Mamdani",
+      "text": "Agents",
       "weight": 5
     },
     {
-      "text": "Tech Transfer",
-      "weight": 5
-    },
-    {
-      "text": "Embers",
-      "weight": 5
-    },
-    {
-      "text": "Costs",
-      "weight": 5
-    },
-    {
-      "text": "Breakfast Pushes",
+      "text": "AI Great",
       "weight": 1
     },
     {
-      "text": "Feel Right",
+      "text": "Tired Beginner",
       "weight": 1
     },
     {
-      "text": "Charting Plugin",
+      "text": "Drumsticks Quick",
       "weight": 1
     },
     {
-      "text": "Lines Shaded",
+      "text": "Unusually Long",
       "weight": 1
     },
     {
-      "text": "Technology",
+      "text": "Riemann Proof",
       "weight": 1
     },
     {
-      "text": "Idea",
+      "text": "Scratch Close",
       "weight": 1
     },
     {
-      "text": "Replaced",
+      "text": "Customers Dislike",
       "weight": 1
     },
     {
-      "text": "Setup",
+      "text": "Despain",
       "weight": 1
     },
     {
-      "text": "Revolution",
+      "text": "Zhou",
       "weight": 1
     },
     {
-      "text": "Shihipar",
+      "text": "Short",
       "weight": 1
     },
     {
-      "text": "Datasette-charts",
+      "text": "Model",
       "weight": 1
     },
     {
-      "text": "Revenue",
+      "text": "Lesson",
       "weight": 1
     },
     {
-      "text": "Seat",
+      "text": "Teacher",
       "weight": 1
     },
     {
-      "text": "Reimagines",
+      "text": "Drum",
+      "weight": 1
+    },
+    {
+      "text": "Sticks",
+      "weight": 1
+    },
+    {
+      "text": "Return",
+      "weight": 1
+    },
+    {
+      "text": "Gtm",
       "weight": 1
     }
   ],
   "frontier": {
     "items": [
       {
-        "source": "Lean FRO and Mathlib Initiative",
-        "title": "The Riemann Hypothesis is certified in Lean",
-        "explainer": "Mathematician Levent Alpöge, working with Claude, released a proof of the Riemann Hypothesis on November 20 as a Lean library of 17 million lines of code. Lean is a proof assistant: a program that only accepts a proof if every step follows from the rules, so a computer, not a referee, does the checking. The Lean and Mathlib communities certified the proof the next day after several independent checkers accepted it.",
-        "why": "The headline is not only that AI helped solve a famous problem; it is that a machine checker, not trust, decided the result was right, which is the model to teach for any AI output.",
-        "link": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
+        "source": "Google DeepMind",
+        "title": "Gemini 4 Neon: the middle model built for agents",
+        "explainer": "Neon is a new Gemini 4 model adapted from Google's larger Carbon model and tuned to balance depth and cost, with a 1 million token context window. Google says it costs 32% less per task than Carbon and charges $3 per million input tokens and $15 per million output tokens. On Google's own benchmark table it leads on long-document search and office automation tasks and roughly ties rivals elsewhere.",
+        "why": "If the mid-priced model now does the work of the flagship, the default advice for schools and small teams is to start with the cheaper tier and test.",
+        "link": "https://deepmind.google/models/model-cards/gemini-4-neon/"
       },
       {
-        "source": "Latent Space",
-        "title": "OpenAI claims the matrix multiplication exponent is exactly 9/4",
-        "explainer": "The exponent omega measures how fast, in principle, two large grids of numbers can be multiplied, the core operation inside every AI model. OpenAI found an upper bound of 9/4 in October and now claims a matching lower bound, which would pin omega exactly, when most experts expected 2. The papers come with Lean proofs but are still under review.",
-        "why": "It shows the pace: results that used to take decades are arriving weekly, and a careful reader has to track which are checked and which are still claims.",
-        "link": "https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/"
+        "source": "Philippa Hardman",
+        "title": "Five daily AI uses for learning design, each with its own check",
+        "explainer": "A learning designer audited a year of her own chats and found her use shifted from doing things faster to doing them better. Her five uses run from analysing every learner comment by category to building a feedback bot from your own edited drafts. Each one ends with a verification step, such as marking every quote as verified, paraphrased or not found.",
+        "why": "Her rule, AI reads and counts and the human decides, is a ready-made frame for faculty workshops.",
+        "link": "https://drphilippahardman.substack.com/p/how-i-ai-my-top-5-daily-ai-use-cases"
       },
       {
-        "source": "Ai2 on Hugging Face",
-        "title": "Where scientists draw the line on AI agents",
-        "explainer": "Ai2 interviewed 17 scientists in the natural, applied and social sciences about where they would let AI agents work on their research. An agent here is a model that uses tools and carries out multi-step tasks with some autonomy. The scientists' line: delegating a task never removes your responsibility to check the sources, the methods and whether the result reproduces.",
-        "why": "It is a ready-made frame for an AI use policy in any course: say what students may hand off, and what they must still be able to stand behind.",
-        "link": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
+        "source": "Hugging Face and ggml-org",
+        "title": "A public speed dashboard for running models on your own AMD hardware",
+        "explainer": "The llama.cpp project now publishes weekly benchmarks of local models on AMD Ryzen and Radeon chips. It reports two numbers: how fast a model reads a 512 token prompt and how fast it writes 128 tokens, each repeated 10 times. Those two numbers decide whether a local model feels usable on a laptop.",
+        "why": "Local models keep student text off the cloud, and this gives a neutral way to check whether a given machine can run one.",
+        "link": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench"
       }
     ],
     "tryThisWeek": {
-      "title": "Give one AI task a separate checker",
-      "steps": "Pick one job you already hand to AI, such as an answer key or a chord analysis. Write three yes or no checks that do not need the AI (does every answer appear in the reading, is every chord in the key, does it match the rubric), then run ten AI outputs through them and count the failures.",
-      "link": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
+      "title": "Run your next quiz past three synthetic students",
+      "steps": "Paste 5 to 10 questions from an upcoming quiz into any chatbot without the answer key and ask it to predict how a beginner with common misconceptions, a middle learner and an expert would answer, with the reason for each answer. Then paste the key and ask it to flag questions that are too easy, too hard, unclear or have weak distractors. Treat the beginner's answers with caution: the author notes AI is poor at playing weak learners.",
+      "link": "https://drphilippahardman.substack.com/p/how-i-ai-my-top-5-daily-ai-use-cases"
     },
     "policy": {
-      "title": "University of Alaska faculty push back on AI principles partly drafted by Claude",
-      "blurb": "Both the UA Board of Regents and the UAA Faculty Senate postponed votes on AI Engaged, a four-page set of AI principles, after hundreds of faculty objected that it was partly written by a chatbot and disclosed late.",
-      "link": "https://www.adn.com/alaska-news/education/2026/11/11/ua-faculty-clash-over-postponed-artificial-intelligence-guidelines/"
+      "title": "Higher ed has no shared line on AI in faculty writing",
+      "blurb": "Inside Higher Ed traces a backlash over leaders and faculty using AI to write, from a Dartmouth provost's resignation to the University of Chicago's plan for a required AI-free first-year writing course. The rules for students are now being turned on the people who wrote them.",
+      "link": "https://www.insidehighered.com/news/faculty/2026/11/24/whats-really-fueling-higher-eds-ai-witch-hunt"
     }
   },
-  "hook": "Of the 64 AI-assisted research breakthroughs one newsletter counted this year, how many came in November alone?",
+  "hook": "On one overall score two top AI models sit two points apart. How far apart are they when asked to find things in a million-token document?",
   "lead": {
     "kicker": "The story",
-    "title": "The proof nobody had to take on trust",
-    "dek": "The Riemann Hypothesis, the most famous open problem in mathematics, fell to a mathematician working with Claude, and a computer checked every step before most experts had read a page.",
+    "title": "The middle model that outscored the flagships",
+    "dek": "Google's Gemini 4 Neon, a cheaper model adapted from its biggest one, tops its rivals on Google's own table, and the gaps are widest where the work is long and messy.",
     "paragraphs": [
-      "On November 20, Levent Alpöge released a proof of the Riemann Hypothesis, a 167-year-old question about how prime numbers are spread out. He wrote that he found it \"working with Claude\" and that the method also covers the Generalized Riemann Hypothesis. The proof arrived not as a paper but as a Lean library: 17 million lines of formal code.",
-      "Lean is a proof assistant. A proof only compiles if each step follows from the rules, so checking it is a job for software rather than a panel of referees. On November 21, the Lean FRO and the Mathlib Initiative certified it: dozens of people reproduced the build, two tools confirmed it proves exactly the standard statement, and several independent checkers, some with their own formal guarantees, accepted it.",
-      "That changes the order of events. Human understanding usually comes first and certainty later. Here certainty came first. Forecasters had the problem in the 2040s as recently as July, and Terence Tao said 35 days before the announcement that it might take until 2050. The same week, OpenAI claimed the exact value of the matrix multiplication exponent, and one newsletter counted 20 AI-assisted research advances in November alone."
+      "Gemini 4 Neon arrived on November 18 as the middle of three Gemini 4 models: Carbon for the hardest long projects, Hydrogen for fast everyday work, and Neon in between. It is adapted from Carbon, reads up to 1 million tokens at once, and costs $3 per million input tokens and $15 per million output tokens. Google says it uses 32% less money per task than Carbon at its default setting.",
+      "The headline overall score is close: 61 for Neon against 59 for Claude Opus 5.5 and 57 for GPT-6.2 Sol on the Artificial Analysis index. The gaps open on specific jobs. On GraphWalks, a test of following links through 256,000 to 1 million tokens of text, Neon scores 95.2% against 66.8% and 80.1%. On AutomationBench, a test of office automation tasks, it scores 56.3% against 42.5% and 41.3%.",
+      "That pattern matters more than the rank. An overall index averages away the differences that decide whether a model fits a job, such as reading a full course archive or a semester of feedback in one pass. Early users have praised it too; the fast.ai founder Jeremy Howard called it really good at teaching, as quoted in one widely read weekly roundup."
     ],
-    "against": "Certified is not understood. Even Alpöge calls the Lean code \"full of garbage\" though it compiles, one estimate puts the real argument at 1,000 to 2,000 pages before simplification, and critics note it came from a lab insider with internal models and enormous compute, so nobody outside can yet say how repeatable the process is.",
-    "watch": "Whether mathematicians can distill a readable human proof, and whether the Clay Institute counts a machine-checked proof for its prize.",
-    "ask": "If a checker can certify a result before anyone understands it, what do you still require students to explain in their own words?",
-    "source": "Lean community blog",
-    "link": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
+    "against": "Every number here comes from Google's own model card, chosen and run by Google, and on several tests the rivals are within a point or two or ahead. Google also skipped a full new safety evaluation for Neon, carrying forward results from an earlier model because the capability jump fell under its own threshold.",
+    "watch": "Independent leaderboards over the next two weeks, and whether the long-document lead holds when teachers and researchers test it on their own files.",
+    "ask": "Which of your courses has a long pile of text, a semester of journals or feedback, where a model that reads all of it at once would change what you could notice?",
+    "source": "Google DeepMind model card",
+    "link": "https://deepmind.google/models/model-cards/gemini-4-neon/"
   },
   "graph": {
     "kicker": "Graph of the day",
-    "title": "November broke the curve",
-    "tease": "Latent Space counted 64 selected AI-assisted research advances in 2026, including proofs still under review.",
-    "question": "How many of those 64 advances landed in November alone?",
+    "title": "Close on average, far apart on the long read",
+    "tease": "Google's model card for Gemini 4 Neon scores it against Claude Opus 5.5 on the same tests.",
+    "question": "On the overall index they are 2 points apart. On finding things across 256,000 to 1 million tokens of text, how far apart are they?",
     "choices": [
       {
-        "label": "About 6"
+        "label": "About 2 points"
       },
       {
-        "label": "About 20",
+        "label": "About 10 points"
+      },
+      {
+        "label": "About 28 points",
         "correct": true
-      },
-      {
-        "label": "About 40"
       }
     ],
     "panels": [
       {
-        "label": "OpenAI's public math catalogue",
-        "unit": "count",
-        "max": 730,
+        "label": "Artificial Analysis overall index",
+        "unit": "index score",
+        "max": 61,
         "hidden": false,
         "bars": [
           {
-            "name": "Manuscripts",
-            "value": 730,
-            "display": "730",
+            "name": "Gemini 4 Neon",
+            "value": 61,
+            "display": "61",
             "voice": "a"
           },
           {
-            "name": "Distinct result families",
-            "value": 375,
-            "display": "375",
+            "name": "Claude Opus 5.5",
+            "value": 59,
+            "display": "59",
             "voice": "b"
           }
         ]
       },
       {
-        "label": "AI-assisted research advances per month, 2026",
-        "unit": "advances",
-        "max": 20,
+        "label": "GraphWalks, 256k to 1M tokens (F1)",
+        "unit": "percent",
+        "max": 100,
         "hidden": true,
         "bars": [
           {
-            "name": "January to October, average",
-            "value": 4.4,
-            "display": "4.4",
+            "name": "Gemini 4 Neon",
+            "value": 95.2,
+            "display": "95.2%",
             "voice": "a"
           },
           {
-            "name": "November so far",
-            "value": 20,
-            "display": "20",
+            "name": "Claude Opus 5.5",
+            "value": 66.8,
+            "display": "66.8%",
+            "voice": "b"
+          }
+        ]
+      },
+      {
+        "label": "AutomationBench",
+        "unit": "percent",
+        "max": 100,
+        "hidden": true,
+        "bars": [
+          {
+            "name": "Gemini 4 Neon",
+            "value": 56.3,
+            "display": "56.3%",
+            "voice": "a"
+          },
+          {
+            "name": "Claude Opus 5.5",
+            "value": 42.5,
+            "display": "42.5%",
             "voice": "b"
           }
         ]
       }
     ],
-    "reveal": "November accounts for 20 of the 64, more than four times the monthly average for January to October. The first panel is the warning label: paper counts run about twice the number of distinct results.",
-    "caveat": "One newsletter's hand-picked list, counted by public release and including proofs still under review; the January to October average is 44 advances over ten months.",
+    "reveal": "The gap on the long read is 28.4 points, fourteen times the overall gap. An average score hides the job-specific differences that decide which model fits a task.",
+    "caveat": "All scores are self-reported by Google on its own model card; they are not independent tests, and other benchmarks on the same card show the two models within a point.",
     "sources": [
       {
-        "label": "Latent Space AINews, Nov 25 2026",
-        "link": "https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/"
+        "label": "Gemini 4 Neon model card, Google DeepMind",
+        "link": "https://deepmind.google/models/model-cards/gemini-4-neon/"
       }
     ]
   },
   "argue": {
     "kicker": "Argue with this",
-    "claim": "Once a machine can check the work, teaching students to show their work matters more, not less.",
-    "context": "The Riemann Hypothesis proof was certified by software before experts could read it, and even its author calls the code a mess. The open question is who explains it.",
-    "source": "Zvi Mowshowitz, Don't Worry About the Vase",
-    "link": "https://thezvi.substack.com/p/claude-and-levent-alpoge-prove-the"
+    "claim": "The bigger risk of AI writing in school is not cheating; it is that everyone starts to sound the same.",
+    "context": "A widely shared quote describes a \"great de-individualization\": the same model voice in videos, conference talks and pitch emails. If that is the cost, voice becomes the thing worth grading.",
+    "source": "Simon Willison, quoting Jack Despain Zhou",
+    "link": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/"
   },
   "closeLine": "Better than your scroll today?",
   "closeSub": "Tell me what to keep, cut or double. The brief changes every week based on your answer."
