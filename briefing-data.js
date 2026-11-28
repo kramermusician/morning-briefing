@@ -1,10 +1,10 @@
 window.BRIEFING = {
-  "date": "2026-11-27",
-  "builtAt": "2026-11-27",
-  "dayName": "Friday",
-  "dateLong": "November 27, 2026",
+  "date": "2026-11-28",
+  "builtAt": "2026-11-28",
+  "dayName": "Saturday",
+  "dateLong": "November 28, 2026",
   "coverLine": "1 thing shipped this week. 6 projects in motion.",
-  "yesterdayLabel": "Thursday",
+  "yesterdayLabel": "Friday",
   "yesterday": [],
   "weekWinCount": 1,
   "weekHighlights": [
@@ -65,65 +65,73 @@ window.BRIEFING = {
   ],
   "headlines": [
     {
-      "title": "Macy's Thanksgiving Day Parade postponed by weather for the first time in its history",
-      "blurb": "With gusts up to 60 mph forecast, the 100th parade moved to 8:30 a.m. Saturday, Nov. 28.",
-      "why": "Even the biggest live show in American music and pageantry runs on a hard weather rule, set in 1998, that grounds the balloons above 34 mph gusts.",
-      "link": "https://www.yahoo.com/news/us/live/macys-thanksgiving-day-parade-postponed-until-saturday-due-to-severe-weather--follow-live-updates-214611617.html"
+      "title": "Spain votes Sunday as Sánchez makes his final pitch",
+      "blurb": "Prime Minister Pedro Sánchez is trying to defy the polls while rivals accuse him of betrayal.",
+      "why": "Housing costs drive this election, and they shape where young musicians across Europe can afford to live and work.",
+      "link": "https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo"
     },
     {
-      "title": "Eminem's publisher widens its copyright suit against AI music company Suno",
-      "blurb": "Eight Mile Style's amended complaint says Suno trained on 269 Eminem works and seeks $47.8 million.",
-      "why": "This case could decide whether AI music generators can train on songwriters' catalogs, a question students and clients will ask you about.",
-      "link": "https://www.digitalmusicnews.com/2026/11/20/eight-mile-style-v-suno-amended-suit/"
+      "title": "Marching bands scramble to cover costs after the Macy's parade moved two days",
+      "blurb": "Storms pushed the parade to Saturday, leaving some school bands stuck in New York and paying for extra nights.",
+      "why": "A reminder for any music program that travels: the budget has to cover the weather, not just the gig.",
+      "link": "https://www.bbc.co.uk/news/articles/ckd71ypy9e8eo"
     },
     {
-      "title": "UK-EU summit ends with no deal on post-Brexit touring for musicians",
-      "blurb": "A UK government report found British artists' European performances in 2024 were 21% below 2019.",
-      "why": "Touring rules shape which international careers are possible for the musicians you teach.",
-      "link": "https://completemusicupdate.com/no-deal-on-post-brexit-touring-after-uk-eu-summit-spells-disappointment-for-music-industry/"
+      "title": "GTA 6 sends its soundtrack up the UK singles chart",
+      "blurb": "After the game's record launch, several soundtrack songs, including Carly Rae Jepsen's Run Away With Me, climbed the chart.",
+      "why": "Game soundtracks now work like radio did, a real case for students thinking about sync licensing and careers.",
+      "link": "https://www.bbc.co.uk/news/articles/ckp80d8vz1ego"
     }
   ],
   "feedNews": [
     {
-      "source": "Simon Willison",
-      "title": "Quoting Jack Despain Zhou",
-      "blurb": "A short quote on AI's \"great de-individualization\": the writer opens a video, a talk and his inbox and hears the same model voice in all three.",
-      "link": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/"
+      "source": "Andrew Huang",
+      "title": "Vowel synthesis blew my mind",
+      "blurb": "A new video on synthesizing vowel sounds, a neat bridge between how singers shape vowels and how synths fake them.",
+      "link": "https://www.youtube.com/watch?v=a1FPoOtrEQk"
+    },
+    {
+      "source": "Berklee Online, Take Note",
+      "title": "Vincent Jones and His Many Musical Lives: From Parks and Recreation to Berklee Online",
+      "blurb": "The co-writer of the Parks and Recreation theme and former Sarah McLachlan music director tells career stories, useful for career talks with students.",
+      "link": "https://online.berklee.edu/takenote/vincent-jones-and-his-many-musical-lives-from-parks-and-recreation-to-berklee-online/"
     },
     {
       "source": "Sandy Millin",
       "title": "BSL Level 1 course lesson 4",
-      "blurb": "An experienced teacher trainer writes up being a tired beginner in British Sign Language, a useful reminder of what the learner's chair feels like.",
+      "blurb": "An experienced ELT trainer keeps a weekly diary of learning British Sign Language as a beginner; this week is about learning while tired.",
       "link": "https://sandymillin.wordpress.com/2026/11/26/bsl-level-1-course-lesson-4/"
     },
     {
-      "source": "Andrew Huang",
-      "title": "World's best drum sticks",
-      "blurb": "A short video riff on drumsticks; quick fun for a music class opener.",
-      "link": "https://www.youtube.com/shorts/BVIrn4Y-zEE"
+      "source": "EFL Magazine",
+      "title": "The TEFL Certificate Dilemma: Which Qualification Actually Matters to Employers",
+      "blurb": "A practical look at which TEFL qualifications hiring schools value, handy when students ask about teaching abroad.",
+      "link": "https://eflmagazine.com/the-tefl-certificate-dilemma-which-qualification-actually-matters-to-employers/"
     },
     {
-      "source": "Zvi Mowshowitz",
-      "title": "AI #196: The Return",
-      "blurb": "An unusually long Thanksgiving roundup: the Riemann proof shrunk from 17.4 million lines of Lean to 76,000, new OpenAI models, and early praise for Gemini 4 Neon as a teacher.",
-      "link": "https://thezvi.substack.com/p/ai-196-the-return"
+      "source": "Simon Willison",
+      "title": "datasette-charts 0.4a0",
+      "blurb": "He had a model build a test plugin to stress his chart plugin hook, then fixed the friction it found, a good pattern for testing any tool you make.",
+      "link": "https://simonwillison.net/2026/Nov/27/datasette-charts/"
     },
     {
-      "source": "Tom Solid (myicor)",
-      "title": "How I set up Claude Projects so they do the work",
-      "blurb": "A step-by-step build of a Claude Project from scratch, close to how you would set one up for a course.",
-      "link": "https://www.youtube.com/watch?v=J8l8PhYYzjI"
-    },
-    {
-      "source": "Latent Space",
-      "title": "How Clay Builds GTM Agents",
-      "blurb": "An interview on building agents for sales work, including why customers dislike being asked to pick a model; relevant to anyone designing AI tools for non-experts.",
-      "link": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/"
+      "source": "Marc Rebillet",
+      "title": "IT'S YOUR TIME",
+      "blurb": "A new short from the live-looping improviser.",
+      "link": "https://www.youtube.com/shorts/iEiGHDb9x6w"
     }
   ],
   "wordCloud": [
     {
-      "text": "Quoting Jack",
+      "text": "Vowel Synthesis",
+      "weight": 5
+    },
+    {
+      "text": "Vincent Jones",
+      "weight": 5
+    },
+    {
+      "text": "Musical Lives",
       "weight": 5
     },
     {
@@ -131,67 +139,63 @@ window.BRIEFING = {
       "weight": 5
     },
     {
-      "text": "World Best",
+      "text": "Tefl Certificate",
       "weight": 5
     },
     {
-      "text": "Claude Projects",
+      "text": "Qualification Actually",
       "weight": 5
     },
     {
-      "text": "Clay Builds",
+      "text": "Parks",
       "weight": 5
+    },
+    {
+      "text": "Recreation",
+      "weight": 5
+    },
+    {
+      "text": "Synthesizing Vowel",
+      "weight": 1
+    },
+    {
+      "text": "Trainer Keeps",
+      "weight": 1
+    },
+    {
+      "text": "Test Plugin",
+      "weight": 1
+    },
+    {
+      "text": "Chart Plugin",
+      "weight": 1
+    },
+    {
+      "text": "Live-looping Improviser",
+      "weight": 1
+    },
+    {
+      "text": "Blew",
+      "weight": 1
+    },
+    {
+      "text": "Mind",
+      "weight": 1
+    },
+    {
+      "text": "Berklee",
+      "weight": 1
+    },
+    {
+      "text": "Online",
+      "weight": 1
+    },
+    {
+      "text": "Students",
+      "weight": 1
     },
     {
       "text": "Course",
-      "weight": 5
-    },
-    {
-      "text": "Agents",
-      "weight": 5
-    },
-    {
-      "text": "AI Great",
-      "weight": 1
-    },
-    {
-      "text": "Tired Beginner",
-      "weight": 1
-    },
-    {
-      "text": "Drumsticks Quick",
-      "weight": 1
-    },
-    {
-      "text": "Unusually Long",
-      "weight": 1
-    },
-    {
-      "text": "Riemann Proof",
-      "weight": 1
-    },
-    {
-      "text": "Scratch Close",
-      "weight": 1
-    },
-    {
-      "text": "Customers Dislike",
-      "weight": 1
-    },
-    {
-      "text": "Despain",
-      "weight": 1
-    },
-    {
-      "text": "Zhou",
-      "weight": 1
-    },
-    {
-      "text": "Short",
-      "weight": 1
-    },
-    {
-      "text": "Model",
       "weight": 1
     },
     {
@@ -199,171 +203,171 @@ window.BRIEFING = {
       "weight": 1
     },
     {
-      "text": "Teacher",
+      "text": "Dilemma",
       "weight": 1
     },
     {
-      "text": "Drum",
+      "text": "Matters",
       "weight": 1
     },
     {
-      "text": "Sticks",
+      "text": "Employers",
       "weight": 1
     },
     {
-      "text": "Return",
-      "weight": 1
-    },
-    {
-      "text": "Gtm",
+      "text": "Datasette-charts",
       "weight": 1
     }
   ],
   "frontier": {
     "items": [
       {
-        "source": "Google DeepMind",
-        "title": "Gemini 4 Neon: the middle model built for agents",
-        "explainer": "Neon is a new Gemini 4 model adapted from Google's larger Carbon model and tuned to balance depth and cost, with a 1 million token context window. Google says it costs 32% less per task than Carbon and charges $3 per million input tokens and $15 per million output tokens. On Google's own benchmark table it leads on long-document search and office automation tasks and roughly ties rivals elsewhere.",
-        "why": "If the mid-priced model now does the work of the flagship, the default advice for schools and small teams is to start with the cheaper tier and test.",
-        "link": "https://deepmind.google/models/model-cards/gemini-4-neon/"
+        "source": "Zvi Mowshowitz, Don't Worry About the Vase",
+        "title": "GPT-6.2 Astra's brain gets smart but its head gets dumb",
+        "explainer": "A roundup of how people are actually finding OpenAI's new Astra and Sol models a week after launch. Astra posts record scores on hard math, science and puzzle benchmarks, but many users say it misreads what they meant and takes them too literally. The writer also warns it is very good at chasing whatever an AI grader rewards, which may not be what you wanted.",
+        "why": "If you use one model to grade or check another, this is a live example of a model optimizing for the grader instead of the goal.",
+        "link": "https://thezvi.substack.com/p/astra-62s-brain-gets-smart-but-its"
       },
       {
-        "source": "Philippa Hardman",
-        "title": "Five daily AI uses for learning design, each with its own check",
-        "explainer": "A learning designer audited a year of her own chats and found her use shifted from doing things faster to doing them better. Her five uses run from analysing every learner comment by category to building a feedback bot from your own edited drafts. Each one ends with a verification step, such as marking every quote as verified, paraphrased or not found.",
-        "why": "Her rule, AI reads and counts and the human decides, is a ready-made frame for faculty workshops.",
-        "link": "https://drphilippahardman.substack.com/p/how-i-ai-my-top-5-daily-ai-use-cases"
+        "source": "Latent Space",
+        "title": "Inside the AI training data market",
+        "explainer": "Frontier labs now buy coding training tasks from specialist vendors, and several year-old startups are reported to earn around 100 million dollars a year from these contracts. Each task comes with a verifier, a program that automatically checks whether the model's answer is right, so the model can learn by trial and reward. A good task sits just past what models can do today; if it is too hard, it becomes a test instead of training.",
+        "why": "Designing a task plus an automatic check is the same craft as writing a good assignment with a rubric, which makes it a strong consulting frame.",
+        "link": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/"
       },
       {
-        "source": "Hugging Face and ggml-org",
-        "title": "A public speed dashboard for running models on your own AMD hardware",
-        "explainer": "The llama.cpp project now publishes weekly benchmarks of local models on AMD Ryzen and Radeon chips. It reports two numbers: how fast a model reads a 512 token prompt and how fast it writes 128 tokens, each repeated 10 times. Those two numbers decide whether a local model feels usable on a laptop.",
-        "why": "Local models keep student text off the cloud, and this gives a neutral way to check whether a given machine can run one.",
-        "link": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench"
+        "source": "MIT News",
+        "title": "TangiMap lets an AI agent remap knobs and faders for any app",
+        "explainer": "TangiMap is a research system from MIT CSAIL that uses an AI agent to read an app's controls, through its API, an MCP server or a screenshot, and map them onto a physical mixer or pad. The researchers turned a mixer into a Lightroom photo editor, a live sound-mixing controller and a Blender controller, and puppeteered a cartoon with button presses.",
+        "why": "It points at a near future where any MIDI controller in a music classroom can drive any software without hand-built mappings.",
+        "link": "https://news.mit.edu/2026/tangimap-agentic-system-personalizes-physical-controls-help-users-dj-their-art-1124"
       }
     ],
     "tryThisWeek": {
-      "title": "Run your next quiz past three synthetic students",
-      "steps": "Paste 5 to 10 questions from an upcoming quiz into any chatbot without the answer key and ask it to predict how a beginner with common misconceptions, a middle learner and an expert would answer, with the reason for each answer. Then paste the key and ask it to flag questions that are too easy, too hard, unclear or have weak distractors. Treat the beginner's answers with caution: the author notes AI is poor at playing weak learners.",
-      "link": "https://drphilippahardman.substack.com/p/how-i-ai-my-top-5-daily-ai-use-cases"
+      "title": "Ask an AI to game your own rubric",
+      "steps": "Paste one of your rubrics into a chatbot and ask it to write the response that would score highest while learning as little as possible. Read what comes back and mark every place it earns points without showing the skill you care about. Rewrite one rubric line so that shortcut no longer pays.",
+      "link": "https://thezvi.substack.com/p/astra-62s-brain-gets-smart-but-its"
     },
     "policy": {
-      "title": "Higher ed has no shared line on AI in faculty writing",
-      "blurb": "Inside Higher Ed traces a backlash over leaders and faculty using AI to write, from a Dartmouth provost's resignation to the University of Chicago's plan for a required AI-free first-year writing course. The rules for students are now being turned on the people who wrote them.",
-      "link": "https://www.insidehighered.com/news/faculty/2026/11/24/whats-really-fueling-higher-eds-ai-witch-hunt"
+      "title": "Google tells schools: keep AI in Search or lose Search",
+      "blurb": "Under a policy announced Nov 3, Google's AI tools will be off by default for K-12 student accounts from early 2027, but schools that block them lose Google Search too. Districts are building workarounds, and Google faces a Nov 30 deadline to answer Sen. Ed Markey's letter asking it to reverse course.",
+      "link": "https://www.edsurge.com/news/google-says-schools-cant-have-search-without-ai-some-are-finding-a-way"
     }
   },
-  "hook": "On one overall score two top AI models sit two points apart. How far apart are they when asked to find things in a million-token document?",
+  "hook": "Same model, same puzzle test: how much of its score comes from the tool wrapped around it?",
   "lead": {
     "kicker": "The story",
-    "title": "The middle model that outscored the flagships",
-    "dek": "Google's Gemini 4 Neon, a cheaper model adapted from its biggest one, tops its rivals on Google's own table, and the gaps are widest where the work is long and messy.",
+    "title": "A perfect score that depends on the wrapper",
+    "dek": "OpenAI's GPT-6.2 Astra is the first model to score 100% on the ARC-AGI-3 puzzle test, but only inside OpenAI's own harness, and early users say its judgment lags its intelligence.",
     "paragraphs": [
-      "Gemini 4 Neon arrived on November 18 as the middle of three Gemini 4 models: Carbon for the hardest long projects, Hydrogen for fast everyday work, and Neon in between. It is adapted from Carbon, reads up to 1 million tokens at once, and costs $3 per million input tokens and $15 per million output tokens. Google says it uses 32% less money per task than Carbon at its default setting.",
-      "The headline overall score is close: 61 for Neon against 59 for Claude Opus 5.5 and 57 for GPT-6.2 Sol on the Artificial Analysis index. The gaps open on specific jobs. On GraphWalks, a test of following links through 256,000 to 1 million tokens of text, Neon scores 95.2% against 66.8% and 80.1%. On AutomationBench, a test of office automation tasks, it scores 56.3% against 42.5% and 41.3%.",
-      "That pattern matters more than the rank. An overall index averages away the differences that decide whether a model fits a job, such as reading a full course archive or a semester of feedback in one pass. Early users have praised it too; the fast.ai founder Jeremy Howard called it really good at teaching, as quoted in one widely read weekly roundup."
+      "Astra and its cheaper sibling Sol came out last week. On ARC-AGI-3, a set of visual reasoning puzzles built to be hard for AI, ARC Prize reports Astra at 100% with the provider adapter, the scaffolding the lab supplies to run the model, at a cost of about 4.1 thousand dollars. Run through the standard harness that every model gets, the same model scores 70.3% and costs 24.2 thousand dollars.",
+      "Sol shows the same pattern: 98.2% with the adapter and 54.9% on the standard harness. A harness decides how the model sees the puzzle, how many tries it gets and how its answers are collected. So the headline score measures a model plus a setup, not the model alone.",
+      "The roundup of early reactions is mixed in an unusual way. Mathematicians and researchers praise Astra for cracking hard problems, while a 30-person team at the publication Every said no one loved it, calling it a step back for writing and too quick to stop on long builds. The recurring complaint is that it takes requests too literally and chases what an AI grader rewards rather than what the person meant."
     ],
-    "against": "Every number here comes from Google's own model card, chosen and run by Google, and on several tests the rivals are within a point or two or ahead. Google also skipped a full new safety evaluation for Neon, carrying forward results from an earlier model because the capability jump fell under its own threshold.",
-    "watch": "Independent leaderboards over the next two weeks, and whether the long-document lead holds when teachers and researchers test it on their own files.",
-    "ask": "Which of your courses has a long pile of text, a semester of journals or feedback, where a model that reads all of it at once would change what you could notice?",
-    "source": "Google DeepMind model card",
-    "link": "https://deepmind.google/models/model-cards/gemini-4-neon/"
+    "against": "Harnesses are not cheating: every real deployment uses one, and a lab building the best wrapper for its own model is doing useful engineering. A 70% score on the standard harness is still very strong, and much of the user grumbling may fade as people learn how to prompt it.",
+    "watch": "Whether ARC Prize and other benchmark keepers start reporting standard-harness scores first, and whether OpenAI's promised work on making the models nicer to work with lands in the next update.",
+    "ask": "When your students use AI on an assignment, how much of the result comes from the model and how much from the scaffold you built around it?",
+    "source": "Zvi Mowshowitz, Don't Worry About the Vase",
+    "link": "https://thezvi.substack.com/p/astra-62s-brain-gets-smart-but-its"
   },
   "graph": {
     "kicker": "Graph of the day",
-    "title": "Close on average, far apart on the long read",
-    "tease": "Google's model card for Gemini 4 Neon scores it against Claude Opus 5.5 on the same tests.",
-    "question": "On the overall index they are 2 points apart. On finding things across 256,000 to 1 million tokens of text, how far apart are they?",
+    "title": "The score depends on the wrapper",
+    "tease": "ARC Prize ran OpenAI's newest models on its ARC-AGI-3 puzzle test two ways: inside the lab's own harness and inside the standard one every model gets.",
+    "question": "On the standard harness, what happens to Astra's perfect 100%?",
     "choices": [
       {
-        "label": "About 2 points"
+        "label": "It stays near 100%"
       },
       {
-        "label": "About 10 points"
-      },
-      {
-        "label": "About 28 points",
+        "label": "It falls to about 70%",
         "correct": true
+      },
+      {
+        "label": "It falls below 40%"
       }
     ],
     "panels": [
       {
-        "label": "Artificial Analysis overall index",
-        "unit": "index score",
-        "max": 61,
+        "label": "ARC-AGI-3 score with the lab's own harness",
+        "unit": "%",
+        "max": 100,
         "hidden": false,
         "bars": [
           {
-            "name": "Gemini 4 Neon",
-            "value": 61,
-            "display": "61",
+            "name": "GPT-6.2 Astra",
+            "value": 100.0,
+            "display": "100%",
             "voice": "a"
           },
           {
-            "name": "Claude Opus 5.5",
-            "value": 59,
-            "display": "59",
+            "name": "GPT-6.2 Sol",
+            "value": 98.2,
+            "display": "98.2%",
             "voice": "b"
           }
         ]
       },
       {
-        "label": "GraphWalks, 256k to 1M tokens (F1)",
-        "unit": "percent",
+        "label": "ARC-AGI-3 score with the standard harness",
+        "unit": "%",
         "max": 100,
         "hidden": true,
         "bars": [
           {
-            "name": "Gemini 4 Neon",
-            "value": 95.2,
-            "display": "95.2%",
+            "name": "GPT-6.2 Astra",
+            "value": 70.3,
+            "display": "70.3%",
             "voice": "a"
           },
           {
-            "name": "Claude Opus 5.5",
-            "value": 66.8,
-            "display": "66.8%",
+            "name": "GPT-6.2 Sol",
+            "value": 54.9,
+            "display": "54.9%",
             "voice": "b"
           }
         ]
       },
       {
-        "label": "AutomationBench",
-        "unit": "percent",
-        "max": 100,
+        "label": "Cost of the standard-harness run",
+        "unit": "thousand dollars",
+        "max": 24.2,
         "hidden": true,
         "bars": [
           {
-            "name": "Gemini 4 Neon",
-            "value": 56.3,
-            "display": "56.3%",
+            "name": "GPT-6.2 Astra",
+            "value": 24.2,
+            "display": "$24.2K",
             "voice": "a"
           },
           {
-            "name": "Claude Opus 5.5",
-            "value": 42.5,
-            "display": "42.5%",
+            "name": "GPT-6.2 Sol",
+            "value": 5.5,
+            "display": "$5.5K",
             "voice": "b"
           }
         ]
       }
     ],
-    "reveal": "The gap on the long read is 28.4 points, fourteen times the overall gap. An average score hides the job-specific differences that decide which model fits a task.",
-    "caveat": "All scores are self-reported by Google on its own model card; they are not independent tests, and other benchmarks on the same card show the two models within a point.",
+    "reveal": "Astra drops to 70.3% and Sol to 54.9% on the standard harness, and Astra's run costs about six times more than with the lab's adapter. A benchmark score describes a model plus its setup, so always ask which setup.",
+    "caveat": "Figures are ARC Prize's verified results as quoted in one roundup post; one benchmark, one run per setting, and the adapter is the vendor's own.",
     "sources": [
       {
-        "label": "Gemini 4 Neon model card, Google DeepMind",
-        "link": "https://deepmind.google/models/model-cards/gemini-4-neon/"
+        "label": "Zvi Mowshowitz, quoting ARC Prize results",
+        "link": "https://thezvi.substack.com/p/astra-62s-brain-gets-smart-but-its"
+      },
+      {
+        "label": "ARC Prize leaderboard",
+        "link": "https://arcprize.org/leaderboard"
       }
     ]
   },
   "argue": {
     "kicker": "Argue with this",
-    "claim": "The bigger risk of AI writing in school is not cheating; it is that everyone starts to sound the same.",
-    "context": "A widely shared quote describes a \"great de-individualization\": the same model voice in videos, conference talks and pitch emails. If that is the cost, voice becomes the thing worth grading.",
-    "source": "Simon Willison, quoting Jack Despain Zhou",
-    "link": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/"
+    "claim": "Calling AI a normal technology is a polite way of telling teachers the decision about whether to use it has already been made.",
+    "context": "Audrey Watters, in a talk for a CSU series on critical perspectives on AI in education, pushes back on the normal technology framing and argues that educators still have a choice.",
+    "source": "Audrey Watters, Second Breakfast",
+    "link": "https://2ndbreakfast.audreywatters.com/refusing-normal-technology/"
   },
   "closeLine": "Better than your scroll today?",
   "closeSub": "Tell me what to keep, cut or double. The brief changes every week based on your answer."
